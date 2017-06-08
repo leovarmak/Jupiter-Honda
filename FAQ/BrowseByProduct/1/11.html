@@ -1,0 +1,1814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BrowseByProduct</title>
+    
+    <meta name="google-site-verification" content="DG9lpdJwSeh6Vs5A6VMpoyapGItM8NCCbuRfpL5uwY0" />
+    <link rel="icon" href="../../../assets/images/favicon.png" type="image/x-icon" />
+    <link href="../../../assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="../../../assets/css/animate.css" type="text/css" rel="stylesheet">
+    <link href="../../../assets/css/honda-style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../assets/css/owl.carousel.css" type="text/css">
+    <link href="../../../assets/font-awesome-4.6.3/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" async>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../../../assets/js/jquery.min.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-860536-14', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <!-- Lightning Bolt Begins -->
+    <script type="text/javascript" id="lightning_bolt" src="https://cdn-akamai.mookie1.com/LB/LightningBolt.js" async></script>
+    <!-- Lightning Bolt Ends -->
+    <!-- Facebook Pixel Code -->
+    <script type="text/javascript">
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1310041812391049');
+        fbq('track', "PageView");</script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1310041812391049&amp;ev=PageView&amp;noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <header>
+                <div class="col-md-4 main-logo"><a class="navbar-brand" href="../../../index.html"><img src="../../../assets/images/logo.png" /></a></div>
+                <nav class="navbar navbar-default col-md-8" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="../../../index.html">Home</a></li>
+                            <li><a href="../../../merchandise.html">Merchandise</a></li>
+                            <li><a href="../../../media-center/press-release.html">Media Center</a></li>
+                            <li><a href="../../../safety-india.html">Safety India</a></li>
+                            <li><a href="../../../reach-us/contact-us.html">Reach Us</a></li>
+                            <li><span style="position:absolute;top: -16px;right: -27px;"><img src="../../../assets/images/new.gif" style="width:44px;" /></span><a href="../../../FAQ.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <a href="javascript:;" class="honda_power_logo" title="Honda"><img src="../../../assets/images/honda-power.png"></a>
+            </header>
+
+            <div class="topheader">
+                <div class="menuouter">
+                    <div class="menurow" id="nivel-1" menu_level="0">
+                        <div class="cont-nivel-1 col-md-offset-4">
+                            <a id="link_productos" rel="menu_productos" href="javascript:;" data-id='menu1'>Products</a>
+                            <a id="link_network" rel="menu_network" href="javascript:;" data-id='menu1'>Network</a>
+                            <a id="link_services" rel="menu_services" href="javascript:;" data-id='menu1'>Services</a>
+                        </div>
+                    </div>
+
+
+                    <div class="menurowsecond product-box-menu" id="menu_productos" menu_level="1" style="display: none;">
+                        <div class="cont-nivel-2">
+                            <a id="link_Motorcycle" rel="menu_Motorcycle" href="javascript:;" data-id='menu2'>Motorcycle</a>
+                            <a id="link_Scooter" rel="menu_Scooter" href="javascript:;" data-id='menu2'>Scooter</a>
+                            <a id="link_superBikes" rel="menu_superBikes" href="javascript:;" data-id='menu2'>Super Bikes</a>
+                            <a id="link_navi" rel="menu_navi" href="javascript:;" data-id='menu2'>NAVI</a>
+                        </div>
+                    </div>
+
+                    <div class="menurowsecond network-nenubox" id="menu_network" menu_level="1" style="display: none;">
+                        <div class="cont-nivel-2">
+                            <a href="../../../network/dealerLocator.html" data-id='menu2'>Dealer Locator</a>
+                            <a href="../../../network/serviceLocator.html" data-id='menu2'>Service Locator</a>
+                            <a href="../../../network/partsLocator.html" data-id='menu2'>Parts Locator</a>
+                            <a href="../../../network/best-deal-Locator.html" data-id='menu2'>Best Deal</a>
+                            <a href="../../../network/become-a-honda-dealer.html" data-id='menu2'>Become Dealer</a>
+                        </div>
+                    </div>
+
+                    <div class="menurowsecond service-menubox" id="menu_services" menu_level="1" style="display: none;">
+                        <div class="cont-nivel-2">
+                            <a id="link_hondaShield" rel="menu_hondaShield" href="../../../services/campaign.html" data-id='menu2' title="Campaign">Campaign</a>
+                            <a id="link_hondaShield" rel="menu_hondaShield" href="../../../services/honda-shield.html" data-id='menu2' title="Honda Shield">Honda Shield</a>
+                            <a id="link_hondaShield" rel="menu_hondaShield" href="../../../services/honda-genuine-engine-oil.html" data-id='menu2' title="Honda Genuine Engine Oil">Honda Genuine Engine Oil</a>
+                            <a id="link_hondaShield" rel="menu_hondaShield" href="../../../services/how-to-idendify-honda-genuine-parts.html" data-id='menu2' title="Honda Genuine Parts">Honda Genuine Parts</a>
+                        </div>
+                    </div>
+
+                    <div class="graybar" id="menu_Motorcycle" menu_level="3" style="display: none;">
+                        <div id="motercycle">
+                            
+                            <div class="item"><a href="../../../CBHornet160R/index.html"><img src="../../../assets/images/thumb/cbhornet160r-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../CBUnicorn160/index.html"><img src="../../../assets/images/thumb/unicorn160-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../unicorn/index.html"><img src="../../../assets/images/thumb/unicorn-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../shinesp/index.html"><img src="../../../assets/images/thumb/shineSP-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../cbShine/index.html"><img src="../../../assets/images/thumb/cb-shine-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../Livo/index.html"><img src="../../../assets/images/thumb/liva-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../dreamyuga/index.html"><img src="../../../assets/images/thumb/dream-yuga-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../dreamneo/index.html"><img src="../../../assets/images/thumb/dream-neo-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../cd110dream/index.html"><img src="../../../assets/images/thumb/cd110-icon.png" alt=""></a></div>
+                        </div>
+                    </div>
+
+                    <div class="graybar" id="menu_Scooter" menu_level="3" style="display: none;">
+                        <div id="scooter">
+                            <div class="item"><a href="../../../activa4g/index.html"><img src="../../../assets/images/thumb/activa3g-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../dio/index.html"><img src="../../../assets/images/thumb/dio-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../aviator/index.html"><img src="../../../assets/images/thumb/aviator-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../activai/index.html"><img src="../../../assets/images/thumb/activa-i-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../activa125/index.html"><img src="../../../assets/images/thumb/activa-125-icon.png" alt=""></a></div>
+                        </div>
+                    </div>
+
+
+                    <div class="graybar" id="menu_superBikes" menu_level="3" style="display: none;">
+                        <div id="superbike">
+                            <div class="item"><a href="../../../goldwing/index.html"><img src="../../../assets/images/thumb/goldwing-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../cbr1000rr/index.html"><img src="../../../assets/images/thumb/cbr-1000rr-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../cb1000r/index.html"><img src="../../../assets/images/thumb/cb-1000r-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../cbr650f/index.html"><img src="../../../assets/images/thumb/cbr-650f-icon.png" alt=""></a></div>
+                            <div class="item"><a href="../../../africatwin/index.html"><img src="../../../assets/images/thumb/Africa-Twin.png" alt=""></a></div>
+                        </div>
+                    </div>
+
+                    <div style="display: none;" menu_level="3" id="menu_navi" class="graybar">
+                        <div id="navi">
+                            <div class="item"><a href="../../../navi/index.html"><img src="../../../assets/images/thumb/navi-icon.png" alt=""></a></div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="" style="display:inline-block; width:100%;">
+                
+<link href="../../../assets/css/about.css" rel="stylesheet" />
+<link href="../../../assets/css/faq_BrowseByProduct.css" rel="stylesheet" />
+<style>.bullet:before {
+        content: "• ";
+        font-size: large;
+    }
+
+    .locator-sec p {
+        font-size: 13px;
+        text-align: justify;
+        font-weight: 400;
+        line-height: 22px;
+    }
+</style>
+<section class="micro-sec network-sec dealor-sec Browse-By-Product">
+    <div class="network-header">
+        <div class="col-md-4 col-sm-12 col-xs-12 text-center"><h5>Browse By Product</h5></div>
+        <img src="../../../assets/images/FAQ/faq-banner.jpg" alt="">
+        <ul class="breadcrumb">
+            <li><a href="../../../FAQ.html">FAQ</a></li>
+            <li class="active">Browse By Product</li>
+        </ul>
+    </div>
+    <div class="locator-sec merchandise-sec">
+        <h5>Browse By Product</h5>
+        <div class="col-md-12" id="exTab1">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="nav nav-pills tabb-design  ">
+                        <li id="li1" class="active"><a href="11.html#1a" data-toggle="tab" aria-expanded="false"><i class="fa fa-angle-right" aria-hidden="true"></i> Product & Service Specification</a></li>
+                        <li id="li2" class=""><a href="11.html#2a" data-toggle="tab" aria-expanded="false"><i class="fa fa-angle-right" aria-hidden="true"></i> Free Service Schedule</a></liid="li1">
+                        <li id="li3" class=""><a href="11.html#3a" data-toggle="tab" aria-expanded="true"><i class="fa fa-angle-right" aria-hidden="true"></i> Warranty Period</a></li>
+                        <li id="li4" class=""><a href="11.html#4a" data-toggle="tab" aria-expanded="true"><i class="fa fa-angle-right" aria-hidden="true"></i> Owners Manual, Maintenance Schedule</a></li>
+                        <li id="li5" class=""><a href="11.html#5a" data-toggle="tab" aria-expanded="true"><i class="fa fa-angle-right" aria-hidden="true"></i> Maintenance Instruction during Free Service</a></li>
+                        <li id="li6" class=""><a href="11.html#6a" data-toggle="tab" aria-expanded="true"><i class="fa fa-angle-right" aria-hidden="true"></i> Vehicle Price</a></li>
+                        <li id="li7" class=""><a href="11.html#7a" data-toggle="tab" aria-expanded="true"><i class="fa fa-angle-right" aria-hidden="true"></i> Booking Amount</a></li>
+                        <li id="li8" class=""><a href="11.html#8a" data-toggle="tab" aria-expanded="true"><i class="fa fa-angle-right" aria-hidden="true"></i> Accessories</a></li>
+                        <li id="li9" class=""><a href="11.html#9a" data-toggle="tab" aria-expanded="true"><i class="fa fa-angle-right" aria-hidden="true"></i> Product Features</a></liid="li1">
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                    <div class="tab-content clearfix">
+                        <div class="tab-pane active" id="1a">
+                            <div class="row">
+<form action="/FAQ/BrowseByProduct/1/11" class="registration-form" id="formProdServSpec" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="qP818f067CEPgxl36Pm4Yzjypx75Ycer8Wy5L0wDIuVRPzgMFnG4TYN_CcspkyFiDFkZKS4QwMx-t4DsI6w0DMtDLGrC70PWCNvbHWlC-I41" />                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;SegmentID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="SegmentID1" name="SegmentID" onchange="FillModels(1)" required="required"><option value="">Select Segment</option>
+<option selected="selected" value="1">Motorcycle</option>
+<option value="2">Scooter</option>
+<option value="4">NAVI</option>
+<option value="3">Super Bikes</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="SegmentID" data-valmsg-replace="true"></span>
+                                        <input id="SegmentID" name="SegmentID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;ModelID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="ModelID1" name="ModelID" onchange="FillSpecifications(1)" required="required"><option value="">Select Model</option>
+<option value="6">CB Unicorn 160</option>
+<option value="18">CB Shine SP</option>
+<option value="19">CB Hornet 160R</option>
+<option value="8">CB Shine</option>
+<option value="9">Dream Yuga</option>
+<option value="10">Dream Neo</option>
+<option selected="selected" value="11">CD110 Dream</option>
+<option value="17">Livo</option>
+<option value="20">CB Unicorn 150</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="ModelID" data-valmsg-replace="true"></span>
+                                        <input id="ModelID" name="ModelID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;SpecificationID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="SpecificationID1" name="SpecificationID" onchange="FillAreas(1)" required="required"><option value="">Select Specification</option>
+<option value="1">Product</option>
+<option value="2">Service</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="SpecificationID" data-valmsg-replace="true"></span>
+                                        <input id="SpecificationID" name="SpecificationID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;AreaID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="AreaID1" name="AreaID" required="required"><option value="">Select Area</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="AreaID" data-valmsg-replace="true"></span>
+                                        <input id="AreaID" name="AreaID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <button id="submit1" type="button" class="btn btn-danger" onclick="validateFormProdServSpec(1)">Submit</button>
+                                    </div>
+                                </div>
+</form>                                <div id="divProdSpecResult" class="hidden col-md-12 col-sm-12 col-xs-12 resultHeading">
+                                    <span class="forResultHeading">Product & Service Specification</span>
+                                    <div class="table-responsive">
+                                        <table cellspacing="0" id="tblProdSpecFilters" rules="all" class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Segment</th>
+                                                    <th>Model</th>
+                                                    <th>Specification</th>
+                                                    <th>Area</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <table cellspacing="0" id="tblProdSpecResult" rules="all" class="datashow table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Parameter</th>
+                                                        <th>Value</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+                                        </div>
+                                        <div id="divCommingSoon1" class="hidden">
+                                            <p>Content will be available soon.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="2a">
+                            <div class="row">
+<form action="/FAQ/BrowseByProduct/1/11" class="registration-form" id="formFreeServSch" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="HJdzmY71rkNIy8FGCCQrKDXHOVyYJYZhOdPp9Y9W7AqLl-dqDIvo02CKhf4b-cFMSWrUVNkfHvlqsSfQm3saoTQwska3SHYbENNf25ciaKU1" />                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;SegmentID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="SegmentID2" name="SegmentID" onchange="FillModels(2)" required="required"><option value="">Select Segment</option>
+<option selected="selected" value="1">Motorcycle</option>
+<option value="2">Scooter</option>
+<option value="4">NAVI</option>
+<option value="3">Super Bikes</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="SegmentID" data-valmsg-replace="true"></span>
+                                        <input id="SegmentID" name="SegmentID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;ModelID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="ModelID2" name="ModelID" required="required"><option value="">Select Model</option>
+<option value="6">CB Unicorn 160</option>
+<option value="18">CB Shine SP</option>
+<option value="19">CB Hornet 160R</option>
+<option value="8">CB Shine</option>
+<option value="9">Dream Yuga</option>
+<option value="10">Dream Neo</option>
+<option selected="selected" value="11">CD110 Dream</option>
+<option value="17">Livo</option>
+<option value="20">CB Unicorn 150</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="ModelID" data-valmsg-replace="true"></span>
+                                        <input id="ModelID" name="ModelID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <button id="submit2" type="button" class="btn btn-danger" onclick="validateFormFreeServSch(2)">Submit</button>
+                                    </div>
+                                </div>
+</form>                                <div id="divFreeServSch" class="hidden col-md-12 col-sm-12 col-xs-12 resultHeading">
+                                    <span class="forResultHeading">
+                                        Free Service Schedule <label id="lblFreeServSchMN"></label>
+                                    </span>
+                                    <div>
+                                        <table cellspacing="0" id="tblFreeServSchFilters" rules="all" class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Segment</th>
+                                                    <th>Model</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <table cellspacing="0" id="tblFreeServSch" rules="all" class="datashow table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Free Service Schedule</th>
+                                                        <th>Kms*</th>
+                                                        <th>Days*</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+                                            <p>
+                                                * Kms or Days, whichever comes earlier<br />
+                                                <span class="bullet">Free Service means no labour charges applicable for Periodic maintenance jobs.</span><br />
+                                                <span class="bullet">Consumable like Fuel Filter, Air Cleaner Element, Engine Oil, Grease, Suspension Oil etc. needs to be replaced on paid  basis as per the vehicle periodic maintenance schedule.</span>
+                                            </p>
+                                        </div>
+                                        <div id="divCommingSoon2" class="hidden">
+                                            <p>Content will be available soon.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="3a">
+                            <div class="row">
+<form action="/FAQ/BrowseByProduct/1/11" class="registration-form" id="formWarrantyPeriod" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="EFjvPKSJT50xUw7lgdgyIbe69NkCCO-G1Bw6f0FTBJwny_600WnZu2zv_EWpn4b7rWVUzcSfLFzl1oL935cRCYkDnymU4F6ZB6XyrDOEMKw1" />                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;SegmentID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="SegmentID3" name="SegmentID" onchange="FillModels(3)" required="required"><option value="">Select Segment</option>
+<option selected="selected" value="1">Motorcycle</option>
+<option value="2">Scooter</option>
+<option value="4">NAVI</option>
+<option value="3">Super Bikes</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="SegmentID" data-valmsg-replace="true"></span>
+                                        <input id="SegmentID" name="SegmentID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;ModelID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="ModelID3" name="ModelID" onchange="FillSpecifications(3)" required="required"><option value="">Select Model</option>
+<option value="6">CB Unicorn 160</option>
+<option value="18">CB Shine SP</option>
+<option value="19">CB Hornet 160R</option>
+<option value="8">CB Shine</option>
+<option value="9">Dream Yuga</option>
+<option value="10">Dream Neo</option>
+<option selected="selected" value="11">CD110 Dream</option>
+<option value="17">Livo</option>
+<option value="20">CB Unicorn 150</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="ModelID" data-valmsg-replace="true"></span>
+                                        <input id="ModelID" name="ModelID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;WarrantyTypeID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="WarrantyTypeID3" name="WarrantyTypeID" required="required"><option value="">Select Warranty Type</option>
+<option value="1">Standard Warranty</option>
+<option value="2">Extended Warranty</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="WarrantyTypeID" data-valmsg-replace="true"></span>
+                                        <input id="WarrantyTypeID" name="WarrantyTypeID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <button id="submit3" type="button" class="btn btn-danger" onclick="validateformWarrantyPeriod(3)">Submit</button>
+                                    </div>
+                                </div>
+</form>                                <div id="divWarrantyPeriodResult" class="hidden col-md-12 col-sm-12 col-xs-12 resultHeading">
+                                    <span class="forResultHeading">
+                                        Warranty Period
+                                    </span>
+                                    <div>
+                                        <table cellspacing="0" id="tblWarrantyPeriodFilters" rules="all" class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Segment</th>
+                                                    <th>Model</th>
+                                                    <th>Warranty Type</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <table cellspacing="0" id="tblWarrantyPeriodResult" rules="all" class="datashow table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th><label id="lblMonth">Months*</label></th>
+                                                        <th><label id="lblKm">Kms*</label></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+                                            <p><span id="lblWarrantyNote">* Months or Kms, whichever comes earlier from the date of sale.</span></p>
+                                        </div>
+                                        <div id="divCommingSoon3" class="hidden">
+                                            <p>Content will be available soon.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="4a">
+                            <div class="row">
+<form action="/FAQ/BrowseByProduct/1/11" class="registration-form" id="formMaintenanceSchedule" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="zqiodIq4flTVDs--ZNGdhZ5toJetIhJDvwUAlMoygoHupQmrSoAibSXgAT1tTpJxHJM7fU1AZLWdk26ELAPPK-MWuqgqFUO_8D27cu7yvTI1" />                                    <div class="browseInputBox">
+                                        <div class="form-group">
+                                            <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;SegmentID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="SegmentID4" name="SegmentID" onchange="FillModels(4)" required="required"><option value="">Select Segment</option>
+<option selected="selected" value="1">Motorcycle</option>
+<option value="2">Scooter</option>
+<option value="4">NAVI</option>
+<option value="3">Super Bikes</option>
+</select>
+                                            <span class="field-validation-valid&#32;text-danger" data-valmsg-for="SegmentID" data-valmsg-replace="true"></span>
+                                            <input id="SegmentID" name="SegmentID" type="hidden" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="browseInputBox">
+                                        <div class="form-group">
+                                            <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;ModelID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="ModelID4" name="ModelID" required="required"><option value="">Select Model</option>
+<option value="6">CB Unicorn 160</option>
+<option value="18">CB Shine SP</option>
+<option value="19">CB Hornet 160R</option>
+<option value="8">CB Shine</option>
+<option value="9">Dream Yuga</option>
+<option value="10">Dream Neo</option>
+<option selected="selected" value="11">CD110 Dream</option>
+<option value="17">Livo</option>
+<option value="20">CB Unicorn 150</option>
+</select>
+                                            <span class="field-validation-valid&#32;text-danger" data-valmsg-for="ModelID" data-valmsg-replace="true"></span>
+                                            <input id="ModelID" name="ModelID" type="hidden" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-2 col-sm-2 col-xs-12">
+                                            <button id="submit4" type="button" class="btn btn-danger" onclick="validateformMaintenanceSchedule(4)">Submit</button>
+                                        </div>
+                                    </div>
+</form>                                <div id="divformMaintenanceScheduleResult" class="hidden col-md-12 col-sm-12 col-xs-12 resultHeading">
+
+                                    <span class="forResultHeading">
+                                        Owners Manual
+                                    </span>
+                                    <div>
+                                        <table cellspacing="0" id="tblformMaintenanceScheduleFilters" rules="all" class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Segment</th>
+                                                    <th>Model</th>
+                                                    <th colspan="2" align="center">Owners Manual - Latest version, for reference purpose only</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <span class="forResultHeading">
+                                        Maintenance Schedule
+                                    </span>
+                                    <div>
+                                        <div>
+                                            
+                                            <object class="" id='pdfbox1' type="application/pdf" width="100%" height="500">
+                                                <embed id='pdfbox1Embed' type="application/pdf" />
+                                            </object>
+                                        </div>
+                                        <div id="divCommingSoon4" class="hidden">
+                                            <p>Content will be available soon.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="5a">
+                            <div class="row">
+<form action="/FAQ/BrowseByProduct/1/11" class="registration-form" id="formJobCarriedOutFS" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="NVxSYDb6m4il1znjXguCnS_uv8gfkdqgVPl_EJ4IyHQ8IMDUXALrAwuHJEcgmHKIzIdKFBDnj5XDYYtvOnyIWRku1Tnmfh87yxE6JqPobWc1" />                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;SegmentID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="SegmentID5" name="SegmentID" onchange="FillModels(5)" required="required"><option value="">Select Segment</option>
+<option selected="selected" value="1">Motorcycle</option>
+<option value="2">Scooter</option>
+<option value="4">NAVI</option>
+<option value="3">Super Bikes</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="SegmentID" data-valmsg-replace="true"></span>
+                                        <input id="SegmentID" name="SegmentID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;ModelID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="ModelID5" name="ModelID" onchange="FillServiceNo(5)" required="required"><option value="">Select Model</option>
+<option value="6">CB Unicorn 160</option>
+<option value="18">CB Shine SP</option>
+<option value="19">CB Hornet 160R</option>
+<option value="8">CB Shine</option>
+<option value="9">Dream Yuga</option>
+<option value="10">Dream Neo</option>
+<option selected="selected" value="11">CD110 Dream</option>
+<option value="17">Livo</option>
+<option value="20">CB Unicorn 150</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="ModelID" data-valmsg-replace="true"></span>
+                                        <input id="ModelID" name="ModelID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;ServiceNoID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="ServiceNoID5" name="ServiceNoID" required="required"><option value="">Select Service No</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="ServiceNoID" data-valmsg-replace="true"></span>
+                                        <input id="ServiceNoID" name="ServiceNoID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <button id="submit5" type="button" class="btn btn-danger" onclick="validateformJobCarriedOutFS(5)">Submit</button>
+                                    </div>
+                                </div>
+</form>                                <div id="divJobCarriedOutFSResult" class="hidden col-md-12 col-sm-12 col-xs-12 resultHeading">
+
+                                    <span class="forResultHeading">
+                                        Maintenance Instruction during Free Service
+                                    </span>
+                                    <div>
+                                        <table cellspacing="0" id="tblJobCarriedOutFSFilters" rules="all" class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Segment</th>
+                                                    <th>Model</th>
+                                                    <th>Service No</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <table cellspacing="0" id="tblJobCarriedOutFSResult" rules="all" class="datashow table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>S.No.</th>
+                                                        <th>Job carried out during free service</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+                                        </div>
+                                        <div id="divCommingSoon5" class="hidden">
+                                            <p>Content will be available soon.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="6a">
+                            <div class="row">
+<form action="/FAQ/BrowseByProduct/1/11" class="registration-form" id="formPriceMaster" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="BGmpLYZBVtIIQQim5cp4N1rjQHDq6NWF15l0ef2yPIJdQFnKivZvDyKXs4tXLgRrJXQajZyUuZ9AuoPrjir5b3ENszewxOV_GCIkJAUgzu41" />                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;SegmentID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="SegmentID6" name="SegmentID" onchange="FillModels(6)" required="required"><option value="">Select Segment</option>
+<option selected="selected" value="1">Motorcycle</option>
+<option value="2">Scooter</option>
+<option value="4">NAVI</option>
+<option value="3">Super Bikes</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="SegmentID" data-valmsg-replace="true"></span>
+                                        <input id="SegmentID" name="SegmentID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;ModelID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="ModelID6" name="ModelID" required="required"><option value="">Select Model</option>
+<option value="6">CB Unicorn 160</option>
+<option value="18">CB Shine SP</option>
+<option value="19">CB Hornet 160R</option>
+<option value="8">CB Shine</option>
+<option value="9">Dream Yuga</option>
+<option value="10">Dream Neo</option>
+<option selected="selected" value="11">CD110 Dream</option>
+<option value="17">Livo</option>
+<option value="20">CB Unicorn 150</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="ModelID" data-valmsg-replace="true"></span>
+                                        <input id="ModelID" name="ModelID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <button id="submit6" type="button" class="btn btn-danger" onclick="validateformPriceMaster(6)">Submit</button>
+                                    </div>
+                                </div>
+</form>                                <div id="divPriceMasterResult" class="hidden col-md-12 col-sm-12 col-xs-12 resultHeading">
+
+                                    <span class="forResultHeading">
+                                        Vehicle Price
+                                    </span>
+                                    <div>
+                                        <table cellspacing="0" id="tblPriceMasterFilters" rules="all" class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Segment</th>
+                                                    <th>Model</th>
+                                                    <th>Price Link</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                        <div id="divCommingSoon6" class="hidden">
+                                            <p>Content will be available soon.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="7a">
+                            <div class="row">
+<form action="/FAQ/BrowseByProduct/1/11" class="registration-form" id="formBookingAmount" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="co72FGu7GE2wGC-tNuNkEBcPjrAkEGlfOLgf4xYAVXn0KJl4ue6YdGF_Vyint53-HHC3GXsWcaj0d8U2ynrBTtzUNucCcsqRBVsJjM2dQS81" />                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;SegmentID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="SegmentID7" name="SegmentID" onchange="FillModels(7)" required="required"><option value="">Select Segment</option>
+<option selected="selected" value="1">Motorcycle</option>
+<option value="2">Scooter</option>
+<option value="4">NAVI</option>
+<option value="3">Super Bikes</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="SegmentID" data-valmsg-replace="true"></span>
+                                        <input id="SegmentID" name="SegmentID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;ModelID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="ModelID7" name="ModelID" required="required"><option value="">Select Model</option>
+<option value="6">CB Unicorn 160</option>
+<option value="18">CB Shine SP</option>
+<option value="19">CB Hornet 160R</option>
+<option value="8">CB Shine</option>
+<option value="9">Dream Yuga</option>
+<option value="10">Dream Neo</option>
+<option selected="selected" value="11">CD110 Dream</option>
+<option value="17">Livo</option>
+<option value="20">CB Unicorn 150</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="ModelID" data-valmsg-replace="true"></span>
+                                        <input id="ModelID" name="ModelID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <button id="submit7" type="button" class="btn btn-danger" onclick="validateformBookingAmount(7)">Submit</button>
+                                    </div>
+                                </div>
+</form>                                <div id="divBookingAmountResult" class="hidden col-md-12 col-sm-12 col-xs-12 resultHeading">
+
+                                    <span class="forResultHeading">
+                                        Booking Amount
+                                    </span>
+                                    <div>
+                                        <table cellspacing="0" id="tblBookingAmountFilters" rules="all" class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Segment</th>
+                                                    <th>Model</th>
+                                                    <th>Booking Amount</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                        <div id="divCommingSoon7" class="hidden">
+                                            <p>Content will be available soon.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="8a">
+                            <div class="row">
+<form action="/FAQ/BrowseByProduct/1/11" class="registration-form" id="formStdFitmentAccessories" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="PazhsR7yROQB2HkC24GInfSH5VyC44uvclAglwdbK4Yk0lYgrzp9OS93Klxd_HU07QSnP9ytjmF38yHyAoBBFdTRyrKtlAWcN32V77TAKWs1" />                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;SegmentID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="SegmentID8" name="SegmentID" onchange="FillModels(8)" required="required"><option value="">Select Segment</option>
+<option selected="selected" value="1">Motorcycle</option>
+<option value="2">Scooter</option>
+<option value="4">NAVI</option>
+<option value="3">Super Bikes</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="SegmentID" data-valmsg-replace="true"></span>
+                                        <input id="SegmentID" name="SegmentID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;ModelID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="ModelID8" name="ModelID" required="required"><option value="">Select Model</option>
+<option value="6">CB Unicorn 160</option>
+<option value="18">CB Shine SP</option>
+<option value="19">CB Hornet 160R</option>
+<option value="8">CB Shine</option>
+<option value="9">Dream Yuga</option>
+<option value="10">Dream Neo</option>
+<option selected="selected" value="11">CD110 Dream</option>
+<option value="17">Livo</option>
+<option value="20">CB Unicorn 150</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="ModelID" data-valmsg-replace="true"></span>
+                                        <input id="ModelID" name="ModelID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <button id="submit8" type="button" class="btn btn-danger" onclick="validateformStdFitmentAccessories(8)">Submit</button>
+                                    </div>
+                                </div>
+</form>                                <div id="divStdFitmentAccessoriesResult" class="hidden col-md-12 col-sm-12 col-xs-12 resultHeading">
+
+                                    <span class="forResultHeading">
+                                        Accessories
+                                    </span>
+                                    <div>
+                                        <table cellspacing="0" id="tblStdFitmentAccessoriesFilters" rules="all" class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Segment</th>
+                                                    <th>Model</th>
+                                                    <th>Accessories Options (Visit Webpage)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                        <div id="divCommingSoon8" class="hidden">
+                                            <p>Content will be available soon.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="9a">
+                            <div class="row">
+<form action="/FAQ/BrowseByProduct/1/11" class="registration-form" id="formProductFeatures" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="nDwQT4OjD6G7n29WOAJoYzmIVmS6c7o1pG4Hi2FK0X1aK4ShbB552wZXvu7AAcvv9Dg5Kcqdyq0WTfe9SSvZhkX2auzDmrjekQqsjIF7PnQ1" />                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;SegmentID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="SegmentID9" name="SegmentID" onchange="FillModels(9)" required="required"><option value="">Select Segment</option>
+<option selected="selected" value="1">Motorcycle</option>
+<option value="2">Scooter</option>
+<option value="4">NAVI</option>
+<option value="3">Super Bikes</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="SegmentID" data-valmsg-replace="true"></span>
+                                        <input id="SegmentID" name="SegmentID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="browseInputBox">
+                                    <div class="form-group">
+                                        <select class="form-control" data-val="true" data-val-number="The&#32;field&#32;ModelID&#32;must&#32;be&#32;a&#32;number." data-val-required="This&#32;field&#32;is&#32;required." id="ModelID9" name="ModelID" required="required"><option value="">Select Model</option>
+<option value="6">CB Unicorn 160</option>
+<option value="18">CB Shine SP</option>
+<option value="19">CB Hornet 160R</option>
+<option value="8">CB Shine</option>
+<option value="9">Dream Yuga</option>
+<option value="10">Dream Neo</option>
+<option selected="selected" value="11">CD110 Dream</option>
+<option value="17">Livo</option>
+<option value="20">CB Unicorn 150</option>
+</select>
+                                        <span class="field-validation-valid&#32;text-danger" data-valmsg-for="ModelID" data-valmsg-replace="true"></span>
+                                        <input id="ModelID" name="ModelID" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <button id="submit9" type="button" class="btn btn-danger" onclick="validateformProductFeatures(9)">Submit</button>
+                                    </div>
+                                </div>
+</form>                                <div id="divProductFeaturesResult" class="hidden col-md-12 col-sm-12 col-xs-12 resultHeading">
+
+                                    <span class="forResultHeading">
+                                        Product Features
+                                    </span>
+                                    <div>
+                                        <table cellspacing="0" id="tblProductFeaturesFilters" rules="all" class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Segment</th>
+                                                    <th>Model</th>
+                                                    <th>Product Features Link</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                        <div id="divCommingSoon9" class="hidden">
+                                            <p>Content will be available soon.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="productEnquiry text-center">
+    <div class="row">
+    <div class="bticon col-md-3 col-xs-6 col-sm-6">
+        <div class="bticon-box">
+            <a href="../../../reach-us/product-enquiry/index.html">
+                <img src="../../../assets/images/message-icon.png">
+                <span>Product Enquiry </span>
+            </a>
+        </div>
+    </div>
+    <div class="bticon col-md-3 col-xs-6 col-sm-6">
+        <div class="bticon-box">
+            <a href="../../../reach-us/test-drive/index.html">
+                <img src="../../../assets/images/time-icon.png">
+                <span>Test Drive</span>
+            </a>
+        </div>
+    </div>
+    <div class="bticon col-md-3 col-xs-6 col-sm-6">
+        <div class="bticon-box">
+            <a href="../../../reach-us/corporate-people-bulk-enquiry/index.html">
+                <img src="../../../assets/images/client-icon.png">
+                <span> Corporate / Bulk Enquiry</span>
+            </a>
+        </div>
+    </div>
+    <div class="bticon col-md-3 col-xs-6 col-sm-6">
+        <div class="bticon-box">
+            <a href="../../../emi-calculator/index.html">
+                <img src="../../../assets/images/call-icon.png">
+                <span>EMI Calculator</span>
+            </a>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+            </div>
+            <section class="public-notice col-md-12 col-xs-12 col-sm-12">
+                <div class="row">
+                    <a href="../../../careers.html#important">
+                        <img src="../../../assets/images/public-notice.png" alt="" />
+                        <span>Beware of Fraudulent Recruitment</span>
+                    </a>
+
+                </div>
+            </section>
+            <footer>
+                <div class="col-md-12 col-xs-12 col-sm-12">
+                    <div class="row">
+                        <div id="removeadd">
+                            <div class="removeadd-btn">
+                                <div id="removeadd-btn" class="btn2">&nbsp;</div>
+                            </div>
+                            <div class="morediv" style="display:none;">
+                                <a href="javascript:void(0)" class="hondalogo"><img src="../../../assets/images/honda-logo.png"></a>
+                                <div class="row">
+                                    <div class="panel-group" id="accordion">
+                                        <div class="panel panel-default col-md-2 col-sm-2">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="11.html#panel1"><i class="glyphicon glyphicon-plus"></i>About Us</a>
+                                                </h4>
+
+                                            </div>
+                                            <div id="panel1" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <div class="block">
+                                                        <h5>About Us</h5>
+                                                        <ul>
+                                                            <li><a href="../../../about-us/philosophy.html" title="Philosophy">Philosophy</a></li>
+                                                            <li><a href="../../../about-us/history.html" title="History">History</a></li>
+                                                            <li><a href="../../../about-us/factory.html" title="Factory">Factory</a></li>
+                                                            <li><a href="../../../about-us/technology.html" title="Technology">Technology</a></li>
+                                                            <li><a href="../../../combined-braking-system.html" title="CBS">CBS</a></li>
+                                                            <li><a href="../../../about-us/group-companies.html" title="Group Companies">Group Companies</a></li>
+                                                            <li><a href="../../../about-us/racing.html" title="Racing">Racing</a></li>
+                                                            <li><a href="../../../about-us/environment.html" title="Environment">Environment</a></li>
+                                                            <li><a href="../../../about-us/csr.html" title="CSR">CSR</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default col-md-2 col-sm-2">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="11.html#panel2">
+                                                        <i class="glyphicon glyphicon-plus"></i>
+                                                        Products
+                                                    </a>
+                                                </h4>
+
+                                            </div>
+                                            <div id="panel2" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <div class="block">
+                                                        <h5>Products</h5>
+                                                        <ul>
+                                                            <li><a href="../../../products/motorcycle.html" title="Motorcycle">Motorcycle</a></li>
+                                                            <li><a href="../../../products/scooter.html" title="Scooter">Scooter</a></li>
+                                                            <li><a href="../../../products/super-bikes.html" title="Super Bikes">Super Bikes</a></li>
+                                                            <li><a href="../../../products/navi.html" title="Super Bikes">NAVI</a></li>
+                                                        </ul>
+                                                        <a href="../../../governance/vigilance.html">
+                                                            <h5 style="margin-top: 48px;">Governance</h5>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default col-md-2 col-sm-2">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="11.html#panel3">
+                                                        <i class="glyphicon glyphicon-plus"></i>
+                                                        Services
+                                                    </a>
+                                                </h4>
+
+                                            </div>
+                                            <div id="panel3" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <div class="block">
+                                                        <h5>Services</h5>
+                                                        <ul>
+                                                            <li><a href="../../../services/campaign.html" title="campaign">Campaign</a></li>
+                                                            <li><a href="../../../services/honda-shield.html" title="Honda Shield">Honda Shield</a></li>
+                                                            <li><a href="../../../services/honda-genuine-engine-oil.html" title="Honda Genuine Engine Oil">Honda Genuine Engine Oil</a></li>
+                                                            <li><a href="../../../services/how-to-idendify-honda-genuine-parts.html" title="Honda Genuine Parts">Honda Genuine Parts</a></li>
+
+                                                        </ul>
+                                                        <a class="safety_flink" href="../../../merchandise.html">
+                                                            <h5 style="margin-top: 48px;">Merchandise</h5>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default col-md-2 col-sm-2">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="11.html#panel4"><i class="glyphicon glyphicon-plus"></i>Network</a>
+                                                </h4>
+
+                                            </div>
+                                            <div id="panel4" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <div class="block">
+                                                        <h5>Network</h5>
+                                                        <ul>
+                                                            <li><a href="../../../network/dealerLocator.html" title="Dealer Locator">Dealer Locator</a></li>
+                                                            <li><a href="../../../network/serviceLocator.html" title="Service Locator">Service Locator</a></li>
+                                                            <li><a href="../../../network/partsLocator.html" title="Parts Locator">Parts Locator</a></li>
+                                                            <li><a href="../../../network/best-deal-Locator.html" title="Best Deal">Best Deal</a></li>
+
+                                                        </ul>
+                                                        <a href="http://45.114.141.224" class="cglink" target="_blank">
+                                                            <h5 style="margin-top: 75px;">Creative Gallery</h5>
+                                                        </a>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default col-md-2 col-sm-2">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="11.html#panel5"><i class="glyphicon glyphicon-plus"></i>Media Center</a>
+                                                </h4>
+
+                                            </div>
+                                            <div id="panel5" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <div class="block">
+                                                        <h5>Media Center</h5>
+                                                        <ul>
+                                                            
+
+                                                            <li><a href="../../../media-center/press-release.html" title="Press&#32;Release">Press Release</a> <img src="../../../assets/images/new10_e1.gif" alt="New" /></li>
+                                                            <li><a href="../../../media-center/awards.html" title="Awards">Awards</a></li>
+                                                            <li><a href="../../../media-center/gallery.html" title="Gallery">Gallery</a></li>
+                                                            <li><a href="../../../media-center/events.html" title="Events">Events</a></li>
+                                                            <li><a href="../../../media-center/testimonials.html" title="Testimonials">Testimonials</a></li>
+                                                        </ul>
+                                                        <a href="../../../careers.html" class="career_flink" title="Careers">
+                                                            <h5>Careers</h5>
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default col-md-2 col-sm-2">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="11.html#panel6"><i class="glyphicon glyphicon-plus"></i>Reach Us</a>
+                                                </h4>
+
+                                            </div>
+                                            <div id="panel6" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <div class="block" style="margin-right: 0px;">
+                                                        <h5>Reach Us</h5>
+                                                        <ul>
+                                                            <li><a href="../../../reach-us/contact-us.html" title="Contact Us">Contact Us</a></li>
+                                                            <li><a href="../../../reach-us/product-enquiry.html" title="Product Enquiry">Product Enquiry</a></li>
+                                                            <li><a href="../../../reach-us/test-drive.html" title="Test Drive">Test Ride</a></li>
+                                                            <li><a href="../../../reach-us/corporate-people-bulk-enquiry.html" title="Corporate / People Bulk Enquiry">Corporate / Bulk Enquiry</a></li>
+                                                            <li><a href="../../../FAQ.html" title="FAQ">FAQ</a></li>
+                                                        </ul>
+
+                                                        <a href="../../../safety-india.html" class="safety_flink" title="Safety India">
+                                                            <h5 style="margin-top: 46px;">Safety India</h5>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 bottom-socail-top">
+                                        <div class="col-md-3 col-sm-12 col-xs-12 col-md-offset-3">
+                                            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhonda2wheelers.in&amp;width=450&amp;layout=standard&amp;action=like&amp;size=small&amp;show_faces=true&amp;share=false&amp;height=80&amp;appId" width="250" height="25" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12 col-xs-12">
+                                            <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" title="Twitter Follow Button" data-show-count="true" src="https://platform.twitter.com/widgets/follow_button.b41e99df00581dc95d7fdd63f3283511.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=honda2wheelerin&amp;show_count=true&amp;show_screen_name=false&amp;size=m&amp;time=1468653515091" data-screen-name="honda2wheelerin" height="20" style="width: 250px;"></iframe>
+                                        </div>
+                                        <div class="col-md-3 col-sm-12 col-xs-12">
+                                            <iframe class="g-ytsubscribe" data-channelid="UCDMHVijtWzuUr9F7d74Hicw" data-layout="default" data-theme="dark" data-count="default" height="20" style="width:150px !important;"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="bottomUL footer-other-link">
+                            <li><a href="../../../governance/vigilance.html" title="Governance">Governance</a></li>
+                            <li><a href="../../../merchandise.html" title="Merchandise">Merchandise</a></li>
+                            <li><a href="http://45.114.141.224" title="Creative Gallery" target="_blank">Creative Gallery</a></li>
+                            <li><a href="../../../careers.html" title="Careers">Careers</a></li>
+                            <li><a href="../../../safety-india.html" title="Safety India">Safety India</a></li>
+                        </ul>
+                        <ul class="bottomUL">
+                            <li><a href="../../../site-map.html" title="Sitemap">Sitemap</a></li>
+                            <li><a href="../../../reach-us/contact-us.html" title="Reach Us">Reach Us</a></li>
+                            <li><a href="../../../FAQ.html" title="FAQ">FAQ</a></li>
+                            <li><a href="../../../disclaimer.html" title="Disclaimer">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <a href="11.html#0" class="scrollup">&nbsp;</a>
+    <div class="socail-icon">
+        <a href="https://www.facebook.com/honda2wheelers.in" class="icon1" title="Facebook" target="_blank"><img src="../../../assets/images/facebook-icon.png"></a>
+        <a href="https://twitter.com/honda2wheelerin" target="_blank" class="icon2" title="Twitter"><img src="../../../assets/images/twitter-icon.png"></a>
+        <a href="https://www.instagram.com/honda2wheelerin/" class="icon3" target="_blank" title="Instagram"><img src="../../../assets/images/instagram.png"></a>
+        <a href="http://www.youtube.com/channel/UCDMHVijtWzuUr9F7d74Hicw" class="icon4" target="_blank" title="Youtube"><img src="../../../assets/images/youtube-icon.png"></a>
+    </div>
+
+
+    <!-- <a href="javascript:;" id="back-to-top" title="Back to top"><img src="~/assets/images/up-arrow.png" alt="" /></a> -->
+    <script src="https://apis.google.com/js/platform.js" async></script>
+    
+    <script src="../../../assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../assets/js/wow.min.js" type="text/javascript"></script>
+    <script src="../../../assets/js/owl.carousel.js" type="text/javascript"></script>
+    <script src="../../../assets/js/bootstrap-magnify.min.js" type="text/javascript"></script>
+    <script src="../../../assets/js/illbeback.min.js" type="text/javascript"></script>
+    <script src="../../../assets/js/custom.js" type="text/javascript"></script>
+    <script>
+        new WOW().init();
+    </script>
+    
+    
+    
+    <script src="../../../bundles/jqueryval-v=hEGG8cMxk9p0ncdRUOJ-CnKN7NezhnPnWIvn6REucZo1.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(document).on("click", ".OwnersManualEngEvent", function (event) {                
+                var productName = jQuery('#ModelID4 option:selected').text();
+                GABrowseByProductClickEvent('Owners Manual English', productName, 'Owners Manual English');
+            });
+            $(document).on("click", ".OwnersManualHinEvent", function (event) {
+                var productName = jQuery('#ModelID4 option:selected').text();
+                GABrowseByProductClickEvent('Owners Manual Hindi', productName, 'Owners Manual Hindi');
+            });
+
+            var masterNo = GetParameterValues('m');
+            if (masterNo > 0 && masterNo <= 9) {
+                jQuery("#li" + masterNo).addClass('active').siblings().removeClass('active');
+                jQuery("#" + masterNo + "a").addClass('active').siblings().removeClass('active');
+                jQuery("html, body").animate({ scrollTop: jQuery("#exTab1").offset().top }, "slow");
+            }
+            for (var i = 1; i <= 9; i++) {
+                FillModels(i);
+            }
+            FillServiceNo(5);
+
+            return false;
+        });
+        function GetParameterValues(param) {
+            var url = location.search.substring(location.search.lastIndexOf('?') + 1).split('&');
+            for (var i = 0; i < url.length; i++) {
+                var urlparam = url[i].split('=');
+                if (urlparam[0] == param) {
+                    return urlparam[1];
+                }
+            }
+        };
+
+        function validateFormProdServSpec(obj) {
+            $('#formProdServSpec').validate();
+            if ($('#formProdServSpec').valid()) {
+                getProductAndServiceSpec(obj);
+            }
+        };
+        function validateFormFreeServSch(obj) {
+            $('#formFreeServSch').validate();
+            if ($('#formFreeServSch').valid()) {
+                getFreeServSchedule(obj);
+            }
+        };
+        function validateformWarrantyPeriod(obj) {
+            $('#formWarrantyPeriod').validate();
+            if ($('#formWarrantyPeriod').valid()) {
+                getWarrantyPeriod(obj);
+            }
+        };
+        function validateformMaintenanceSchedule(obj) {
+            $('#formMaintenanceSchedule').validate();
+            if ($('#formMaintenanceSchedule').valid()) {
+                getMaintenanceSchedule(obj);
+            }
+        };
+        function validateformJobCarriedOutFS(obj) {
+            $('#formJobCarriedOutFS').validate();
+            if ($('#formJobCarriedOutFS').valid()) {
+                getJobCarriedOutFS(obj);
+            }
+        };
+        function validateformPriceMaster(obj) {
+            $('#formPriceMaster').validate();
+            if ($('#formPriceMaster').valid()) {
+                getformPriceMasterLinks(obj);
+            }
+        };
+        function validateformBookingAmount(obj) {
+            $('#formBookingAmount').validate();
+            if ($('#formBookingAmount').valid()) {
+                getBookingAmount(obj);
+            }
+        };
+        function validateformStdFitmentAccessories(obj) {
+            $('#formStdFitmentAccessories').validate();
+            if ($('#formStdFitmentAccessories').valid()) {
+                getStdFitmentAccessories(obj);
+            }
+        };
+        function validateformProductFeatures(obj) {
+            $('#formProductFeatures').validate();
+            if ($('#formProductFeatures').valid()) {
+                getProductFeatures(obj);
+            }
+        };
+
+        function FillModels(obj) {
+            var segmentID = jQuery('#SegmentID' + obj).val();
+            if (segmentID > 0) {
+                jQuery("#ModelID" + obj).append(jQuery('<option></option>').text("Loading...").val(""));
+                jQuery("#SpecificationID" + obj).html("");
+                jQuery("#AreaID" + obj).html(""); // clear before appending new list
+                jQuery.ajax({
+                    url: '/FAQ/FillModels',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { SegmentID: segmentID, MasterNo: obj },
+                    success: function (models) {
+                        jQuery("#ModelID" + obj).html("");
+                        jQuery("#ModelID" + obj).append(jQuery('<option></option>').text("Select Model").val(""));
+                        jQuery("#SpecificationID" + obj).append(jQuery('<option></option>').text("Select Specification").val(""));
+                        jQuery("#AreaID" + obj).append(jQuery('<option></option>').text("Select Area").val(""));
+                        jQuery.each(models, function (i, model) {
+                            jQuery("#ModelID" + obj).append(
+                                jQuery('<option></option>').val(model.ModelID).html(model.ModelName));
+                        });
+
+                        var modelValue = location.pathname.substring(location.pathname.lastIndexOf("/") + 1);
+                        if (modelValue.length > 0) {
+                            $('#ModelID' + obj + ' option[value="' + modelValue + '"]').attr('selected', 'selected');
+                            if (obj == 1)
+                                FillSpecifications(1);
+                        }
+                    }
+                });
+            };
+        };
+
+        function FillSpecifications(obj) {
+            var modelID = jQuery('#ModelID' + obj).val();
+            if (modelID > 0) {
+                jQuery("#SpecificationID" + obj).append(jQuery('<option></option>').text("Loading...").val(""));
+                jQuery("#AreaID" + obj).html(""); // clear before appending new list
+                jQuery.ajax({
+                    url: '/FAQ/FillSpecifications',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { ModelID: modelID },
+                    success: function (specifications) {
+                        jQuery("#SpecificationID" + obj).html("");
+                        jQuery("#SpecificationID" + obj).append(jQuery('<option></option>').text("Select Specification").val(""));
+                        jQuery("#AreaID" + obj).append(jQuery('<option></option>').text("Select Area").val(""));
+                        jQuery.each(specifications, function (i, specification) {
+                            jQuery("#SpecificationID" + obj).append(
+                                jQuery('<option></option>').val(specification.SpecificationID).html(specification.Specification));
+                        });
+                    }
+                });
+            };
+        };
+
+        function FillAreas(obj) {
+            var specificationID = jQuery('#SpecificationID' + obj).val();
+            if (specificationID > 0) {
+                jQuery("#AreaID" + obj).append(jQuery('<option></option>').text("Loading...").val(""));
+                jQuery.ajax({
+                    url: '/FAQ/FillAreas',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { SpecificationID: specificationID },
+                    success: function (areas) {
+                        jQuery("#AreaID" + obj).html("");
+                        jQuery("#AreaID" + obj).append(jQuery('<option></option>').text("Select Area").val(""));
+                        jQuery.each(areas, function (i, area) {
+                            jQuery("#AreaID" + obj).append(
+                                jQuery('<option></option>').val(area.AreaID).html(area.Area));
+                        });
+                    }
+                });
+            };
+        };
+
+        function FillServiceNo(obj) {
+            var modelID = jQuery('#ModelID' + obj).val();
+            if (modelID > 0) {
+                jQuery("#ServiceNoID" + obj).append(jQuery('<option></option>').text("Loading...").val(""));
+                jQuery.ajax({
+                    url: '/FAQ/FillServiceNo',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { ModelID: modelID },
+                    success: function (ServiceNos) {
+                        jQuery("#ServiceNoID" + obj).html("");
+                        jQuery("#ServiceNoID" + obj).append(jQuery('<option></option>').text("Select Service No").val(""));
+                        jQuery.each(ServiceNos, function (i, ServiceN) {
+                            jQuery("#ServiceNoID" + obj).append(
+                                jQuery('<option></option>').val(ServiceN.ServiceNoID).html(ServiceN.ServiceNo));
+                        });
+                    }
+                });
+            };
+        };
+
+        function getProductAndServiceSpec(obj) {
+            var segmentID = jQuery('#SegmentID' + obj).val();
+            var modelID = jQuery('#ModelID' + obj).val();
+            var specificationID = jQuery('#SpecificationID' + obj).val();
+            var areaID = jQuery('#AreaID' + obj).val();
+            var productName = jQuery('#ModelID' + obj + ' option:selected').text();
+            if (segmentID > 0 && modelID > 0 && specificationID > 0 && areaID > 0) {
+                jQuery.ajax({
+                    url: '/FAQ/getProductAndServiceSpec',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { SegmentID: segmentID, ModelID: modelID, SpecificationID: specificationID, AreaID: areaID },
+                    success: function (productServiceSpecs) {
+                        jQuery("#divCommingSoon1").addClass('hidden').siblings().removeClass('hidden');
+                        jQuery('#tblProdSpecFilters tbody').html("");
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#SpecificationID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#AreaID' + obj + ' option:selected').text() + "</td>");
+                        jQuery('#tblProdSpecFilters tbody').append(tr1);
+                        if (productServiceSpecs.length > 0) {
+                            jQuery('#tblProdSpecResult tbody').html("");
+                            var tr;
+                            jQuery.each(productServiceSpecs, function (i, productServiceSpec) {
+                                tr = jQuery('<tr/>');
+                                tr.append("<td>" + productServiceSpec.ParameterName + "</td>");
+                                tr.append("<td>" + productServiceSpec.Value + "</td>");
+                                jQuery('#tblProdSpecResult tbody').append(tr);
+                            });
+
+                            jQuery("#divProdSpecResult").removeClass('hidden')
+                        }
+                        else {
+                            jQuery("#divCommingSoon1").removeClass('hidden').siblings().addClass('hidden');
+                            jQuery("#divProdSpecResult").removeClass('hidden')
+                        }
+                    }
+                });
+                GABrowseByProductClickEvent('Browse By Product', productName, 'Product and Service Spec');
+            };
+        };
+
+        function getFreeServSchedule(obj) {
+            var segmentID = jQuery('#SegmentID' + obj).val();
+            var modelID = jQuery('#ModelID' + obj).val();
+            var productName = jQuery('#ModelID' + obj + ' option:selected').text();
+            if (segmentID > 0 && modelID > 0) {
+                jQuery.ajax({
+                    url: '/FAQ/getFreeServSchedule',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { SegmentID: segmentID, ModelID: modelID },
+                    success: function (FreeServSchedules) {
+                        jQuery("#divCommingSoon2").addClass('hidden').siblings().removeClass('hidden');
+                        jQuery('#tblFreeServSchFilters tbody').html("");
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + obj + ' option:selected').text() + "</td>");
+                        jQuery('#tblFreeServSchFilters tbody').append(tr1);
+
+                        if (FreeServSchedules.length > 0) {
+                            jQuery('#tblFreeServSch tbody').html("");
+                            var tr;
+                            jQuery.each(FreeServSchedules, function (i, FreeServSchedule) {
+                                tr = jQuery('<tr/>');
+                                tr.append("<td>" + FreeServSchedule.FreeServiceSchedule + "</td>");
+                                if (FreeServSchedule.PaidServiceFrequency == null || FreeServSchedule.PaidServiceFrequency == '') {
+                                    tr.append("<td>" + FreeServSchedule.Km + "</td>");
+                                    tr.append("<td>" + (FreeServSchedule.Days != null ? FreeServSchedule.Days : 'NA') + "</td>");
+                                }
+                                else
+                                    tr.append("<td colspan='2'>" + FreeServSchedule.PaidServiceFrequency + "</td>");
+                                jQuery('#tblFreeServSch tbody').append(tr);
+                            });
+                            jQuery("#divFreeServSch").removeClass('hidden')
+                        }
+                        else {
+                            jQuery("#divCommingSoon2").removeClass('hidden').siblings().addClass('hidden');
+                            jQuery("#divFreeServSch").removeClass('hidden')
+                        }
+                    }
+                });
+                GABrowseByProductClickEvent('Browse By Product', productName, 'Free Service Schedule');
+            };
+        };
+
+        function getWarrantyPeriod(obj) {
+            var segmentID = jQuery('#SegmentID' + obj).val();
+            var modelID = jQuery('#ModelID' + obj).val();
+            var warrantyTypeID = jQuery('#WarrantyTypeID' + obj).val();
+            var productName = jQuery('#ModelID' + obj + ' option:selected').text();
+            if (segmentID > 0 && modelID > 0 && warrantyTypeID > 0) {
+                var MonthText = warrantyTypeID == 2 ? 'Additional Months*' : 'Months*';
+                var KmText = warrantyTypeID == 2 ? 'Additional Kms*' : 'Kms*';
+                jQuery('#lblMonth').text(MonthText); jQuery('#lblKm').text(KmText);
+                jQuery.ajax({
+                    url: '/FAQ/getWarrantyPeriod',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { SegmentID: segmentID, ModelID: modelID, WarrantyTypeID: warrantyTypeID },
+                    success: function (WarrantyPeriods) {
+                        jQuery("#divCommingSoon3").addClass('hidden').siblings().removeClass('hidden');
+                        jQuery('#tblWarrantyPeriodFilters tbody').html("");
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#WarrantyTypeID' + obj + ' option:selected').text() + "</td>");
+                        jQuery('#tblWarrantyPeriodFilters tbody').append(tr1);
+
+                        if (WarrantyPeriods.length > 0) {
+                            jQuery('#tblWarrantyPeriodResult tbody').html("");
+                            var tr;
+                            jQuery.each(WarrantyPeriods, function (i, WarrantyPeriod) {
+                                tr = jQuery('<tr/>');
+                                if (warrantyTypeID == 1) {
+                                    tr.append("<td>" + WarrantyPeriod.StdWarranty_Months + "</td>");
+                                    tr.append("<td>" + WarrantyPeriod.StdWarranty_Kms + "</td>");
+                                    $("#lblWarrantyNote").text("* Months or Kms, whichever comes earlier from the date of sale.");
+                                }
+                                else if (warrantyTypeID == 2) {
+                                    tr.append("<td>" + WarrantyPeriod.ExtendedWarranty_AdditionalMonths + "</td>");
+                                    tr.append("<td>" + WarrantyPeriod.ExtendedWarranty_AdditionalKms + "</td>");
+                                    $("#lblWarrantyNote").text("The term of the extended warranty period shall commence on the expiry of manufacturers warranty period which shall be from the date of delivery to the first owner.");
+                                }
+                                else
+                                    tr.append("<td colspan='2'>" + WarrantyPeriod.BatteryWarranty_MonthsPerKms + "</td>");
+                                jQuery('#tblWarrantyPeriodResult tbody').append(tr);
+                            });
+                            jQuery("#divWarrantyPeriodResult").removeClass('hidden');
+                        }
+                        else {
+                            jQuery("#divCommingSoon3").removeClass('hidden').siblings().addClass('hidden');
+                            jQuery("#divWarrantyPeriodResult").removeClass('hidden');
+                        }
+                    }
+                });
+                GABrowseByProductClickEvent('Browse By Product', productName, 'Warranty Period');
+            };
+        };
+
+        function getMaintenanceSchedule(obj) {
+            var segmentID = jQuery('#SegmentID' + obj).val();
+            var modelID = jQuery('#ModelID' + obj).val();
+            var productName = jQuery('#ModelID' + obj + ' option:selected').text();
+            if (segmentID > 0 && modelID > 0) {
+                jQuery.ajax({
+                    url: '/FAQ/getMaintenanceSchedule',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { SegmentID: segmentID, ModelID: modelID },
+                    success: function (maintenanceSchedule) {
+                        jQuery("#divCommingSoon4").addClass('hidden').siblings().removeClass('hidden');
+                        jQuery('#tblformMaintenanceScheduleFilters tbody').html("");
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + obj + ' option:selected').text() + "</td>");
+                        if (maintenanceSchedule != null) {
+                            if (maintenanceSchedule.MaintenanceScheduleFile != null && maintenanceSchedule.MaintenanceScheduleFile != "") {
+                                var pdfUrl = maintenanceSchedule.MaintenanceScheduleFile + '#view=fitH';
+
+                                jQuery("#pdfbox1").attr('data', pdfUrl);
+                                jQuery("#pdfbox1")[0].outerHTML = jQuery("#pdfbox1")[0].outerHTML.replace(/data="(.+?)"/, 'data="' + pdfUrl + '"');
+
+                                jQuery("#pdfbox1Embed").attr('src', pdfUrl);
+                                jQuery("#pdfbox1Embed")[0].outerHTML = jQuery("#pdfbox1Embed")[0].outerHTML.replace(/src="(.+?)"/, 'src="' + pdfUrl + '"');
+
+                            }
+                            else {
+                                jQuery("#divCommingSoon4").removeClass('hidden').siblings().addClass('hidden');
+                            }
+
+                            if (modelID == 4 || modelID == 5 || modelID == 16) {
+                                if (maintenanceSchedule.OwnersManualFile != null)
+                                    tr1.append("<td align='center'><a target='_blank' href='" + maintenanceSchedule.OwnersManualFileWithPath + "' class='OwnersManualEngEvent'><u>English</u></a></td>");
+                                else
+                                    tr1.append("<td align='center' colspan='2'>NA</td>");
+                            }
+                            else {
+                                if (maintenanceSchedule.OwnersManualFile != null)
+                                    tr1.append("<td align='center'><a href='" + maintenanceSchedule.OwnersManualFileWithPath + "' target='_blank' class='OwnersManualEngEvent'><u>English</u></a></td>");
+                                else
+                                    tr1.append("<td align='center'>NA</td>");
+
+                                if (maintenanceSchedule.OwnersManualFile_Hindi != null)
+                                    tr1.append("<td align='center'><a href='" + maintenanceSchedule.OwnersManualFile_HindiWithPath + "' target='_blank' class='OwnersManualHinEvent'><u>Hindi</u></a>&nbsp;&nbsp;&nbsp;</td>");
+                                else
+                                    tr1.append("<td align='center'>NA</td>");
+                            }
+                        } else {
+                            if (modelID == 4 || modelID == 5 || modelID == 16)
+                                tr1.append("<td align='center'colspan='2'>NA</td>");
+                            else {
+                                tr1.append("<td align='center'>NA</td>");
+                                tr1.append("<td align='center'>NA</td>");
+                            }
+                            jQuery("#divCommingSoon4").removeClass('hidden').siblings().addClass('hidden');
+                        }
+                        jQuery('#tblformMaintenanceScheduleFilters tbody').append(tr1);
+                        jQuery("#divformMaintenanceScheduleResult").removeClass('hidden');
+                    },
+                    error: function (error) {
+                        jQuery("#pdfbox1").attr('data', '');
+                        jQuery("#pdfbox1")[0].outerHTML = jQuery("#pdfbox1")[0].outerHTML.replace(/data="(.+?)"/, 'data="' + '' + '"');
+
+                        jQuery("#pdfbox1Embed").attr('src', '');
+                        jQuery("#pdfbox1Embed")[0].outerHTML = jQuery("#pdfbox1Embed")[0].outerHTML.replace(/src="(.+?)"/, 'src="' + '' + '"');
+
+                        jQuery('#tblformMaintenanceScheduleFilters tbody').html("");
+
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + obj + ' option:selected').text() + "</td>");
+                        if (modelID == 4 || modelID == 5 || modelID == 16)
+                            tr1.append("<td align='center' colspan='2'>NA</td>");
+                        else {
+                            tr1.append("<td align='center'>NA</td>");
+                            tr1.append("<td align='center'>NA</td>");
+                        }
+                        jQuery('#tblformMaintenanceScheduleFilters tbody').append(tr1);
+                        jQuery("#divCommingSoon4").removeClass('hidden').siblings().addClass('hidden');
+                        jQuery("#divformMaintenanceScheduleResult").removeClass('hidden');
+                    }
+
+                });
+                GABrowseByProductClickEvent('Browse By Product', productName, 'Maintenance Schedule');
+            };
+        };
+
+        function getJobCarriedOutFS(obj) {
+            var segmentID = jQuery('#SegmentID' + obj).val();
+            var modelID = jQuery('#ModelID' + obj).val();
+            var serviceNoID = jQuery('#ServiceNoID' + obj).val();
+            var productName = jQuery('#ModelID' + obj + ' option:selected').text();
+            if (segmentID > 0 && modelID > 0 && serviceNoID > 0) {
+                jQuery.ajax({
+                    url: '/FAQ/getJobCarriedOutFS',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { SegmentID: segmentID, ModelID: modelID, ServiceNoID: serviceNoID },
+                    success: function (JobCarriedOutFSs) {
+                        jQuery('#tblJobCarriedOutFSResult tbody').html("");
+                        jQuery('#tblJobCarriedOutFSFilters tbody').html("");
+                        var tr;
+                        jQuery.each(JobCarriedOutFSs, function (i, JobCarriedOutFS) {
+                            tr = jQuery('<tr/>');
+                            tr.append("<td>" + (i + 1) + "</td>");
+                            tr.append("<td>" + JobCarriedOutFS.JobCarriedOutDuringFreeService + "</td>");
+                            jQuery('#tblJobCarriedOutFSResult tbody').append(tr);
+                        });
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ServiceNoID' + obj + ' option:selected').text() + "</td>");
+                        jQuery('#tblJobCarriedOutFSFilters tbody').append(tr1);
+                        jQuery("#divJobCarriedOutFSResult").removeClass('hidden');
+                    }
+                });
+                GABrowseByProductClickEvent('Browse By Product', productName, 'Job carried out (Free Service)');
+            };
+        };
+
+        function getformPriceMasterLinks(obj) {
+            var segmentID = jQuery('#SegmentID' + obj).val();
+            var modelID = jQuery('#ModelID' + obj).val();
+            var productName = jQuery('#ModelID' + obj + ' option:selected').text();
+            if (segmentID > 0 && modelID > 0) {
+                jQuery.ajax({
+                    url: '/FAQ/getPriceMasterLink',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { SegmentID: segmentID, ModelID: modelID },
+                    success: function (priceMasterLink) {
+                        jQuery("#divCommingSoon6").addClass('hidden');
+                        jQuery('#tblPriceMasterFilters tbody').html("");
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + obj + ' option:selected').text() + "</td>");
+                        if (priceMasterLink.HyperlinkForPrice != null)
+                            tr1.append("<td><a href='" + priceMasterLink.HyperlinkForPrice + "' target='_blank'>Click here to know the price of " + jQuery('#ModelID' + +obj + ' option:selected').text() + ".</td>");
+                        else {
+                            tr1.append("<td>Na</td>");
+                            jQuery("#divCommingSoon6").removeClass('hidden');
+                        }
+                        jQuery('#tblPriceMasterFilters tbody').append(tr1);
+                        jQuery("#divPriceMasterResult").removeClass('hidden');
+                    },
+                    error: function (error) {
+                        jQuery('#tblPriceMasterFilters tbody').html("");
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>Na</td>");
+                        jQuery('#tblPriceMasterFilters tbody').append(tr1);
+                        jQuery("#divPriceMasterResult").removeClass('hidden');
+                        jQuery("#divCommingSoon6").removeClass('hidden');
+                    }
+                });
+                GABrowseByProductClickEvent('Browse By Product', productName, 'Price');
+            };
+        };
+
+        function getBookingAmount(obj) {
+            var segmentID = jQuery('#SegmentID' + obj).val();
+            var modelID = jQuery('#ModelID' + obj).val();
+            var productName = jQuery('#ModelID' + obj + ' option:selected').text();
+            if (segmentID > 0 && modelID > 0) {
+                jQuery.ajax({
+                    url: '/FAQ/getBookingAmount',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { SegmentID: segmentID, ModelID: modelID },
+                    success: function (bookingAmount) {
+                        jQuery("#divCommingSoon7").addClass('hidden');
+                        jQuery('#tblBookingAmountFilters tbody').html("");
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td> <i class='fa fa-rupee'></i> " + bookingAmount.BookingAmount + "</td>");
+                        jQuery('#tblBookingAmountFilters tbody').append(tr1);
+                        jQuery("#divBookingAmountResult").removeClass('hidden');
+                    },
+                    error: function (error) {
+                        jQuery('#tblBookingAmountFilters tbody').html("");
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td> Na</td>");
+                        jQuery('#tblBookingAmountFilters tbody').append(tr1);
+                        jQuery("#divBookingAmountResult").removeClass('hidden');
+                        jQuery("#divCommingSoon7").removeClass('hidden');
+                    }
+                });
+                GABrowseByProductClickEvent('Browse By Product', productName, 'Booking Amount');
+            };
+        };
+
+        function getStdFitmentAccessories(obj) {
+            var segmentID = jQuery('#SegmentID' + obj).val();
+            var modelID = jQuery('#ModelID' + obj).val();
+            var productName = jQuery('#ModelID' + obj + ' option:selected').text();
+            if (segmentID > 0 && modelID > 0) {
+                jQuery.ajax({
+                    url: '/FAQ/getStdFitmentAccessories',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { SegmentID: segmentID, ModelID: modelID },
+                    success: function (stdFitmentAccessories) {
+                        jQuery("#divCommingSoon8").addClass('hidden');
+                        jQuery('#tblStdFitmentAccessoriesFilters tbody').html("");
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + +obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + +obj + ' option:selected').text() + "</td>");
+                        if (stdFitmentAccessories.MicroSiteAccessoriesLink != null)
+                            tr1.append("<td><a href='" + stdFitmentAccessories.MicroSiteAccessoriesLink + "' target='_blank'>Click here to view the accessories of " + jQuery('#ModelID' + +obj + ' option:selected').text() + ".</td>");
+                        else {
+                            tr1.append("<td>Na</td>");
+                            jQuery("#divCommingSoon8").removeClass('hidden');
+                        }
+                        jQuery('#tblStdFitmentAccessoriesFilters tbody').append(tr1);
+                        jQuery("#divStdFitmentAccessoriesResult").removeClass('hidden');
+                    },
+                    error: function (error) {
+                        jQuery('#tblStdFitmentAccessoriesFilters tbody').html("");
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + +obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + +obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>Na</td>");
+                        jQuery('#tblStdFitmentAccessoriesFilters tbody').append(tr1);
+                        jQuery("#divStdFitmentAccessoriesResult").removeClass('hidden');
+                        jQuery("#divCommingSoon8").removeClass('hidden');
+                    }
+                });
+                GABrowseByProductClickEvent('Browse By Product', productName, 'Accessories');
+            };
+        };
+
+        function getProductFeatures(obj) {
+            var segmentID = jQuery('#SegmentID' + obj).val();
+            var modelID = jQuery('#ModelID' + obj).val();
+            var productName = jQuery('#ModelID' + obj + ' option:selected').text();
+            if (segmentID > 0 && modelID > 0) {
+                jQuery.ajax({
+                    url: '/FAQ/getProductFeatures',
+                    type: "GET",
+                    dataType: "JSON",
+                    data: { SegmentID: segmentID, ModelID: modelID },
+                    success: function (productFeaturesLink) {
+                        jQuery("#divCommingSoon9").addClass('hidden');
+                        jQuery('#tblProductFeaturesFilters tbody').html("");
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + obj + ' option:selected').text() + "</td>");
+                        if (productFeaturesLink.MicrositeProductFeaturesLink != null)
+                            tr1.append("<td><a href='" + productFeaturesLink.MicrositeProductFeaturesLink + "' target='_blank'>Click here to know the features of " + jQuery('#ModelID' + +obj + ' option:selected').text() + ".</td>");
+                        else {
+                            tr1.append("<td>Na</td>");
+                            jQuery("#divCommingSoon9").removeClass('hidden');
+                        }
+                        jQuery('#tblProductFeaturesFilters tbody').append(tr1);
+                        jQuery("#divProductFeaturesResult").removeClass('hidden');
+                    },
+                    error: function (error) {
+                        jQuery('#tblProductFeaturesFilters tbody').html("");
+                        var tr1;
+                        tr1 = jQuery('<tr/>');
+                        tr1.append("<td>" + jQuery('#SegmentID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>" + jQuery('#ModelID' + obj + ' option:selected').text() + "</td>");
+                        tr1.append("<td>Na</td>");
+                        jQuery('#tblProductFeaturesFilters tbody').append(tr1);
+                        jQuery("#divProductFeaturesResult").removeClass('hidden');
+                        jQuery("#divCommingSoon9").removeClass('hidden');
+                    }
+                });
+                GABrowseByProductClickEvent('Browse By Product', productName, 'Product Features');
+            };
+        };
+
+        function GABrowseByProductClickEvent(category, Action, Label) {
+            ga('send', {
+                'hitType': 'event',
+                'eventCategory': category,
+                'eventAction': Action,
+                'eventLabel': Label
+            });
+        };
+    </script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery(window).scroll(function () {
+                if (jQuery(this).scrollTop() > 200) {
+                    jQuery('.scrollup').fadeIn();
+                } else {
+                    jQuery('.scrollup').fadeOut();
+                }
+            });
+
+            jQuery('.scrollup').click(function () {
+                jQuery("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
+            });
+        });
+    </script>
+    
+    <!-- Google Code for Remarketing Tag -->
+
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 923672366;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/923672366/?guid=ON&amp;script=0" />
+        </div>
+    </noscript>
+</body>
+</html>

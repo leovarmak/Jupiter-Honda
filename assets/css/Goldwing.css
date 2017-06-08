@@ -1,0 +1,1320 @@
+.Goldwing{
+	background: url("../images/Goldwing/home-bg.jpg");
+	height: 100%;
+    min-height: 698px;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    background-size: 100%;
+}
+
+.macro-nav{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    padding: 3px 0;
+    width: 100%;     
+}
+
+.Goldwing_color_background{
+    padding-bottom: 0px;
+    background: url("../images/Goldwing/inner-bg.jpg");
+}   
+
+/*.main_colordiv{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    border-radius: 9px;
+    height: 495px;
+    padding: 0;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto 11px auto;
+    position:relative;
+}*/
+.colors .nav-tabs > li.active a span, .colors .nav-tabs > li:hover a span {
+    line-height: 19px !important;
+    height: 39px !important;
+}
+.micro-inquary{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+}
+
+.micro-inquary label{
+    color: #fff;
+}
+
+.form-control{
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 0.21);
+    color: #fff;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+    background: transparent;
+}
+
+.tranbackground{background:none;}
+
+.goldwing-logo{
+    display: block;
+    padding: 15px 0px;
+}
+
+.macro-nav{text-align:center; padding:10px 0px;}
+
+
+
+
+.magnify img {
+    width: 100%;
+    max-width: 470px;
+    margin: 0px auto;
+    display: block;}
+
+.breadcrumb>li>a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+
+
+.Goldwing-about{
+	background: url("../images/Goldwing/inner-bg.jpg");
+	position: relative;
+    float: left;
+    padding-bottom: 70px;
+}
+
+.micro-about-sec .txt-box {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin-top: 80px;
+
+}
+
+
+
+.micro-about-sec .txt-box p:last-child{
+	margin: 0px;
+}
+
+.body-color-grab1, .handle-bar-weights1, .stylish-meter-console1, .d31, .viscous-air-filter1, .superior-performance1, .gear-shift1, .mono-suspension1, .alloy-wheels1, .premium-front1{
+	position: relative;
+}
+
+.unicorn-feature{
+    overflow: hidden;
+	border: 1px solid transparent;
+	display: block;
+	max-width: 600px;
+	margin: 0px auto;
+	padding-bottom: 15px;
+	float: none;
+	background: #caac6c none repeat scroll 0 0;
+}
+
+.unicorn-feature-thumb ul{
+    margin-top:0px;
+	padding: 0px;
+	display: block;
+}
+
+.unicorn-feature-thumb ul li{
+    
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    border-radius: 2px;
+    color: #fff;
+    padding: 7px 5px 5px;
+    font-size:14px;
+    list-style: outside none none;
+    margin:15px 0px;
+    overflow: hidden;
+    text-align: center;
+    width: 190px;
+    line-height:20px;
+}
+
+
+
+
+.unicorn-feature-thumb ul li img{
+	max-width: 100%;
+}
+
+
+.unicorn-feature-thumb ul li.feature-active{
+    background:#CC0001;
+    transition:.5s;
+}
+
+.inner {
+    margin-bottom: 50px;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 590px;
+    width: 100%;
+}
+
+.inner h3{
+    color: #fff;
+}
+
+
+.inner > img{
+        border-radius: 10px;
+    box-shadow: 0 0 10px #fff;
+    float: none;
+    height: 150px;
+    margin: 0 0 20px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.scrolling{
+    line-height: 22px;
+    text-align:left;
+    font-weight: 300;
+    color: #fff;
+    height: 110px;
+    overflow:auto;
+    padding: 0 20px 0 0;
+    
+}
+.feature-note{
+	text-align: center;
+	font-size: 14px;
+	color: #000;
+	margin-top: 50px;
+}
+
+
+.features {
+    background: rgba(0, 0, 0, 0.60);
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+.specifications-note{
+	font-size: 14px;
+	color: #000;
+	margin-top: 20px;
+}
+
+
+.angle-view-sec{
+	background: #cbaa67;
+	max-width: 700px;
+	display: block;
+	margin: 0px auto;
+}
+
+
+
+
+
+
+
+
+.for-image img{
+	max-width: 100%;
+}
+
+.Goldwing-feature-hoverr{
+	padding: 15px 15px;
+}
+
+
+
+.Goldwing-feature-hover h3{
+    color: #fff;
+    margin: 0px 0px 15px 0px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.Goldwing-feature-hover p{
+    color: #fff;
+    margin: 0 0 5px;
+    font-size: 13px;
+    /*line-height: 22px;*/
+}
+
+.accessories-tab {
+    padding: 0px 15px;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.micro-about-sec .txt-box p{
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.accessories-tab ul.nav li.active, .accessories-tab ul.nav li a:focus, .accessories-tab ul.nav li a:hover {
+    background: #cc0001;
+    border-radius: 5px;
+}
+
+.accessories-tab ul.nav li {
+    display: inline-block;
+    width: 32%;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.specifications-box{
+   background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 0px;
+    border-color: transparent;
+}
+
+.specifications-hover h2 {
+    background: none repeat scroll 0 0 #cc0001;
+    color: #fff;
+    display: block !important;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px 14px 6px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+
+.specifications-hover ul.tab_content {
+    padding: 0px;
+}
+
+.specifications-hover ul.tab_content li {
+    
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    width: 100%;
+    float: left;
+    display: table;
+}
+
+.specifications-hover ul.tab_content li:nth-child(even){
+	background: transparent;
+}
+
+.specifications-hover ul.tab_content li:nth-child(odd){
+	    background:transparent;
+}
+
+.specifications-hover ul.tab_content li:nth-child(1){
+	background: transparent;
+	text-align: left;
+	font-size: 13px;
+    border-top: 0px;
+}
+
+.specifications-hover ul.tab_content li span {
+    color: #fff;
+    display: table-cell;
+    padding: 8px 15px;
+    vertical-align: top;
+    width: 77%;
+}
+
+.specifications-hover ul.tab_content li span:first-child{
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    padding-left: 15px;
+    width: 20%;
+    font-weight: bold;
+}
+
+.specifications-box ul.specifications{
+    padding: 0px;
+    border-color: transparent;
+}
+
+.specifications-box ul.specifications li{
+    float: left;
+    width: 180px;
+    padding: 10px 0;
+    
+}
+
+.specifications-box ul.specifications li a{
+    background: #000000;
+    border: medium none !important;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px 10px 10px 10px;
+    display: block;
+    padding: 8px 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.accessories-tab .accessories-box {  
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    display: block;
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom:25px;
+}
+
+/*.micro-footer {
+    position: absolute;
+    bottom: 0; 
+    text-align: right;
+    width: 100%; 
+}*/
+
+.accessories-box .accessories-txt ul li {
+    color: #fff;
+    font-size: 15px;
+    line-height: 18PX;
+    padding-bottom: 10px;
+    float:none;
+    position: relative;
+}
+.colors .nav-tabs>li>a img{
+    height: auto;
+    width: 100%;
+}
+
+.gallery{
+    border-radius: 10px;
+    margin: 0px auto;
+    max-width: 800px;
+    padding: 0px 15px;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+}
+
+.gallery .item img{
+    margin: 25px auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+.gallery .controls .nav>li img{
+    background: rgba(255,255,255,0.2);
+    border-color: transparent;
+}
+
+.gallery .controls .nav>li.active img{
+    background: rgba(255,255,255,0.2);
+    border-color: transparent;
+}
+
+.gallery .carousel-control.right{
+    height: 50px;
+    right: 50px;
+}
+
+.gallery .carousel-control.left{
+    height: 50px;
+    left: 50px;
+}
+
+.gallery .controls{
+    width: 100%;
+    right: 0px;
+    margin: 0px auto;
+    position: relative;
+    max-width: 560px;
+}
+
+.gallery .controls .nav>li{
+    float: left;
+    margin-right: 2px;
+    width: 16%;
+}
+
+.specifications-hover{
+    position: relative;
+    overflow: hidden;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    max-width: 820px;
+    margin: 0px auto;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.specifications-active{
+    z-index: 99999;
+    position: relative;
+}
+
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    background-position: top;
+}
+
+.text1{
+        text-align:left;
+    font-weight:300;
+    }
+
+
+
+.specifications-box ul li a.specifications-active{
+    background: #cc0001;
+}
+
+.specificationsLiO{
+    background:none;
+}
+
+/*.colors .nav-tabs>li{
+    width: 120px;
+}*/
+/*.colors .nav-tabs>li span{
+    background:transparent;
+    border: 1px solid transparent;
+    line-height: 21px;
+    padding-right: 15px;
+    right: 0;
+    text-align: right;
+    top: -39px;
+    width: 115px;
+}*/
+
+/*.colors .color-thumb {
+    position: absolute;
+    right: 0px;
+    bottom: -100px;
+    width: 295px;
+    z-index: 9999;
+}*/
+
+.accordion-section-title.active::before, .accordion-section-title::after{
+    color: #fff;
+}    
+
+.micro-about-sec .micro-title h6{
+    color: #fff;
+    margin-top: 15px;
+}
+
+.form-left-box {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.60) !important;
+}
+
+.form-left-box p{
+    text-align: left !important; 
+}
+
+.goldwing-mob-logo{
+    background: url("../images/Goldwing/logo3.png") no-repeat;
+    background-position: 0px 8px;
+    background-size: 112px;
+}
+
+.ShineSP-about .macro-nav {
+    background: transparent;
+}
+
+.ShineSP-about .macro-nav {
+    background: none repeat scroll 0 0 rgba(224, 224, 224, 0.8);
+}
+
+.ShineSP-about .macro-nav ul li a:hover{
+    color: #cc0001;
+}
+
+.micro-about-sec .txt-box {
+    margin-top: 0px;
+    padding: 10px;
+
+}
+/*
+.micro-about-sec .txt-box p{
+    text-align: left;
+    font-weight: 400;
+    line-height: 20px;
+
+}   
+*/ 
+.macro-nav ul li{
+    margin: 0px 6px;
+}
+
+.macro-nav ul li a{
+    color: #fff;
+    /*border-bottom: 1px solid #fff;
+    border-top: 1px solid transparent;*/
+    font-size: 15px;
+    padding: 5px 0px 0px 0px;
+    display: inline-block;
+    margin: 0px 5px;
+    font-weight: 300;
+    transition: all 0.2s ease 0s; 
+    text-transform: uppercase;
+}
+
+/*.macro-nav ul li a:hover{
+    color: #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid transparent;
+    transition: 1s;
+}*/
+
+.micro-footer ul li a {
+    color: #000;
+}
+
+.macro-nav ul li::after{
+    content: "";
+}
+
+.macro-nav ul li a::after {
+    content: "";
+    width: 100%;
+    margin-top: 5px;
+    float: left;
+    background: #fff;
+    height: 1px;
+    left: 0px;
+    position: relative;
+    transition: all 0.2s ease 0s; 
+}
+
+/*.macro-nav ul li a::before {
+    content: "";
+    width: 100%;
+    top: 0px;
+    background: #fff;
+    height: 1px;
+    left: 0px;
+    position: absolute;
+    display: none;
+}*/
+
+.macro-nav ul li a:hover::after{
+    margin-top: -20px;
+    transition: all 0.2s ease 0s; 
+}
+
+.macro-nav ul li a:hover{
+    color: #fff;
+}
+
+
+.ShineSP-feature-hover{
+    height: 377px;
+    overflow: hidden;
+}
+
+
+.for-mobile-div{
+    display: none;
+}
+
+
+.for-desktop-div{
+    display: block;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px){
+.Goldwing{
+    background: none;
+    min-height: 100%;
+}
+
+.goldwing-logo{
+    display: none;
+}
+
+.macro-nav ul li:nth-child(7){
+    display: none;
+}
+
+.macro-nav{
+    padding: 4px 0px;
+    background: #fff;
+    display: block;
+}
+
+.micro-footer{
+    background: #211d1c;
+    padding: 4px 0px;
+    left: 0;
+    position: relative;
+}
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    display: none;
+}
+
+.macro-nav ul li a {
+    color: #000;
+    margin: 0px;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+.macro-nav ul li:after{
+    color: #000;
+}
+
+.micro-footer ul {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.micro-footer ul li a {
+    padding: 8px 8px;
+    text-align: center;
+    color: white;
+}
+
+.micro-about-sec .txt-box{
+    margin: 0px 0px 20px 0px;
+}
+
+.micro-about-sec .micro-title h6{
+    color: #fff;
+}
+
+
+.Goldwing-about .macro-nav ul li a {
+    color: #fff;
+}
+
+
+.Goldwing-about .macro-nav ul li::after {
+    color: #000;
+}
+
+.Goldwing-about{
+    padding-bottom: 0px;
+}
+
+.txt-box h2 {
+    text-align: left;
+    font-size: 26px;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab1, .handle-bar-weights1, .stylish-meter-console1, .d31, .viscous-air-filter1, .superior-performance1, .gear-shift1, .mono-suspension1, .alloy-wheels1, .premium-front1{
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid transparent;
+}
+
+.unicorn-feature-hover h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.livo-feature-txt{
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.unicorn-feature-hover {
+    float: none;
+}
+
+.unicorn-feature-hover img{
+    margin: 0px auto;
+    max-width: 230px;
+    float: none;
+    display: block;
+}
+.for-image{
+    display: none;
+}
+
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    position: relative;
+    height: auto;
+}
+
+.specifications-box{
+    display: none;
+}
+
+.gallery .controls{
+    width: 100%;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.cxx{
+    display: none;
+}
+
+
+.rotatebox .images {
+    min-height: 200px;
+    position: relative;
+}
+
+
+.rotatebox .images img{
+    max-width: 100%;
+    max-height: 210px;
+}
+.livo-feature-txt {
+    margin-top: 0;
+}
+
+.fff{
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.control-box {
+    display: none;
+}
+
+.aviator-bg .content{
+    display: block !important;
+    height: auto;
+    margin-bottom: 10px;
+}
+.aviator-bg .specifications-box h4{
+    display: none;
+}
+.aviator-bg .specifications-box ul h4{
+    display: block;
+}
+.micro-padding-bottom{
+    padding-bottom: 0px;
+}
+
+.accessories-popup-box h3 {
+    font-size: 18px;
+}
+
+.specifications-hover ul.tab_content li span {
+    color: #fff;
+    display: block;
+    padding: 8px 15px;
+    vertical-align: top;
+    width: 100%;
+    text-align: center;
+}
+
+.specifications-hover ul.tab_content li span:first-child{
+    border-right: 1px solid transparent;
+    padding-left: 15px;
+    width: 100%;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.colors .color-thumb{
+    width: 195px;
+}
+.main_colordiv{
+    height: auto;
+    padding-bottom: 120px;
+    display: inline-block;
+}
+.macro-nav ul li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 9px;
+}
+
+.macro-nav ul li::after {
+    content: "";
+}
+
+.macro-nav{
+    padding: 0px 0px;
+    background: none repeat scroll 0 0 rgb(191, 191, 191);
+    display: block;
+}
+
+.micro-footer .accordion-section-title {
+    color: #fff;
+ }
+
+.micro-footer{
+    position: relative;
+    background: #211d1c;
+    padding: 0px 0px;
+    left: 0;
+} 
+
+.micro-footer ul li a span{
+    color: #fff;
+    text-align: left;
+}
+
+.ShineSP-about .macro-nav {
+    background: #faf4ef;
+}  
+
+.colors .nav-tabs > li{
+    margin-bottom: 30px;
+}
+
+.colors .nav-tabs > li.active a span, .colors .nav-tabs > li:hover a span {
+    line-height: 14px !important;
+    height: 58px !important;
+    top: 49px;
+}
+
+.ShineSP-feature-hover{
+    height: 100%;
+    overflow: inherit;
+}
+
+.macro-nav ul li a::after{
+    display: none;
+}
+
+.for-mobile-div{
+    display: block;
+}
+
+
+.for-desktop-div{
+    display: none;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+.Goldwing{
+    background: none;
+    min-height: 100%;
+}
+
+.goldwing-logo{
+    display: none;
+}
+
+.macro-nav ul li:nth-child(7){
+    display: none;
+}
+
+.macro-nav{
+    padding: 4px 0px;
+    background: #fff;
+}
+
+.micro-footer{
+    background: #211d1c;
+    padding: 4px 0px;
+    position: relative;
+}
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    display: none;
+}
+
+.macro-nav ul li a {
+    color: #000;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+.macro-nav ul li:after{
+    color: #000;
+}
+
+.micro-footer ul {
+    margin-bottom: 0px;
+}
+
+.micro-footer ul li a {
+    padding: 8px 8px;
+    text-align: center;
+    color: white;
+}
+
+.macro-nav ul li:after{
+    color: #000;
+}
+
+.micro-about-sec .txt-box{
+    margin: 0px 0px 20px 0px;
+}
+
+.Goldwingabout .macro-nav ul li a {
+    color: #000;
+}
+
+
+.Goldwing-about .macro-nav ul li::after {
+    color: #000;
+}
+
+.Goldwing-about{
+    padding-bottom: 0px;
+}
+
+.micro-about-sec .micro-title h6{
+    color: #fff;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab1, .handle-bar-weights1, .stylish-meter-console1, .d31, .viscous-air-filter1, .superior-performance1, .gear-shift1, .mono-suspension1, .alloy-wheels1, .premium-front1{
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid transparent;
+}
+
+.unicorn-feature-hover h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.unicorn-feature-hover {
+    float: none;
+}
+
+.livo-feature-txt {
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.unicorn-feature-hover img{
+    margin: 0px auto;
+    max-width: 230px;
+    float: none;
+    display: block;
+}
+.for-image{
+    display: none;
+}
+
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    position: relative;
+    height: auto;
+}
+
+.specifications-box{
+    display: none;
+}
+
+.gallery .controls{
+    width: 100%;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.cxx{
+    display: none;
+}
+
+
+.rotatebox .images {
+    height: 320px;
+    position: relative;
+}
+
+.rotatebox .images img{
+    max-width: 100%;
+}
+.livo-feature-txt {
+    margin-top: 0;
+}
+
+.fff{
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.carousel-inner>.item{
+    display: block;
+}
+
+.control-box {
+    display: none;
+}
+
+.aviator-bg .content{
+    display: block !important;
+    height: auto;
+    margin-bottom: 10px;
+}
+.aviator-bg .specifications-box h4{
+    display: none;
+}
+.aviator-bg .specifications-box ul h4{
+    display: block;
+}
+
+.micro-padding-bottom{
+    padding-bottom: 0px;
+}
+
+.specifications-hover ul.tab_content li span {
+    color: #fff;
+    display: table-cell;
+    padding: 8px 15px;
+    vertical-align: top;
+    width: 60%;
+    text-align: center;
+}
+
+.specifications-hover ul.tab_content li span:first-child{
+    border-right: 1px solid inherit;
+    padding-left: 15px;
+    width: 40%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.macro-nav ul li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 9px;
+}
+
+.macro-nav ul li::after {
+    content: "";
+}
+
+.macro-nav{
+    padding: 0px 0px;
+    background: none repeat scroll 0 0 rgb(191, 191, 191);
+    display: block;
+}
+
+.micro-footer .accordion-section-title {
+    color: #fff;
+ }
+
+.micro-footer{
+    position: relative;
+    background: #211d1c;
+    padding: 0px 0px;
+    left: 0;
+} 
+
+.micro-footer ul li a span{
+    color: #fff;
+    text-align: left;
+}
+
+.ShineSP-about .macro-nav {
+    background: #faf4ef;
+}
+.colors .nav-tabs > li span{
+    top: 58px;
+}
+
+.colors .nav-tabs > li.active a span, .colors .nav-tabs > li:hover a span {
+    line-height: 14px !important;
+    height: 58px !important;
+    top: 49px;
+}
+
+.ShineSP-feature-hover{
+    height: 100%;
+    overflow: inherit;
+}
+
+.macro-nav ul li a::after{
+    display: none;
+}
+
+.for-mobile-div{
+    display: block;
+}
+
+
+.for-desktop-div{
+    display: none;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+.macro-nav ul li a {
+    padding: 0 3px;
+}
+
+.macro-nav ul li a img{
+    max-width: 230px;
+    margin-top: 7px;
+}
+
+.Goldwing{
+    min-height: 450px;
+    background-size: 100% 100%;
+}
+
+.Goldwing-about{
+    padding-bottom: 70px;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab1, .handle-bar-weights1, .stylish-meter-console1, .d31, .viscous-air-filter1, .superior-performance1, .gear-shift1, .mono-suspension1, .alloy-wheels1, .premium-front1{
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid transparent;
+}
+
+.unicorn-feature-hover h3{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.livo-feature-txt {
+    background: #000;
+    padding: 3px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: .8;
+    text-align: center;
+    display: flex;
+    width: inherit;
+}
+
+.unicorn-feature-hover img{
+    margin: 0px 23px 6px 0px;
+    max-width: 230px;
+    float: left;
+}
+
+.for-image{
+    display: none;
+}
+
+.specifications-box{
+    display: none;
+}
+
+.specifications-hover{
+    margin-bottom: 40px;
+}
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    position: relative;
+    height: auto;
+}
+
+.specifications-box ul.specifications li a{
+    font-size: 12px;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: inline-block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.accessories-popup-box img {
+    max-width: 260px;
+    margin: 0px 30px 0px 0px;
+    float: left;
+}
+
+.cxx{
+    display: none;
+}
+
+
+.aviator-bg .content{
+    display: block !important;
+    height: auto;
+    margin-bottom: 10px;
+}
+.aviator-bg .specifications-box h4{
+    display: none;
+}
+.aviator-bg .specifications-box ul h4{
+    display: block;
+}
+
+.ShineSP-feature-hover{
+    height: 100%;
+    overflow: inherit;
+}
+
+}

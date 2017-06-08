@@ -1,0 +1,1514 @@
+.dio{
+    background: url("../images/dio/home-bg.jpg");
+    height: 100%;
+    min-height: 695px;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    background-size: 100%;
+}
+
+.macro-nav{
+    background: #b5b0ac none repeat scroll 0 0;
+   
+    padding-bottom: 10px;
+}
+
+
+
+.tranbackground{background:none;}
+
+.macro-nav ul li a{
+    color: #000;
+    font-size: 15px;
+    padding: 0px 13px;
+    display: inline-block;
+}
+
+.micro-footer ul li a {
+    color: #000;
+}
+
+
+.breadcrumb>li>a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.macro-nav ul li:nth-child(7) a img{
+    /*margin-top: 10px;*/
+}
+.macro-nav ul li::after {
+    
+    content: "|";
+}
+.timetolive{
+    position: absolute;
+    left: 40px;
+    bottom: 220px;
+}
+
+
+.dio-about{
+    background: url("../images/dio/all-bg.jpg");
+    position: relative;
+    float: left;
+    padding-bottom: 70px;
+    background-size: cover;
+}
+
+.dio-about .macro-nav ul li a{
+    color: #000;
+}
+
+.dio-about .macro-nav ul li a:hover, .dio-about .macro-nav ul li a:hover {
+    color: #cc0001;
+}
+
+.dio-about .macro-nav ul li::after{
+    color: #000;
+}
+
+.dio-about .accordion-section-title::after, .dio-about .accordion-section-title::before{
+    color: #fff;
+}
+
+.micro-about-sec .txt-box {
+    border-radius: 10px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    padding: 30px;
+    background: none repeat scroll 0 0 rgba(224, 224, 224, 0.8);
+}
+
+.form-left-box{
+    margin-top: 0px !important;
+    background: transparent !important;
+}
+
+.form-left-box p{
+    color: #000 !important;
+    text-align: left !important;
+    background: #fff;
+    padding: 2px 10px;
+}
+
+.micro-about-sec .txt-box p{
+    color: #000;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+.micro-about-sec .txt-box p:last-child{
+    margin: 0px;
+}
+
+.body-color-grab, .handle-bar-weights, .stylish-meter-console, .d3, .viscous-air-filter, .superior-performance, .Racing-Muffler, .PGM-FI, .Comfortable-Siting, .Liquid-Cooled, .C-ABS{
+    position: relative;
+}
+
+.unicorn-feature{
+    overflow: hidden;
+    border: 1px solid transparent;
+    display: block;
+    max-width: 600px;
+    margin: 0px auto;
+    padding-bottom: 15px;
+    float: none;
+    background: #caac6c none repeat scroll 0 0;
+}
+
+.unicorn-feature-thumb ul{
+    margin-top:0px;
+    padding: 0px;
+    display: block;
+}
+
+.unicorn-feature-thumb ul li{
+    background:none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+    color: #000;
+    padding: 3px;
+    font-size: 14px;
+    font-weight: 300;
+    list-style: outside none none;
+    margin: 0px 10px 10px 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.tabcontentWrap{
+    background: #454545 none repeat scroll 0 0;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.livo-feature-txt{
+    max-width: 350px;
+    float: left;
+}
+
+.livo-feature-txt h3  {
+    text-align: center;
+    margin: 0 0 12px;
+    padding: 3px 0px;
+    color: #cc0001;
+    border-bottom: 1px solid #cc0001;
+    border-top: 1px solid #cc0001;
+    width: 100%;
+}
+
+.livo-feature-txt p{
+    color: #000;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.unicorn-feature-thumb ul li img{
+    max-width: 100%;
+}
+
+
+.unicorn-feature-thumb ul li.feature-active{
+    background:red;
+    color: #fff;
+    transition:.5s;
+}
+
+.inner{
+    height: auto;
+    margin-top: 0px;
+    background: transparent;
+    padding: 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.inner h3{
+    margin-top: 20px;
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+}
+
+.inner p{
+    text-align: left;
+    color: #fff;
+}
+
+.image-bg{
+    padding: 0px 15px;
+    background: transparent;
+}
+
+.inner img{
+    border-radius: 20px;
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 10px #000;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+}
+
+.unicorn-feature-hover{
+    padding: 0px;
+    display: flex;
+    margin-bottom: 15px;
+    position: relative;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    border: solid 2px rgba(255,255,255,0.6);
+    border-radius: 15px;
+}
+
+.unicorn-feature-hover img{
+    float: left;
+    padding: 0px;
+    border: 2px solid #000;
+    margin: 10px 10px;
+    max-width: 190px;
+}
+
+.feature-note{
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    margin-top: 50px;
+}
+
+
+.features {
+    background: rgba(0, 0, 0, 0.60);
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+.specifications-note{
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px;
+}
+
+
+.angle-view-sec{
+    background: transparent;
+    max-width: 700px;
+    display: block;
+    margin: 0px auto;
+}
+
+
+
+
+.micro-about-sec .right-box img{
+    margin-top: 0px;
+}
+
+
+
+
+.for-image img{
+    max-width: 100%;
+}
+
+.dio-feature-hoverr{
+    padding: 15px 15px;
+}
+
+
+
+.dio-feature-hover h3{
+    color: #fff;
+    margin: 15px 0px 15px 0px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.dio-feature-hover p{
+    color: #fff;
+    margin: 0 0 5px;
+    font-size: 13px;
+    /*line-height: 22px;*/
+}
+
+
+.specifications-box{
+    background: transparent;
+    display: inline-block;
+    padding: 0px;
+    margin-left: -15px;
+    border-color: transparent;
+}
+
+.specifications-hover h2 {
+    background: none repeat scroll 0 0 #cc0001;
+    color: #fff;
+    display: block !important;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px 14px 6px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+.specifications-hover ul.tab_content {
+    padding: 0px;
+}
+
+.specifications-hover ul.tab_content li {
+    
+    border-top: 1px solid #ddd;
+    width: 100%;
+    float: left;
+    display: table;
+}
+
+.specifications-hover ul.tab_content li:nth-child(even){
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 1);
+}
+
+.specifications-hover ul.tab_content li:nth-child(odd){
+    background: none repeat scroll 0 0 rgba(111, 118, 126, 1);
+}
+
+.specifications-hover ul.tab_content li:nth-child(1){
+    background: none repeat scroll 0 0 rgb(204, 0, 1);
+    text-align: center;
+    font-size: 16px;
+}
+
+.specifications-hover ul.tab_content li span {
+    color: #fff;
+    display: table-cell;
+    padding: 8px 1%;
+    vertical-align: top;
+    width: 47%;
+}
+
+.specifications-hover ul.tab_content li span:first-child{
+    border-right: 1px solid #f2f2f2;
+}
+
+.specifications-box ul.specifications{
+    padding: 0px;
+    border-color: transparent;
+}
+
+.specifications-box ul.specifications li{
+    float: left;
+    width: 180px;
+    background: transparent;
+}
+
+.specifications-box ul.specifications li a{
+    background: #353f48;
+    border-radius: 4px;
+    border: medium none !important;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px 0px 10px 0px;
+    display: block;
+    padding: 8px 10px;
+    color: #fff;
+    text-align: left;
+}
+
+
+.colors .nav-tabs>li>a img{
+    height: 65px;
+    width: 89px;
+}
+
+.gallery .controls .nav>li img{
+    background: rgba(255,255,255,0.90);
+    border-color: transparent;
+}
+
+.gallery .controls{
+    width: 105px;
+    top: 0px;
+}
+
+.specifications-hover{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    max-width: 700px;
+}
+
+
+.colors .nav-tabs>li span {
+    line-height: 31px;
+    height: 65px;
+    right: 88px;
+}
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    height: 330px;
+    margin-top: 0px;
+    max-width:390px;
+}
+
+.specifications-sec{
+    padding: 0px;
+}
+
+.specifications-active{
+    z-index: 99999;
+    position: relative;
+}
+
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    background-position: top;
+}
+
+.text1{
+        text-align:left;
+    font-weight:300;
+    }
+
+
+
+.specifications-box ul li a.specifications-active{
+    background: #f93b40;
+    width: 180px;
+}
+
+.specificationsLiO{
+    background:none;
+}
+
+.micro-inquary{
+    background: none repeat scroll 0 0 rgb(230, 230, 230);
+}
+
+.accessories-popup-sec{
+    position: relative;
+    margin: 50px 0px;
+}
+
+.accessories-popup{
+    position: absolute;
+    top: 6px;
+    width: 100%;
+}
+
+.accessories-popup-left{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.accessories-popup-right{
+    float: left;
+    width: 50%;
+    position: relative;
+    text-align: right;
+}
+
+ul.tabbing-links{
+    list-style: none;
+}
+
+ul.tabbing-links li{
+    display: block;
+}
+
+ul.tabbing-links li a{
+    display: inline-block;
+    background: #c9c9c9;
+    color: #000;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px 10px;
+    font-weight: 500;
+    position: absolute;
+}
+
+ul.tabbing-links li a.lights{
+    right: 94px;
+    top: 58px;
+}
+
+ul.tabbing-links li a.kit-num {
+    top: 129px;
+    right: 94px;
+}
+
+ul.tabbing-links li a.lock-kit{
+    top: 187px;
+    right: 44px;
+}
+
+ul.tabbing-links li a.front-guard{
+    top: 239px;
+    right: 97px;
+}
+
+ul.tabbing-links li a.body-cover{
+    top: 283px;
+    right: 99px;
+}
+
+ul.tabbing-links li a.gripCover{
+    top: 338px;
+    right: 99px;
+}
+
+a.power-engine{
+    left: 77px;
+    top: 36px;
+}
+
+a.seat-cover{
+    left: 73px;
+    top: 98px;
+}
+
+a.disc-brake{
+    left: 76px;
+    top: 156px;
+}
+
+a.wheelbase {
+    left: 77px;
+    top: 220px;
+}
+
+a.suspension{
+    left: 76px;
+    top: 329px;
+}
+
+ul.tabbing-links li a:hover{
+    background: #000;
+    color: #fff;
+}
+
+.accessories-tab {
+    padding: 0px 15px;
+    margin: 0px auto;
+    max-width: 870px;
+}
+
+
+.accessories-tab ul.nav li {
+    float: left;
+    width: 25%;
+}
+
+.accessories-popup-box{
+    border-radius: 0px;
+    background: rgba(0,0,0,0.80);
+    width:500px;
+    position:absolute;
+    top:0; 
+    left:calc(50% - 200px);
+    padding: 15px 20px;
+}
+
+.accessories-popup-box img{
+    max-width: 260px;
+    margin: 15px auto;
+    display: block;
+}
+
+.accessories-popup-box h3{
+    color: #fff;
+}
+
+.accessories-popup-box ul{
+    padding-left: 18px;
+    text-align: left;
+}
+
+.accessories-popup-box ul li{
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.cxx{
+    font-size: 20px;
+    float: right;
+    color: #fff;
+    background: transparent;
+    width: 24px;
+    height: 23px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.accordion, .accordion * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.accordion {
+    overflow: hidden;
+    display: block;
+}
+
+.macro-nav{
+    padding: 0px;
+    background: none repeat scroll 0 0 rgba(224, 224, 224, 0.8);
+}
+
+
+.dio-about .macro-nav{
+    padding: 0px;
+    background: none repeat scroll 0 0 rgba(224, 224, 224, 0.8);
+}
+
+.accordion-section-title {
+    width: 100%;
+    padding: 0px 15px;
+    display: none;
+    text-align: left;
+    transition: all linear 0.15s;
+    line-height: 42px;
+    position:relative;
+}
+
+.micro-footer .accordion-section-title{
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.accordion-section-title.active, .accordion-section-title:hover, .accordion-section-title:active, .accordion-section-title:focus {
+    text-decoration: none;
+}
+
+.accordion-section-content {
+    padding: 0px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+    .accordion-section-title::after {
+    content: "+";
+    float: right;
+    display: block;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+     .accordion-section-title::before {
+   content: "-";
+    float:right;
+    display:none;
+        color: #fff;
+    font-size: 66px;
+    font-weight: 300;
+    }
+
+.accordion-section-title.active::before {
+    display:block;
+}
+
+.accordion-section-title.active::after {
+    display:none;
+}
+
+.accordion-section-title .micronav-minus, .accordion-section-title .micronav-plus {
+    float: right;
+    font-size: 35px;
+    position: relative;
+}
+
+    .micro-footer ul li a{
+    text-align:left !important;
+    }
+
+.macro-nav ul li::after {
+color:#000;
+}
+
+.dio-mob-logo {
+    background: url("../images/dio/dio-logo-home1.png") no-repeat;
+    background-position: 10px -3px;
+    background-size: 76px;
+}
+
+.new-360{
+    width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+}
+
+.new-360 img{
+    max-width: 100%;
+}
+
+#producttt img{
+    max-width: 100%;
+}
+
+.for-image{
+    margin-top: 0px;
+}
+
+.feature-sec{
+    max-width: 1000px;
+    margin: 0px auto;
+    display: block;
+}
+
+.gif-image{
+    position: absolute;
+    right: 40px;
+    top: 80px;
+    width: 100%;
+    text-align: right;
+}
+
+.gif-image img{
+    max-width: 100%;
+}
+
+
+.magnify img {
+    max-width: 500px;
+    margin: 0px auto;
+    display: block;
+}
+
+.colors .tab-pane{
+    max-width: 500px;
+}
+
+.micro-footer-img{
+    height: 21px;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px){
+.features{
+    padding: 0px 5px;
+}
+.dio{
+    background: none;
+    min-height: 100%;
+}
+
+.macro-nav ul li:nth-child(7){
+    display: none;
+}
+
+.macro-nav{
+    padding: 0px 0px;
+    display: block;
+     background: #000;
+}
+
+.micro-footer{
+    position: relative;
+    background: #211d1c;
+    padding: 0px 0px;
+    left: 0;
+}
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    display: none;
+}
+
+.macro-nav ul li a {
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+.macro-nav ul li:after{
+    color: #000;
+}
+
+.micro-footer ul {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.micro-footer ul li a span{
+    padding: 0px 10px;
+    text-align: left;
+    color: #fff;
+}
+
+.micro-about-sec .txt-box{
+    border-radius: 0px;
+    padding: 15px 15px;
+    margin: 0px 0px 20px 0px;
+}
+
+
+.dio-about .macro-nav ul li a {
+    color: #fff;
+}
+
+
+.dio-about .macro-nav ul li::after {
+    color: #000;
+}
+
+.dio-about{
+    padding-bottom: 0px;
+}
+
+.txt-box h2 {
+    text-align: left;
+    font-size: 26px;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab, .handle-bar-weights, .stylish-meter-console, .d3, .viscous-air-filter, .superior-performance, .gear-shift, .mono-suspension, .alloy-wheels, .premium-front {
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 32px;
+    padding-bottom: 6px;
+}
+
+.inner {
+    padding: 0px 12px;
+}
+
+.inner p{
+    text-align: center;
+}
+
+.unicorn-feature-hover h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.livo-feature-txt{
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.unicorn-feature-hover {
+    float: none;
+    display: inline-block;
+}
+
+.unicorn-feature-hover img{
+    margin: 0px auto;
+    max-width: 192px;
+    float: none;
+    display: block;
+}
+.for-image{
+    display: none;
+}
+
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    position: relative;
+    height: auto;
+}
+
+.specifications-box{
+    display: none;
+}
+
+.gallery .controls{
+    width: 100%;
+    display: none;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.cxx{
+    display: none;
+}
+
+
+.rotatebox .images {
+    min-height: 200px;
+    position: relative;
+}
+
+
+.rotatebox .images img{
+    max-width: 100%;
+    max-height: 210px;
+}
+.livo-feature-txt {
+    margin-top: 0;
+    max-width: 100%;
+}
+
+.fff{
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.control-box {
+    display: none;
+}
+
+.aviator-bg .content{
+    display: block !important;
+    height: auto;
+    margin-bottom: 10px;
+}
+.aviator-bg .specifications-box h4{
+    display: none;
+}
+.aviator-bg .specifications-box ul h4{
+    display: block;
+}
+.micro-padding-bottom{
+    padding-bottom: 0px;
+}
+
+.accessories-popup-box h3 {
+    font-size: 18px;
+}
+
+ .accordion-section-title {
+        display: inline-block;
+    }
+
+    .accordion-section-content {
+        display: none;
+        background:  #dedede;
+    }
+
+    .macro-nav ul li {
+        display: block;
+        position: relative;
+        text-align: left;
+    }
+
+        .macro-nav ul li a {
+            font-size: 14px;
+            padding: 10px 15px;
+        }
+
+    .micro-sec .macro-nav ul li::after {
+        content: "";
+    }
+    .micro-footer ul li {
+display:block;
+}
+.breadcrumb{
+    display: none;
+}
+.micro-about-sec .micro-title h6{
+    font-size: 16px;
+    color: #000;
+}
+.dio-logo-bg{
+    background-size: contain;
+}
+
+.colors .nav-tabs>li span {
+    line-height: 12px;
+    height: 65px;
+    right: 0;
+    top: 64px;
+    height: 34px;
+}
+
+.image-bg {
+    padding: 0px 15px;
+    background: transparent;
+    margin: 0px auto;
+    display: block;
+    float: none;
+}
+
+.inner img{
+    max-width: 100%;
+}
+
+.dio-about .macro-nav {
+    padding: 0px;
+    background: rgb(31, 31, 31);
+}
+
+.gif-image{
+    right: 0px;
+    top: 50px;
+}
+
+.features .carousel-control.right, .features .carousel-control.left{
+    display: none;
+}
+
+.features .item {
+    display: block;
+}
+
+.accessories-popup-box img{
+    max-width: 100%;
+}
+
+.gallery {
+    padding: 0px 33px;
+}
+
+.magnify img {
+    max-width: 100%;
+    margin: 30px 0px 30px 0px;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+.dio{
+    background: none;
+    min-height: 100%;
+}
+
+.macro-nav ul li:nth-child(7){
+    display: none;
+}
+
+.macro-nav{
+    background: #000;
+}
+.dio-about .macro-nav {
+    padding: 0px;
+    background: rgb(31, 31, 31);
+}
+
+.micro-footer{
+    background: #211d1c;
+    padding: 0px 0px;
+    position: relative;
+}
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    display: none;
+}
+
+.macro-nav ul li a {
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+.macro-nav ul li:after{
+    color: #000;
+}
+
+.micro-footer ul {
+    margin-bottom: 0px;
+}
+
+.micro-footer ul li a span{
+    padding: 0px 8px;
+    text-align: left;
+    color: #fff;
+}
+
+.macro-nav ul li:after{
+    color: #000;
+}
+
+.micro-about-sec .txt-box{
+    margin: 0px 0px 20px 0px;
+}
+
+.dioabout .macro-nav ul li a {
+    color: #000;
+}
+
+
+.dio-about .macro-nav ul li::after {
+    color: #000;
+}
+
+.dio-about{
+    padding-bottom: 0px;
+}
+
+.micro-about-sec .micro-title h6{
+    color: #000;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab, .handle-bar-weights, .stylish-meter-console, .d3, .viscous-air-filter, .superior-performance, .Racing-Muffler, .PGM-FI, .Comfortable-Siting, .Liquid-Cooled, .C-ABS{
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid transparent;
+}
+
+.unicorn-feature-hover h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.unicorn-feature-hover {
+    float: none;
+    display: inline-block;
+}
+
+.livo-feature-txt {
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.unicorn-feature-hover img{
+    margin: 0px auto;
+    max-width: 230px;
+    float: none;
+    display: block;
+}
+.for-image{
+    display: none;
+}
+
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    position: relative;
+    height: auto;
+    max-width: 100%;
+}
+
+.specifications-box{
+    display: none;
+}
+
+.gallery .controls{
+    width: 100%;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.cxx{
+    display: none;
+}
+
+
+.rotatebox .images {
+    height: 320px;
+    position: relative;
+}
+
+.rotatebox .images img{
+    max-width: 100%;
+}
+.livo-feature-txt {
+    margin-top: 0;
+    max-width: 100%;
+}
+
+.fff{
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.features .item{
+    display: block;
+}
+
+.control-box {
+    display: none;
+}
+
+.aviator-bg .content{
+    display: block !important;
+    height: auto;
+    margin-bottom: 10px;
+}
+.aviator-bg .specifications-box h4{
+    display: none;
+}
+.aviator-bg .specifications-box ul h4{
+    display: block;
+}
+
+.micro-padding-bottom{
+    padding-bottom: 0px;
+}
+ .accordion-section-title {
+        display: inline-block;
+    }
+
+    .accordion-section-content {
+        display: none;
+        background:  #dedede;
+    }
+
+    .macro-nav ul li {
+        display: block;
+        position: relative;
+        text-align: left;
+    }
+
+        .macro-nav ul li a {
+            font-size: 14px;
+            padding: 10px 15px;
+        }
+.dio-about .macro-nav ul li a {
+    color: #fff;
+}
+    .micro-sec .macro-nav ul li::after {
+        content: "";
+    }
+    .micro-footer ul li {
+display:block;
+}
+.breadcrumb{
+    display: none;
+}
+.micro-about-sec .micro-title h6{
+    font-size: 16px;
+}
+.dio-logo-bg{
+    background-size: contain;
+}
+
+.colors .nav-tabs>li span{
+    line-height: 17px;
+    height: 75px;
+    right: 0;
+    top: 64px;
+}
+
+.image-bg {
+    padding: 0px 15px;
+    background: transparent;
+    margin: 0px auto;
+    display: block;
+    float: none;
+}
+.features .carousel-control.right, .features .carousel-control.left{
+    display: none;
+}
+
+.magnify img {
+    max-width: 100%;
+    margin: 30px 0px 30px 0px;
+}
+
+.colors .nav-tabs>li span {
+    line-height: 31px;
+    height: 65px;
+    right: 0px;
+    top: 60px;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+.macro-nav ul li a {
+    padding: 0 3px;
+}
+
+.macro-nav ul li a img{
+    max-width: 230px;
+    margin-top: 7px;
+}
+
+.dio{
+    min-height: 450px;
+    background-size: 100% 100%;
+}
+
+.dio-about{
+    padding-bottom: 70px;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab, .handle-bar-weights, .stylish-meter-console, .d3, .viscous-air-filter, .superior-performance, .Racing-Muffler, .PGM-FI, .Comfortable-Siting, .Liquid-Cooled, .C-ABS{
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 15px;    
+}
+
+.unicorn-feature-hover h3{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.unicorn-feature-hover{
+    display: inline-block; 
+}
+
+.livo-feature-txt {
+    background: #000;
+    padding: 3px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: .8;
+    text-align: center;
+    display: block;
+}
+
+.livo-feature-txt p{
+    color: #fff;
+}
+
+.unicorn-feature-hover img {
+    margin: 0px auto;
+    max-width: 230px;
+    float: none;
+    width: 50%;
+    display: block;
+}
+
+.for-image{
+    display: none;
+}
+
+.specifications-box{
+    display: none;
+}
+
+.specifications-hover{
+    margin-bottom: 40px;
+}
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    position: relative;
+    height: auto;
+    max-width: 100%;
+}
+
+.specifications-box ul.specifications li a{
+    font-size: 12px;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: inline-block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.accessories-popup-box img {
+    max-width: 260px;
+    margin: 0px 30px 0px 0px;
+    float: left;
+}
+
+.cxx{
+    display: none;
+}
+
+
+.aviator-bg .content{
+    display: block !important;
+    height: auto;
+    margin-bottom: 10px;
+}
+.aviator-bg .specifications-box h4{
+    display: none;
+}
+.aviator-bg .specifications-box ul h4{
+    display: block;
+}
+
+.colors .nav-tabs>li span {
+    line-height: 31px;
+    height: 65px;
+    right: 0px;
+    top: 60px;
+}
+}
+
+
+ .CBS-logo-for-microsites{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+    .CBS-logo-for-microsites img
+    {
+    max-width: 100%;
+    padding: 0px 5px;
+    }
+
+    .CBS-logo-for-microsites img:hover{
+        box-shadow: 0px 0px 8px 0px #000;
+        border-radius: 100%;
+        padding: 0px 5px;
+    }
+
+@media only screen and (min-width: 240px) and (max-width: 480px){
+       .withStrip, .withOutStrip{
+        width: 63px;
+        height: 24px;
+        top: 70px;
+        background-size: 100% 100%;
+    }
+     .CBS-logo-for-microsites{
+    position: absolute;
+    bottom: 5px;
+    left: 11px;
+    width: 40px;
+}
+.CBS-logo-for-microsites img:hover{
+        padding: 0px 2px;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+       .withStrip, .withOutStrip{
+        width: 63px;
+        height: 24px;
+        top: 70px;
+        background-size: 100% 100%;
+    }
+    .CBS-logo-for-microsites{
+    position: absolute;
+    bottom: 5px;
+    left: 11px;
+    width: 100px;
+}
+}

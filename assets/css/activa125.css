@@ -1,0 +1,1003 @@
+.activa125{
+	background: url("../images/activa125/home-bg.jpg");
+	height: 100%;
+    min-height: 698px;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    background-size: 100%;
+}
+
+.macro-nav{
+	background: rgba(191, 218, 238, 0.82);
+}
+
+.macro-nav ul li a{
+    color: #000;
+    font-size: 15px;
+    padding: 0px 13px;
+    display: inline-block;
+}
+
+.features .sl-slide-inner p {
+    line-height: 20px;
+}
+
+.micro-footer ul li a {
+    color: #000;
+}
+
+.macro-nav ul li:nth-child(7) a img{
+    margin-top: 10px;
+}
+
+.activa125-about{
+	background: url("../images/activa125/inner-bg.jpg");
+	position: relative;
+    float: left;
+    padding-bottom: 70px;
+}
+
+.micro-about-sec .txt-box {
+    background: rgba(0,0,0,0.60);
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.form-left-box .form-control{
+    border-radius: 0px;
+}
+
+.micro-about-sec .txt-box p:last-child{
+	margin: 0px;
+}
+
+.body-color-grab, .handle-bar-weights, .stylish-meter-console, .d3, .viscous-air-filter, .superior-performance, .gear-shift, .mono-suspension, .alloy-wheels, .premium-front{
+	position: relative;
+}
+
+.unicorn-feature{
+    overflow: hidden;
+	border: 1px solid transparent;
+	display: block;
+	max-width: 600px;
+	margin: 0px auto;
+	padding-bottom: 15px;
+	float: none;
+	background: #caac6c none repeat scroll 0 0;
+}
+
+.unicorn-feature-thumb ul{
+	border-left: 1px solid #fff;
+	padding: 0px;
+	display: block;
+}
+
+.unicorn-feature-thumb ul li{
+    /* display: block; */
+    float: left;
+    border-radius: 15px 0;
+    border: 4px solid rgba(0, 0, 0, 0.7);
+    width: 76px !important;
+    margin: 0% 0 15px 14px !important;
+    position: relative;
+    border-radius: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.unicorn-feature-thumb ul li img{
+	max-width: 100%;
+}
+
+
+.unicorn-feature-thumb ul li.feature-active{
+    border: 4px solid #f00;
+}
+
+.livo-feature-txt {
+    background: #000;
+    margin-top: 41px;
+    padding: 10px 0px;
+}
+
+
+.unicorn-feature-hover img{
+	float: left;
+	margin-right: 15px;
+	max-width: 230px;
+}
+
+.features .sl-slide-inner h2 {
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    background: transparent;
+}
+
+.specifications-note{
+	font-size: 14px;
+	color: #000;
+	margin-top: 20px;
+}
+
+
+.accessories-popup-sec{
+    position: relative;
+}
+
+.accessories-popup{
+    position: absolute;
+    top: 6px;
+    width: 100%;
+}
+
+.accessories-popup-left{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.accessories-popup-right{
+    float: left;
+    width: 50%;
+    position: relative;
+    text-align: right;
+}
+
+ul.tabbing-links{
+    list-style: none;
+}
+
+ul.tabbing-links li{
+    display: block;
+}
+
+ul.tabbing-links li a{
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px 10px;
+    font-weight: 500;
+    position: absolute;
+}
+
+a.lights{
+    right: 110px;
+}
+
+a.kit-num {
+    top: 40px;
+    right: 165px;
+}
+
+a.lock-kit{
+    top: 76px;
+    right: 235px;
+}
+
+a.front-guard{
+    top: 131px;
+    right: 135px;
+}
+
+a.body-cover{
+    top: 222px;
+    right: 125px;
+}
+
+a.gripCover{
+    top: 282px;
+    right: 55px;
+}
+
+a.power-engine{
+    left: 97px;
+    top: 27px;
+}
+
+a.seat-cover{
+    left: 67px;
+    top: 65px;
+}
+
+a.disc-brake{
+    left: 67px;
+    top: 130px;
+}
+
+a.wheelbase{
+    left: 26px;
+    top: 172px;
+}
+
+a.suspension{
+    left: 26px;
+    top: 371px;
+}
+
+ul.tabbing-links li a:hover{
+    background: #000;
+    color: #fff;
+}
+
+.accessories-popup-box{
+    background: rgba(0,0,0,0.50);
+    width:500px;
+    position:absolute;
+    top:0; 
+    left:calc(50% - 200px);
+    padding: 15px 20px;
+}
+
+.accessories-popup-box img{
+    max-width: 260px;
+    margin: 15px auto;
+    display: block;
+}
+
+.accessories-popup-box h3{
+    color: #fff;
+}
+
+.accessories-popup-box ul{
+    padding-left: 18px;
+}
+
+.accessories-popup-box ul li{
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.cxx{
+    font-size: 20px;
+    float: right;
+    color: #fff;
+    background: #000;
+    width: 24px;
+    height: 23px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+
+.for-image img{
+	max-width: 100%;
+}
+
+.unicorn-feature-hover{
+	padding: 15px 15px;
+}
+
+
+
+.unicorn-feature-hover h3{
+    color: #fff;
+    margin: 0px 0px 15px 0px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.unicorn-feature-hover p{
+    color: #fff;
+    margin: 0 0 5px;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.micro-about-sec .txt-box p{
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.micro-inquary{
+    background:rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+}
+
+
+
+.accessories-tab ul.nav li.active, .accessories-tab ul.nav li a:focus, .accessories-tab ul.nav li a:hover {
+    background: #cc0001;
+    border-radius: 5px;
+}
+
+.accessories-tab ul.nav li a:hover {
+    background: transparent;
+    border-radius: 5px;
+}
+
+.accessories-tab .nav>li>a {
+    height: 47px;
+    padding: 10px 15px;
+    float: left;
+    width: 100%;
+}
+
+.accessories-tab ul.nav li {
+    display: inline-block;
+    width: 14%;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.specifications-box{
+    background: transparent;
+    display: inline-block;
+    padding: 0px;
+    border-color: transparent;
+}
+
+.specifications-hover h2 {
+    background: none repeat scroll 0 0 #cc0001;
+    color: #fff;
+    display: block !important;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px 14px 6px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+.specifications-hover ul.tab_content {
+    padding: 0px;
+}
+
+.specifications-hover ul.tab_content li {
+    
+    border-top: 1px solid #ddd;
+    width: 100%;
+    float: left;
+    display: table;
+}
+
+.specifications-hover ul.tab_content li:nth-child(even){
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+}
+
+.specifications-hover ul.tab_content li:nth-child(odd){
+	background: none repeat scroll 0 0 rgba(111, 118, 126, 0.7);
+}
+
+.specifications-hover ul.tab_content li:nth-child(1){
+	background: none repeat scroll 0 0 rgb(204, 0, 1);
+	text-align: center;
+	font-size: 16px;
+}
+
+.specifications-hover ul.tab_content li span {
+    color: #fff;
+    display: table-cell;
+    padding: 8px 1%;
+    vertical-align: top;
+    width: 47%;
+}
+
+.specifications-hover ul.tab_content li span:first-child{
+    border-right: 1px solid #f2f2f2;
+}
+
+.specifications-box ul.specifications{
+    padding: 0px;
+    border-color: transparent;
+}
+
+.specifications-box ul.specifications li{
+    float: left;
+    width: 180px;
+    background: transparent;
+}
+
+.specifications-box ul.specifications li a{
+    background: #353f48;
+    border-radius: 4px;
+    border: medium none !important;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px 10px 10px 10px;
+    display: block;
+    padding: 8px 10px;
+    color: #fff;
+    text-align: left;
+}
+
+
+.colors .nav-tabs>li>a img{
+    height: 65px;
+    width: 89px;
+}
+
+.gallery .controls .nav>li img{
+    background: rgba(255,255,255,0.90);
+    border-color: transparent;
+}
+
+.gallery .controls{
+    width: 105px;
+}
+
+.specifications-hover{
+    position: relative;
+    overflow: hidden;
+}
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    height: 340px;
+}
+
+.specifications-active{
+    z-index: 99999;
+    position: relative;
+}
+
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    background-position: bottom;
+}
+
+.specifications-box ul li a.specifications-active{
+    background: none repeat scroll 0 0 rgb(204, 0, 1);
+   transition: all 0.3s ease 0s;
+}
+
+.specifications-box ul li a:hover{
+    width: 190px;
+}
+
+.micro-about-sec .micro-title h6{
+    margin-top: 15px;
+}
+
+.specifications-box ul.specifications li a{
+    margin-left: 0;
+}
+
+
+.rotatebox .images img {
+    display: block;
+    position: absolute;
+    height: 400px;
+    background: #5c92ce;
+    top: 0;
+    left: 0;
+}
+
+.micro-about-sec .txt-box {
+    background:rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+}
+
+.micro-about-sec .micro-title h6{
+    color: #fff;
+    margin-top: 15px;
+}
+
+.form-left-box {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.44) !important;
+}
+
+.form-left-box p{
+    text-align: left !important; 
+}
+
+.activa125-mob-logo{
+    background: url("../images/activa125/activaLogo.png") no-repeat;
+    background-position: 5px 3px;
+    background-size: 190px;
+}
+
+.ShineSP-about .macro-nav {
+    background: transparent;
+}
+
+.ShineSP-about .macro-nav {
+    background: none repeat scroll 0 0 rgba(224, 224, 224, 0.8);
+}
+
+.ShineSP-about .macro-nav ul li a:hover{
+    color: #cc0001;
+}
+
+.micro-about-sec .txt-box {
+    margin-top: 60px;
+
+}
+/*
+.micro-about-sec .txt-box p{
+    text-align: left;
+    font-weight: 400;
+    line-height: 20px;
+
+}   
+*/ 
+
+.tab-content{
+    margin-bottom: 50px;
+}
+
+.micro-footer ul li a span {
+    display: block;
+    color: #fff;
+}
+
+.home-micro-footer ul li a span {
+    color: #fff;
+}
+
+.activa125-about .macro-nav{
+    background: #bfdaee;
+}
+
+.home-micro-footer .angle-view, .home-micro-footer .price, .home-micro-footer .emi-calculator, .home-micro-footer .e-brochure, .home-micro-footer .dealer-locator{
+    background-position: bottom;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px){
+
+.features {
+    padding: 0px 5px;
+}
+.colors .nav-tabs > li span{
+    top: 58px;
+}
+.activa125{
+    background: none;
+    min-height: 100%;
+}
+
+.macro-nav ul li:nth-child(7){
+    display: none;
+}
+
+.macro-nav{
+    padding: 4px 0px;
+    background: #fff;
+}
+
+.micro-footer{
+    background: #211d1c;
+    padding: 4px 0px;
+}
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    display: none;
+}
+
+.macro-nav ul li a{
+    color: #000;
+}
+
+.macro-nav ul li::after{
+    color: #000;
+}
+
+.micro-footer ul{
+    margin-bottom: 0px;
+}
+
+.micro-footer ul li a {
+    color: #fff;
+}
+
+.features-bg{
+    padding-bottom: 0px;
+    background: none;
+}
+
+.activa125-about{
+    display: inline-block;
+    background: url("../images/activa125/inner-bg.jpg");
+}
+
+.micro-about-sec .txt-box{
+    margin: 0px 0px 20px 0px;
+}
+
+.activa125-about{
+    padding-bottom: 0px;
+}
+
+.micro-about-sec .micro-title h6{
+    color: #fff;
+}
+
+.macro-nav ul li a {
+    font-size: 14px;
+    padding: 4px 5px;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab, .handle-bar-weights, .stylish-meter-console, .d3, .viscous-air-filter, .superior-performance, .gear-shift, .mono-suspension, .alloy-wheels, .premium-front{
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid #fff;
+}
+
+.unicorn-feature-hover h3{
+    text-align: left;
+}
+
+.unicorn-feature-hover img{
+    float: none;
+    margin: 20px auto 20px auto;
+    max-width: 100px;
+    display: block;
+}
+
+.for-image{
+    display: none;
+}
+
+.specifications-img-box, .specifications-box{
+    display: none;
+}
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    position: relative;
+    height: auto;
+}
+
+.gallery .controls{
+    width: 100%;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.cxx{
+    display: none;
+}
+
+.rotatebox .images {
+    min-height: 200px;
+    position: relative;
+}
+
+
+.rotatebox .images img{
+    max-width: 100%;
+    max-height: 210px;
+}
+
+.livo-feature-txt{
+    padding: 15px;
+}
+
+
+.macro-nav ul li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 9px;
+}
+
+.macro-nav ul li::after {
+    content: "";
+}
+
+.macro-nav{
+    padding: 0px 0px;
+    background: #fff;
+    display: block;
+}
+
+.micro-footer .accordion-section-title {
+    color: #fff;
+ }
+
+.micro-footer{
+    position: relative;
+    background: #211d1c;
+    padding: 0px 0px;
+    left: 0;
+} 
+
+.micro-footer ul li a span {
+    color: #fff;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.ShineSP-about .macro-nav {
+    background: #faf4ef;
+}  
+
+.colors .nav-tabs > li{
+    margin-bottom: 30px;
+}
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+.activa125{
+    background: none;
+    min-height: 100%;
+}
+
+.macro-nav ul li:nth-child(7){
+    display: none;
+}
+
+.macro-nav{
+    padding: 4px 0px;
+    background: #fff;
+}
+.micro-footer{
+    background: #211d1c;
+    padding: 4px 0px;
+}
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    display: none;
+}
+
+.macro-nav ul li a{
+    color: #000;
+    padding: 6px 10px;
+}
+
+.macro-nav ul li:after{
+    color: #000;
+}
+
+.micro-footer ul li a {
+    color: #fff;
+}
+
+.micro-about-sec .txt-box{
+    margin: 0px 0px 20px 0px;
+}
+
+.activa125-about{
+    padding-bottom: 0px;
+}
+
+.micro-about-sec .micro-title h6{
+    color: #fff;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab, .handle-bar-weights, .stylish-meter-console, .d3, .viscous-air-filter, .superior-performance, .gear-shift, .mono-suspension, .alloy-wheels, .premium-front{
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid #fff;
+}
+
+.unicorn-feature-hover h3{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.unicorn-feature-hover img{
+    float: left;
+    margin: 0px 23px 6px 0px;
+    max-width: 100px;
+    display: block;
+}
+
+.for-image{
+    display: none;
+}
+
+.specifications-img-box, .specifications-box{
+    display: none;
+}
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    height: auto;
+    position: relative;
+}
+
+.gallery .controls{
+    width: 100%;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.cxx{
+    display: none;
+}
+
+
+.rotatebox .images {
+    height: 320px;
+    position: relative;
+}
+
+.rotatebox .images img{
+    max-width: 100%;
+}
+.livo-feature-txt {
+    margin-top: 0;
+}
+
+.macro-nav ul li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 9px;
+}
+
+.macro-nav ul li::after {
+    content: "";
+}
+
+.macro-nav{
+    padding: 0px 0px;
+    background:#fff;
+    display: block;
+}
+
+.micro-footer .accordion-section-title {
+    color: #fff;
+ }
+
+.micro-footer{
+    position: relative;
+    background: #211d1c;
+    padding: 0px 0px;
+    left: 0;
+} 
+
+.micro-footer ul li a span{
+    color: #fff;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.ShineSP-about .macro-nav {
+    background: #faf4ef;
+}
+.colors .nav-tabs > li span{
+    top: 58px;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+.macro-nav ul li a {
+    padding: 0 3px;
+}
+
+.macro-nav ul li a img{
+    max-width: 230px;
+    margin-top: 7px;
+}
+
+.activa125{
+    min-height: 425px;
+    background-size: 100% 100%;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab, .handle-bar-weights, .stylish-meter-console, .d3, .viscous-air-filter, .superior-performance, .gear-shift, .mono-suspension, .alloy-wheels, .premium-front{
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid #fff;
+}
+
+.unicorn-feature-hover h3{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.unicorn-feature-hover img{
+    float: left;
+    margin: 0px 23px 6px 0px;
+    max-width: 230px;
+    display: block;
+}
+
+.for-image{
+    display: none;
+}
+
+.specifications-box ul.specifications li a{
+    font-size: 12px;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: inline-block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.accessories-popup-box img {
+    max-width: 260px;
+    margin: 0px 30px 0px 0px;
+    float: left;
+}
+
+.cxx{
+    display: none;
+}
+
+
+
+}

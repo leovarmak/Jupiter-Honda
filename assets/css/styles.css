@@ -1,0 +1,86 @@
+
+.main-wrapper h2 {
+  color: #242628;
+  display: block;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 2em;
+  margin: 6% 0 1%;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-shadow: 1px 1px #555;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  text-align: center;
+  max-width: 100%;
+  width: 100%;
+}
+.rlAccordion > h3 {
+    background-color: #666;
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+}
+.rlAccordion > h3 img{
+    position: absolute;
+    right: 15px;
+    top:7px;
+    webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.rlAccordion > h3 > span {
+  float: left;
+  font-family: arial, serif, sans-serif;
+
+}
+.rlAccordion > h3 + div {
+  display: none;
+  padding: 15px;
+  background: #fff;
+}
+
+.rlAccordion > h3 + div p{
+  line-height: 20px;
+  
+}
+
+.rl-open{
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+}
+
+.rl-close{
+      
+      -webkit-transform: rotate(-225deg);
+    -ms-transform: rotate(-225deg);
+    transform: rotate(-225deg);
+     -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+}
+
+
+@media only screen and (min-width: 240px) and (max-width: 480px){
+  .rlAccordion > h3 {
+    font-size: 1.0em;
+    text-align: left;
+    padding: 24px 15px;
+}
+
+.opened img{
+  max-width: 100%;
+}
+}
+

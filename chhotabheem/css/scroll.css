@@ -1,0 +1,8 @@
+
+#scroll {position:relative; width:435px; height:400px; overflow:auto; padding:0;}
+#scrollcontent {position:absolute; width:435px; }
+#scrollbar {float:right; position:relative; display:none; width:3px; height:300px;  background:url("../images/scroll-bg.gif") center repeat-y}
+.scroller {position:absolute; top:0; width:3px; cursor:pointer; background-color:#b4b4b4; }
+.buttonclick {background-color:#000}
+
+

@@ -1,0 +1,1369 @@
+.africa-twin{
+	background: url("../images/africaTwin/home-banner.jpg");
+	height: 100%;
+    min-height: 777px;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    background-size: 100%;
+}
+
+.macro-nav{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    padding: 3px 0;
+    width: 100%;    
+    margin-top: 25px; 
+}
+
+.macro-nav{text-align:center; padding:10px 0px;}
+
+
+.africa-twin-about{
+	background: url("../images/africaTwin/About-usbanner.jpg");
+	position: relative;
+    float: left;
+    padding-bottom: 0px;
+}
+
+.micro-about-sec .txt-box {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    margin-top: 35px;
+    padding-left: 50px;
+}
+
+.micro-about-sec .txt-box h2{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 300;
+    margin: 0px;
+    text-align: left;
+}
+
+.micro-about-sec .txt-box p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    line-height: 22px;
+}
+
+.macro-nav ul li{
+    margin: 0px 6px;
+}
+
+.macro-nav ul li a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0px 0px 0px;
+    display: inline-block;
+    margin: 0px 5px;
+    font-weight: 300;
+    transition: all 0.2s ease 0s; 
+    text-transform: uppercase;
+}
+
+.micro-footer ul li a {
+    color: #000;
+}
+
+.macro-nav ul li::after{
+    content: "";
+}
+
+.macro-nav ul li a::after {
+    content: "";
+    width: 100%;
+    margin-top: 5px;
+    float: left;
+    background: #fff;
+    height: 1px;
+    left: 0px;
+    position: relative;
+    transition: all 0.2s ease 0s; 
+}
+
+.macro-nav ul li a:hover::after{
+    margin-top: -20px;
+    transition: all 0.2s ease 0s; 
+}
+
+.macro-nav ul li a:hover{
+    color: #fff;
+}
+
+
+.gallery{}
+
+.gallery a{
+
+}
+
+.micro-footer{
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 165px;
+    width: 100px;
+    right: 0px;
+}
+
+.micro-footer ul{
+    padding-left: 0px;
+}
+
+.micro-footer ul li{
+    background-color: rgba(32,107,173,0.0);
+    padding: 30px 0px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.micro-home-footer ul li{
+    background-color: rgba(176, 135, 91, 0.0);
+}
+
+.micro-footer ul li a{
+    color: #fff;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.micro-footer ul li:hover a{
+    color: #fff;
+}
+
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator {
+    background-position: bottom;
+}
+
+.micro-footer-img {
+    height: 21px;
+}
+
+.micro-footer ul li:hover{
+    background-color: #cc2d29;
+}
+
+.micro-footer ul li:hover span {
+	visibility: visible;
+}
+
+.micro-about-sec{
+    padding-right: 100px;
+}
+
+.micro-footer ul li a span {
+    font-size: 11px;
+    visibility: hidden;
+}
+
+.accessories-tab{
+    margin-top: 25px;
+}
+
+.accessories-tab .controls{
+    max-width: 460px;
+    display: block;
+    margin: 0px auto;
+}
+
+.slide .controls{
+    max-width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+.accessories-box .accessories-txt h2 {
+    /* background: transparent; */
+    color: #fff;
+    display: inline-block;
+    font-size: 17px;
+    max-width: 350px;
+    padding: 5px 7px;
+    margin: 0px;
+}
+
+.slide img{
+    border: 1px solid #000;
+    padding: 0px;
+    float: left;
+    padding: 5px;
+    max-width: 100%;
+}
+.accessories-tab .accessories-box {
+    background: transparent;
+    margin-top: 0px;
+}
+.accessories-tab ul.nav li {
+    height: 85px;
+    float: left;
+    width: 85px;
+    border: 4px solid #fff;
+    border-radius: 100% !important;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.accessories-tab ul.nav li:hover{
+    background: transparent !important;
+    border: 4px solid #cc0001;
+}
+
+.cbr1000r-acc ul.nav li:hover{
+    border: 0px solid #000;
+    background: #000;
+}
+
+
+
+.featurePadd ul.nav li a{
+    height: 100%;
+    padding: 0px 0px !important;
+}
+
+.accessories-tab ul.nav li a{
+    height: 100%;
+    padding: 13px 0px;
+}
+
+.accessories-tab ul.nav li a:hover{
+    border: 1px solid transparent;
+}
+
+.accessories-tab ul.nav li a img{
+    width: 100%;
+}
+
+.accessories-popup-box{
+    background: rgba(0,0,0,0.50);
+    width:500px;
+    position:absolute;
+    top:0; 
+    left:calc(50% - 200px);
+    padding: 15px 20px;
+}
+
+.accessories-popup-box img{
+    max-width: 260px;
+    margin: 15px auto;
+    display: block;
+}
+
+.accessories-popup-box h3{
+    color: #fff;
+}
+
+.accessories-popup-box ul{
+    padding-left: 18px;
+    text-align: left;
+}
+
+.accessories-popup-box ul li{
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.cxx{
+    font-size: 20px;
+    float: right;
+    color: #fff;
+    background: #000;
+    width: 24px;
+    height: 23px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.accessories-tab-sec{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    padding: 15px 15px;
+    margin-bottom: 80px;
+}
+
+.gallery .carousel-control.right {
+    right: 0;
+}
+
+.gallery .carousel-control.left {
+    left: 0px;
+}
+
+.accessories-tab-sec p{
+    color: #fff;
+    line-height: 22px;
+}
+
+.accessories-tab-sec .accessoriesText ul li{
+    color: #fff;
+    line-height: 22px;
+}
+
+.accessories-tab-sec ul.nav li {
+    height: 40px;
+    border-radius: 4px;
+    float: left;
+    width: 120px;
+    border-radius: 5% !important;
+    margin-right: 15px;
+    background: none repeat scroll 0 0 rgba(181, 181, 181, 0.5);
+    border-width: 1px;
+    text-align: center;
+}
+
+.accessories-img h2 {
+    background: none repeat scroll 0 0 #cc0001;
+    color: #fff;
+    font-weight: 300;
+    padding: 5px 8px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 0px 4px 0px;
+}
+
+.accessories-img{
+    padding: 0px;
+}
+
+.accessories-tab-sec ul.nav li.active, .accessories-tab-sec ul.nav li a:focus, .accessories-tab-sec ul.nav li a:hover{
+    background: none repeat scroll 0 0 #cc0001;
+}
+
+.featureImageBox{
+	background: #fff;
+	border-radius: 8px;
+	padding: 10px;
+	display: inline-block;
+	width: 100%;
+}
+
+.featureTextBox{
+	background: #fff;
+	border-radius: 8px;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+}
+
+.featureTextBox h2{
+	font-size: 14px;
+	margin: 0px 0px 5px 0px;
+}
+
+.featureTextBox p {
+    color: #000;
+    line-height: 16px;
+    font-size: 13px;
+}
+
+
+.forMobileFeature{
+    display: none;
+    padding: 0px 15px;
+}
+.forMobileFeature>.accessories-txta{
+    background: none repeat scroll 0 0 #607D8B;
+    /* padding: 15px 15px; */
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* margin-right: 15px; */
+    border-radius: 4px;
+}
+
+.forMobileFeature>.accessories-txta>img{
+    margin: 0px auto;
+    max-width: 150px;
+    display: block;
+    padding: 5px;
+    border: 1px solid #fff;
+}
+
+.forMobileFeature>.accessories-txta>h2{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+
+.forMobileFeature>.accessories-txta>p{    
+    line-height: 17px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.specifications-box{
+    background: transparent;
+    display: inline-block;
+    padding: 0px;
+    border-color: transparent;
+    max-width: 1082px;
+    margin: 0px -3px;
+    display: block;
+}
+.specifications-hover h2 {
+    background: none repeat scroll 0 0 #cc0001;
+    color: #fff;
+    display: block !important;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px 14px 6px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.specifications-hover ul.tab_content {
+    padding: 0px;
+}
+
+.specifications-hover ul.tab_content li {
+    
+    border-top: 1px solid #ddd;
+    width: 100%;
+    float: left;
+    display: table;
+}
+
+.specifications-hover ul.tab_content li:nth-child(even){
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+}
+
+.specifications-hover ul.tab_content li:nth-child(odd){
+	background: none repeat scroll 0 0 rgba(111, 118, 126, 0.7);
+}
+
+.specifications-hover ul.tab_content li:nth-child(1){
+	background: none repeat scroll 0 0 rgb(204, 0, 1);
+	text-align: center;
+	font-size: 16px;
+}
+
+.specifications-hover ul.tab_content li span {
+    color: #fff;
+    display: table-cell;
+    padding: 8px 1%;
+    vertical-align: top;
+    width: 47%;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.specifications-hover ul.tab_content li span:first-child{
+    border-right: 1px solid #f2f2f2;
+}
+
+.specifications-box ul.specifications{
+    padding: 0px;
+    border-color: transparent;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.specifications-box ul.specifications li{
+    float: left;
+    width: 160px;
+    background: transparent;
+}
+
+.specifications-box ul.specifications li a{
+    background: #353f48;
+    border-radius: 4px;
+    border: medium none !important;
+        font-size: 10px;
+    line-height: 22px;
+    margin: 3px 2px;
+    display: block;
+    padding: 8px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.colors .nav-tabs>li>a img{
+    height: 65px;
+    width: 89px;
+}
+
+.gallery .controls .nav>li img{
+    background: rgba(255,255,255,0.90);
+    border-color: transparent;
+}
+
+.gallery .controls{
+    width: 105px;
+}
+
+.specifications-hover{
+    position: relative;
+    margin-right: 22px;
+    overflow: hidden;
+    min-height: 600px;
+}
+
+.body-dimensions1, .engine1, .transmission1, .tyres-brakes1, .frame-suspension1, .electricals1{
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    height: 330px;
+}
+
+.specifications-active{
+    z-index: 99999;
+    position: relative;
+}
+
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    background-position: bottom;
+}
+
+.specifications-box ul li a.specifications-active{
+    background: #f93b40;
+}
+
+.carousel-control {
+    width: 30px;
+    background: transparent;
+    padding-top: calc(50% - 60px);
+    background-image: none !important;
+}
+
+.micro-inquary {
+    background: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    float: right;
+    margin-top: 20px;
+}
+
+.micro-inquary label {
+    font-weight: 400;
+}
+
+.right-box{
+    margin-top: 80px;
+    background: none repeat scroll 0 0 rgb(206, 206, 206) !important;
+    height: auto !important;
+    padding: 15px;
+}
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+	 color: #fff;
+	 display: inline-block;
+	 width: 100%;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+.carousel-control.left{
+	left: -15px;
+}
+
+.carousel-control.right{
+	right: -15px;
+}
+
+.africatwin-mob-logo {
+    background: url("../images/africaTwin/Africa-Twin-icon.png") no-repeat;
+    background-position: 6px 5px;
+    background-size: 90px;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px){
+
+.body-dimensions1, .engine1, .transmission1, .tyres-brakes1, .frame-suspension1, .electricals1 {
+    margin: 0 0 20px 0!important;
+    position: relative;
+    height: auto;
+}
+
+.micro-sec {
+    min-height: 100%;
+}
+.accessories-tab{
+    display: none;
+}
+.carousel-control.left{
+	left: 0px;
+}
+.forMobileFeature {
+    display: block;
+    padding: 0px 15px;
+}
+.carousel-control.right{
+	right: 0px;
+}
+.micro-about-sec .txt-box {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 15px;
+    padding-left: 15px;
+}
+.featureImageBox img{
+    max-width: 100%;
+}
+.micro-about-sec .txt-box h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.macro-nav{
+    margin-top: 0px;
+}
+
+.Goldwing{
+    background: none;
+    min-height: 100%;
+}
+
+.goldwing-logo{
+    display: none;
+}
+
+.macro-nav ul li:nth-child(7){
+    display: none;
+}
+
+.macro-nav{
+    padding: 4px 0px;
+    background: #fff;
+    display: block;
+}
+
+.micro-footer{
+    background: #211d1c;
+    padding: 4px 0px;
+    left: 0;
+    position: relative;
+}
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    display: none;
+}
+
+.macro-nav ul li a {
+    color: #000;
+    margin: 0px;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+.macro-nav ul li:after{
+    color: #000;
+}
+
+.micro-footer ul {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.micro-footer ul li a {
+    padding: 8px 8px;
+    text-align: center;
+    color: white;
+}
+
+.micro-about-sec .txt-box{
+    margin: 0px 0px 20px 0px;
+}
+
+.micro-about-sec .micro-title h6{
+    color: #fff;
+}
+
+
+.Goldwing-about .macro-nav ul li a {
+    color: #fff;
+}
+
+
+.Goldwing-about .macro-nav ul li::after {
+    color: #000;
+}
+
+.Goldwing-about{
+    padding-bottom: 0px;
+}
+
+.txt-box h2 {
+    text-align: left;
+    font-size: 26px;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab1, .handle-bar-weights1, .stylish-meter-console1, .d31, .viscous-air-filter1, .superior-performance1, .gear-shift1, .mono-suspension1, .alloy-wheels1, .premium-front1{
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid transparent;
+}
+
+.unicorn-feature-hover h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.livo-feature-txt{
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.unicorn-feature-hover {
+    float: none;
+}
+
+.unicorn-feature-hover img{
+    margin: 0px auto;
+    max-width: 230px;
+    float: none;
+    display: block;
+}
+.for-image{
+    display: none;
+}
+
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    position: relative;
+    height: auto;
+}
+
+.specifications-box{
+    display: none;
+}
+
+.gallery .controls{
+    width: 100%;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.cxx{
+    display: none;
+}
+
+
+.rotatebox .images {
+    min-height: 200px;
+    position: relative;
+}
+
+
+.rotatebox .images img{
+    max-width: 100%;
+    max-height: 210px;
+}
+.livo-feature-txt {
+    margin-top: 0;
+}
+
+.fff{
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.control-box {
+    display: none;
+}
+
+.aviator-bg .content{
+    display: block !important;
+    height: auto;
+    margin-bottom: 10px;
+}
+.aviator-bg .specifications-box h4{
+    display: none;
+}
+.aviator-bg .specifications-box ul h4{
+    display: block;
+}
+.micro-padding-bottom{
+    padding-bottom: 0px;
+}
+
+.accessories-popup-box h3 {
+    font-size: 18px;
+}
+
+.specifications-hover ul.tab_content li span {
+    color: #fff;
+    display: block;
+    padding: 8px 15px;
+    vertical-align: top;
+    width: 100%;
+    text-align: center;
+}
+
+.specifications-hover ul.tab_content li span:first-child{
+    border-right: 1px solid transparent;
+    padding-left: 15px;
+    width: 100%;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.colors .color-thumb{
+    width: 195px;
+}
+.main_colordiv{
+    height: auto;
+    padding-bottom: 120px;
+    display: inline-block;
+}
+.macro-nav ul li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 9px;
+}
+
+.macro-nav ul li::after {
+    content: "";
+}
+
+.macro-nav{
+    padding: 0px 0px;
+    background: none repeat scroll 0 0 rgb(191, 191, 191);
+    display: block;
+}
+
+.micro-footer .accordion-section-title {
+    color: #fff;
+ }
+
+ .micro-about-sec{
+    padding-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+ }
+
+.micro-footer{
+    display: block;
+    margin-top: 0px;
+    position: relative;
+    padding: 0px 0px;
+    background: rgba(0,0,0,0.8);
+    top: inherit;
+    width: inherit;
+    right: inherit;
+}
+.micro-footer ul li{
+    padding: 0px;
+}
+.micro-footer ul li a span{
+    color: #fff;
+    text-align: left;
+    visibility: visible;
+}
+
+
+.ShineSP-about .macro-nav {
+    background: #faf4ef;
+}  
+
+.colors .nav-tabs > li{
+    margin-bottom: 30px;
+}
+
+.colors .nav-tabs > li.active a span, .colors .nav-tabs > li:hover a span {
+    line-height: 14px !important;
+    height: 58px !important;
+    top: 49px;
+}
+
+.ShineSP-feature-hover{
+    height: 100%;
+    overflow: inherit;
+}
+
+.macro-nav ul li a::after{
+    display: none;
+}
+
+.for-mobile-div{
+    display: block;
+}
+
+
+.for-desktop-div{
+    display: none;
+}
+
+
+.right-box{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+.Goldwing{
+    background: none;
+    min-height: 100%;
+}
+
+.goldwing-logo{
+    display: none;
+}
+
+.macro-nav ul li:nth-child(7){
+    display: none;
+}
+
+.macro-nav{
+    padding: 4px 0px;
+    background: #fff;
+}
+
+.micro-footer{
+    background: #211d1c;
+    padding: 4px 0px;
+    position: relative;
+}
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    display: none;
+}
+
+.macro-nav ul li a {
+    color: #000;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+.macro-nav ul li:after{
+    color: #000;
+}
+
+.micro-footer ul {
+    margin-bottom: 0px;
+}
+
+.micro-footer ul li a {
+    padding: 8px 8px;
+    text-align: center;
+    color: white;
+}
+
+.macro-nav ul li:after{
+    color: #000;
+}
+
+.micro-about-sec .txt-box{
+    margin: 0px 0px 20px 0px;
+}
+
+.Goldwingabout .macro-nav ul li a {
+    color: #000;
+}
+
+
+.Goldwing-about .macro-nav ul li::after {
+    color: #000;
+}
+
+.Goldwing-about{
+    padding-bottom: 0px;
+}
+
+.micro-about-sec .micro-title h6{
+    color: #fff;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab1, .handle-bar-weights1, .stylish-meter-console1, .d31, .viscous-air-filter1, .superior-performance1, .gear-shift1, .mono-suspension1, .alloy-wheels1, .premium-front1{
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid transparent;
+}
+
+.unicorn-feature-hover h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.unicorn-feature-hover {
+    float: none;
+}
+
+.livo-feature-txt {
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.unicorn-feature-hover img{
+    margin: 0px auto;
+    max-width: 230px;
+    float: none;
+    display: block;
+}
+.for-image{
+    display: none;
+}
+
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    position: relative;
+    height: auto;
+}
+
+.specifications-box{
+    display: none;
+}
+
+.gallery .controls{
+    width: 100%;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.cxx{
+    display: none;
+}
+
+
+.rotatebox .images {
+    height: 320px;
+    position: relative;
+}
+
+.rotatebox .images img{
+    max-width: 100%;
+}
+.livo-feature-txt {
+    margin-top: 0;
+}
+
+.fff{
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.carousel-inner>.item{
+    display: block;
+}
+
+.control-box {
+    display: none;
+}
+
+.aviator-bg .content{
+    display: block !important;
+    height: auto;
+    margin-bottom: 10px;
+}
+.aviator-bg .specifications-box h4{
+    display: none;
+}
+.aviator-bg .specifications-box ul h4{
+    display: block;
+}
+
+.micro-padding-bottom{
+    padding-bottom: 0px;
+}
+
+.specifications-hover ul.tab_content li span {
+    color: #fff;
+    display: table-cell;
+    padding: 8px 15px;
+    vertical-align: top;
+    width: 60%;
+    text-align: center;
+}
+
+.specifications-hover ul.tab_content li span:first-child{
+    border-right: 1px solid inherit;
+    padding-left: 15px;
+    width: 40%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.macro-nav ul li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 9px;
+}
+
+.macro-nav ul li::after {
+    content: "";
+}
+
+.macro-nav{
+    padding: 0px 0px;
+    background: none repeat scroll 0 0 rgb(191, 191, 191);
+    display: block;
+}
+
+.micro-footer .accordion-section-title {
+    color: #fff;
+ }
+
+.micro-footer{
+    position: relative;
+    background: #211d1c;
+    padding: 0px 0px;
+    left: 0;
+} 
+
+.micro-footer ul li a span{
+    color: #fff;
+    text-align: left;
+}
+
+.ShineSP-about .macro-nav {
+    background: #faf4ef;
+}
+.colors .nav-tabs > li span{
+    top: 58px;
+}
+
+.colors .nav-tabs > li.active a span, .colors .nav-tabs > li:hover a span {
+    line-height: 14px !important;
+    height: 58px !important;
+    top: 49px;
+}
+
+.ShineSP-feature-hover{
+    height: 100%;
+    overflow: inherit;
+}
+
+.macro-nav ul li a::after{
+    display: none;
+}
+
+.for-mobile-div{
+    display: block;
+}
+
+
+.for-desktop-div{
+    display: none;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+.macro-nav ul li a {
+    padding: 0 3px;
+}
+
+.macro-nav ul li a img{
+    max-width: 230px;
+    margin-top: 7px;
+}
+
+.Goldwing{
+    min-height: 450px;
+    background-size: 100% 100%;
+}
+
+.Goldwing-about{
+    padding-bottom: 70px;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab1, .handle-bar-weights1, .stylish-meter-console1, .d31, .viscous-air-filter1, .superior-performance1, .gear-shift1, .mono-suspension1, .alloy-wheels1, .premium-front1{
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid transparent;
+}
+
+.unicorn-feature-hover h3{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.livo-feature-txt {
+    background: #000;
+    padding: 3px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: .8;
+    text-align: center;
+    display: flex;
+    width: inherit;
+}
+
+.unicorn-feature-hover img{
+    margin: 0px 23px 6px 0px;
+    max-width: 230px;
+    float: left;
+}
+
+.for-image{
+    display: none;
+}
+
+.specifications-box{
+    display: none;
+}
+
+.specifications-hover{
+    margin-bottom: 40px;
+}
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    position: relative;
+    height: auto;
+}
+
+.specifications-box ul.specifications li a{
+    font-size: 12px;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: inline-block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.accessories-popup-box img {
+    max-width: 260px;
+    margin: 0px 30px 0px 0px;
+    float: left;
+}
+
+.cxx{
+    display: none;
+}
+
+
+.aviator-bg .content{
+    display: block !important;
+    height: auto;
+    margin-bottom: 10px;
+}
+.aviator-bg .specifications-box h4{
+    display: none;
+}
+.aviator-bg .specifications-box ul h4{
+    display: block;
+}
+
+.ShineSP-feature-hover{
+    height: 100%;
+    overflow: inherit;
+}
+
+}

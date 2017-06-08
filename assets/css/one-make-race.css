@@ -1,0 +1,246 @@
+.onemake-race-sec .network-header{
+	display: block;
+}
+
+ul.menu-network{
+	text-align: right;
+}
+
+.table-bordered{
+	margin: 15px 0px;
+}
+
+.table-bordered th{
+	text-align: center;
+}
+
+.table-bordered th, .table-bordered td{
+	line-height: 26px;
+}
+
+.onemake-race-box ul li{
+	font-size: 13px;
+    line-height: 100%;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+
+.onemake-race-box p{
+	line-height: 22px;
+}
+
+h2.mahroonstrip{
+	color: #fff;
+	border-radius: 0px 10px 10px 0px;
+	background:rgb(118, 1, 7) 
+}
+
+.glimpses-box p strong{
+    background-color: rgb(233, 233, 233);
+    display: block;
+    color: #dd1602;
+}
+
+.glimpses-box p a{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    color: #999999;
+    text-decoration: none;
+    display: block;
+}
+
+.glimpses-box p a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+
+.glimpses-box img{
+	margin-bottom: 15px;
+  max-width: 100%;
+}
+
+.round-image .glimpses-box img{
+  border-radius: 20px;
+}
+
+.Sponsers-image img{
+	margin: 15px 0px;
+}
+
+.flip {
+  -webkit-perspective: 800;
+perspective: 800;
+height: 190px;
+
+    position: relative;
+ text-align: center;
+}
+.flip .card.flipped {
+  -webkit-transform: rotatey(-180deg);
+    transform: rotatey(-180deg);
+}
+.flip .card {
+
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+.flip .card .face {
+	box-shadow: 0px 0px 60px 5px #ccc inset;
+  -webkit-backface-visibility: hidden ;
+    backface-visibility: hidden ;
+  z-index: 2;
+   
+}
+.flip .card .front {
+  position: absolute;
+   width: 100%;
+  z-index: 1;
+
+}
+.flip .card .back {
+	height: 172px;
+  -webkit-transform: rotatey(-180deg);
+    transform: rotatey(-180deg);
+    box-shadow: 0px 0px 60px 5px #ccc inset;
+}
+
+.back{
+  background: #fff;
+border: 1px solid #e3e3e3;}
+
+.back a {
+    padding-top: 79px;
+    display: block;
+}
+
+.front .well{
+	height: 172px;
+}
+
+.back .well{
+	border: 0px;
+}
+
+  .inner{margin:0px !important;}
+}
+
+
+.form-horizontal .form-control{
+	max-width: 350px;
+}  
+
+
+img.dream-cup-imgbox{
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.dream-cup-img-box img{
+	max-width: 100%;
+	max-height: 250px;
+	margin-bottom: 15px;
+}
+
+.locator-sec{
+	margin-top: 15px;
+}
+
+.dream-cup-img-box img{
+	height: 250px;
+}
+
+.dream-cup-img-box p{
+	text-align: center !important;
+}
+
+.well{
+	background-color: transparent !important;
+	height: 168px;
+}
+
+
+.link2 {
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    color: #999999;
+    text-decoration: none;
+    border-bottom: 1px solid #DADADA;
+}
+
+.scrollbar-inner{
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+
+.scrollbar-inner table tr td{
+  border-bottom: 1px solid #ccc;
+}
+
+.scrollbar-inner table tr td.link3{
+  color: #f00;
+}
+
+.macro-nav-active {
+  color: #fff !important;
+    background: #cc0001 !important;
+}
+
+.onemake-race-box .radio-inline{
+    padding: 0px 8px;
+    margin-top: -7px;
+}
+
+.onemake-race-box .field-validation-error{
+  top: 2px;
+}
+button, .btn {
+    background: #333;
+    height: 34px;
+    margin: 0 1px 0 0;
+    padding: 0 9px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+}
+
+button:hover, .btn:hover {
+    background: none repeat scroll 0 0 rgb(204, 0, 1);
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+ .form-group #btnGetOtp {
+    padding: 0 5px;
+    position: relative;
+    margin: 10px 0px 10px 0px;
+}
+
+.single-line{
+  margin-top: 10px;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .onemake-race-box .radio-inline {
+    display: inline-block;
+  }
+  .single-line{
+  margin-top: 10px;
+}
+  .form-group #btnGetOtp {
+    padding: 0 5px;
+    position: relative;
+    margin: 10px 0px 10px 0px;
+}
+}

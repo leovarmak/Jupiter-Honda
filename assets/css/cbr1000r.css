@@ -1,0 +1,1798 @@
+@font-face {
+    font-family: 'menufont';
+    src: url('../font/HelveticaInseratLTStd-Roman.eot.html');
+    src: url('../font/HelveticaInseratLTStd-Roman.eot-.html#iefix') format('embedded-opentype'), url('../font/HelveticaInseratLTStd-Roman.woff.html') format('woff'), url('../font/HelveticaInseratLTStd-Roman.ttf') format('truetype'), url('../font/HelveticaInseratLTStd-Roman.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cbr1000r{
+	background: url("../images/cbr1000r/banner1.jpg.html");
+	height: 100%;
+    min-height: 695px;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    background-size: 100%;
+}
+
+.price {
+    background: url("../images/price.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.macro-nav{
+	background: #b5b0ac none repeat scroll 0 0;
+   
+    padding-bottom: 10px;
+}
+
+.cbr1000r-logo{
+    float: left;
+    margin: 5px 15px;
+}
+
+.magnify img {
+    margin: 40px auto;
+}
+
+.tranbackground{background:none;}
+
+.macro-nav ul li a{
+    color: #fff;
+    padding: 0px 13px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 17px;
+    padding: 23px 4px;
+    text-transform: uppercase;
+    font-family: 'menufont';
+}
+
+.micro-footer ul li a {
+    color: #fff;
+}
+
+
+.breadcrumb>li>a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.macro-nav ul li:nth-child(7) a img{
+    margin-top: 10px;
+}
+
+
+.macro-nav ul li::after {
+    
+    content: "/";
+}
+
+.macro-nav ul li:nth-child(5)::after {
+    
+    content: "";
+}
+
+
+.cbr1000r-about{
+	background: url("../images/cbr1000r/home-bg1.jpg");
+	position: relative;
+    float: left;
+    padding-bottom: 70px;
+    background-size: cover;
+}
+
+.cbr1000r-about .macro-nav ul li a{
+    color: #fff;
+}
+
+.cbr1000r-about .macro-nav ul li::after{
+    color: #fff;
+}
+
+.cbr1000r-about .accordion-section-title::after, .cbr1000r-about .accordion-section-title::before{
+    color: #fff;
+}
+
+.micro-about-sec .txt-box {
+    border-radius: 10px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    padding: 30px;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+}
+
+.form-left-box{
+    margin-top: 0px !important;
+    background: transparent !important;
+}
+
+.form-left-box p{
+    color: #000 !important;
+    text-align: left !important;
+    background: #fff;
+    padding: 2px 10px;
+}
+
+.micro-about-sec .txt-box p{
+    color: #000;
+    line-height: 24px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+.micro-about-sec .txt-box p:last-child{
+	margin: 0px;
+}
+
+.body-color-grab, .handle-bar-weights, .stylish-meter-console, .d3, .viscous-air-filter, .superior-performance, .Racing-Muffler, .PGM-FI, .Comfortable-Siting, .Liquid-Cooled, .C-ABS{
+	position: relative;
+}
+
+.unicorn-feature{
+    overflow: hidden;
+	border: 1px solid transparent;
+	display: block;
+	max-width: 600px;
+	margin: 0px auto;
+	padding-bottom: 15px;
+	float: none;
+	background: #caac6c none repeat scroll 0 0;
+}
+
+.unicorn-feature-thumb ul{
+    margin-top:0px;
+	padding: 0px;
+	display: block;
+}
+
+.unicorn-feature-thumb ul li{
+    background:none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+    color: #000;
+    padding: 3px;
+    font-size: 14px;
+    font-weight: 300;
+    list-style: outside none none;
+    margin: 0px 10px 10px 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.tabcontentWrap{
+    background: #454545 none repeat scroll 0 0;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.livo-feature-txt{
+    max-width: 350px;
+    float: left;
+}
+
+.livo-feature-txt h3  {
+    text-align: center;
+    margin: 0 0 12px;
+    padding: 3px 0px;
+    color: #cc0001;
+    border-bottom: 1px solid #cc0001;
+    border-top: 1px solid #cc0001;
+    width: 100%;
+}
+
+.livo-feature-txt p{
+    color: #000;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.unicorn-feature-thumb ul li img{
+	max-width: 100%;
+}
+
+
+.unicorn-feature-thumb ul li.feature-active{
+    background:red;
+    color: #fff;
+    transition:.5s;
+}
+
+.inner{
+    height: auto;
+    margin-top: 0px;
+    background: transparent;
+    padding: 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.inner h3{
+    margin-top: 20px;
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+}
+
+.inner p{
+    text-align: left;
+    color: #fff;
+}
+
+.image-bg{
+    padding: 0px 15px;
+    background: transparent;
+}
+
+.inner img{
+    border-radius: 20px;
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 10px #000;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+}
+
+.unicorn-feature-hover{
+    padding: 0px;
+    display: flex;
+    margin-bottom: 15px;
+    position: relative;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    border: solid 2px rgba(255,255,255,0.6);
+    border-radius: 15px;
+}
+
+.unicorn-feature-hover img{
+    float: left;
+    padding: 0px;
+    border: 2px solid #000;
+    margin: 10px 10px;
+    max-width: 190px;
+}
+
+.feature-note{
+	text-align: center;
+	font-size: 14px;
+	color: #000;
+	margin-top: 50px;
+}
+
+
+.features {
+    background: rgba(0, 0, 0, 0.60);
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+.specifications-note{
+	font-size: 14px;
+	color: #000;
+	margin-top: 20px;
+}
+
+
+.angle-view-sec{
+	background: transparent;
+	max-width: 700px;
+	display: block;
+	margin: 0px auto;
+}
+
+
+
+
+.micro-about-sec .right-box img{
+    margin-top: 80px;
+}
+
+
+
+
+.for-image img{
+	max-width: 100%;
+}
+
+.cbr1000r-feature-hoverr{
+	padding: 15px 15px;
+}
+
+
+
+.cbr1000r-feature-hover h3{
+    color: #fff;
+    margin: 15px 0px 15px 0px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.cbr1000r-feature-hover p{
+    color: #fff;
+    margin: 0 0 5px;
+    font-size: 13px;
+    /*line-height: 22px;*/
+}
+
+.specifications-sec {
+    max-width: 700px;
+    margin: 0px auto;
+    width: 100%;
+    float: none;
+}
+.specifications-box{
+   background: transparent;
+    display: inline-block;
+    padding: 0;
+    border-color: transparent;
+    position: relative;
+}
+
+.specifications-hover h2 {
+    background: none repeat scroll 0 0 #cc0001;
+    color: #fff;
+    display: block !important;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px 14px 6px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+.specifications-hover ul.tab_content {
+    padding: 20px;
+    margin: 20px 0px 0px 0px;
+    background: #000;
+    display: inline-block;
+}
+
+.specifications-hover ul.tab_content li {
+    
+    border-top: 1px solid #ddd;
+    width: 100%;
+    float: left;
+    display: table;
+}
+
+.specifications-hover ul.tab_content li:nth-child(even){
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 1);
+}
+
+.specifications-hover ul.tab_content li:nth-child(odd){
+	    background:#999999;
+}
+
+.specifications-hover ul.tab_content li:nth-child(1){
+	background: #1c64a8;
+	text-align: center;
+	font-size: 16px;
+}
+
+.specifications-hover ul.tab_content li span {
+    color: #fff;
+    display: table-cell;
+    padding: 8px 15px;
+    vertical-align: top;
+    width: 47%;
+    border-right: 1px solid #f2f2f2;
+}
+
+.specifications-hover ul.tab_content li span:first-child{
+    border-right: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+    padding-left: 15px;
+}
+
+.specifications-hover ul.tab_content li:last-child{
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.specifications-box ul.specifications{
+    padding: 0px;
+    display: inline-block;
+    border-color: transparent;
+}
+
+.specifications-box ul.specifications li{
+    float: left;
+    background: transparent;
+    padding: 0px 0px;
+}
+
+.specifications-box ul.specifications li a{
+    background: none repeat scroll 0 0 #1c64a8;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    padding: 8px 15px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.colors .nav-tabs>li>a img{
+    height: 65px;
+    width: 89px;
+}
+
+.gallery .controls .nav>li img{
+    background: rgba(255,255,255,0.90);
+    border-color: transparent;
+}
+
+.gallery .controls{
+    width: 105px;
+}
+
+.specifications-hover{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    max-width: 700px;
+}
+
+
+.colors .nav-tabs>li span {
+    line-height: 31px;
+    height: 65px;
+    right: 88px;
+}
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    height: 330px;
+    margin-top: 0px;
+    max-width: 670px;
+}
+
+.specifications-active{
+    z-index: 99999;
+    position: relative;
+}
+
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    background-position: bottom;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+.micro-footer ul li a span {
+    display: inline-block;
+}
+.micro-footer ul {
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+.text1{
+        text-align:left;
+    font-weight:300;
+    }
+
+
+
+.specifications-box ul li a.specifications-active{
+    background: #6788bb;
+}
+
+.specificationsLiO{
+    background:none;
+}
+
+.micro-inquary{
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+}
+
+.accessories-popup-sec{
+    position: relative;
+    margin: 50px 0px;
+}
+
+.accessories-popup{
+    position: absolute;
+    top: 6px;
+    width: 100%;
+}
+
+.accessories-popup-left{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.accessories-popup-right{
+    float: left;
+    width: 50%;
+    position: relative;
+    text-align: right;
+}
+
+ul.tabbing-links{
+    list-style: none;
+}
+
+ul.tabbing-links li{
+    display: block;
+}
+
+ul.tabbing-links li a{
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px 10px;
+    font-weight: 500;
+    position: absolute;
+    transform: scale(1) skew(20deg);
+}
+
+ul.tabbing-links li a.lights {
+    right: 44px;
+    top: -24px;
+    transform: scale(1) skew(-20deg);
+}
+
+ul.tabbing-links li a.kit-num {
+    top: 33px;
+    right: 44px;
+    transform: scale(1) skew(-20deg);
+}
+
+ul.tabbing-links li a.lock-kit{
+    top: 110px;
+    right: 44px;
+    transform: scale(1) skew(-20deg);
+}
+
+ul.tabbing-links li a.front-guard{
+    top: 166px;
+    right: 44px;
+    transform: scale(1) skew(-20deg);
+}
+
+ul.tabbing-links li a.body-cover{
+    top: 256px;
+    right: 44px;
+    transform: scale(1) skew(-20deg);
+}
+
+ul.tabbing-links li a.gripCover{
+    
+    top: 316px;
+    right: 43px;
+    transform: scale(1) skew(-20deg);
+}
+
+a.power-engine{
+    left: 42px;
+    top: -24px;
+}
+
+a.seat-cover{
+    left: 42px;
+    top: 36px;
+}
+
+a.disc-brake{
+    left: 42px;
+    top: 96px;
+}
+
+a.wheelbase{
+    left: 42px;
+    top: 155px;
+}
+
+a.suspension{
+    left: 42px;
+    top: 267px;
+}
+
+ul.tabbing-links li a:hover{
+    background: #000;
+    color: #fff;
+}
+
+.accessories-tab {
+    padding: 0px 15px;
+    margin: 0px auto;
+    max-width: 870px;
+}
+
+.accessories-tab .accessories-box {
+    padding: 0px 0px;
+    max-width: 870px;
+    margin: 0px auto;
+}
+.accessories-tab ul.nav li {
+    height: 40px;
+    float: left;
+    width: 25%;
+}
+
+.accessories-tab ul.nav li a{
+    height: 100%;
+}
+
+.accessories-popup-box{
+    background: rgba(0,0,0,0.50);
+    width:500px;
+    position:absolute;
+    top:0; 
+    left:calc(50% - 200px);
+    padding: 15px 20px;
+}
+
+.accessories-popup-box img{
+    max-width: 260px;
+    margin: 15px auto;
+    display: block;
+}
+
+.accessories-popup-box h3{
+    color: #fff;
+}
+
+.accessories-popup-box ul{
+    padding-left: 18px;
+    text-align: left;
+}
+
+.accessories-popup-box ul li{
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.cxx{
+    font-size: 20px;
+    float: right;
+    color: #fff;
+    background: #000;
+    width: 24px;
+    height: 23px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.accordion, .accordion * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.accordion {
+    overflow: hidden;
+    display: block;
+}
+
+.macro-nav{
+    padding: 0px;
+    background: rgba(0, 0, 0, 1);
+}
+
+
+.cbr1000r-about .macro-nav{
+    padding: 0px;
+    background: rgba(0, 0, 0, 1);
+}
+
+.accordion-section-title {
+    width: 100%;
+    padding: 0px 15px;
+    display: none;
+    text-align: left;
+    transition: all linear 0.15s;
+    line-height: 42px;
+    position:relative;
+}
+
+.micro-footer .accordion-section-title{
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.accordion-section-title.active, .accordion-section-title:hover, .accordion-section-title:active, .accordion-section-title:focus {
+    text-decoration: none;
+}
+
+.accordion-section-content {
+    padding: 0px;
+    display: block;
+}
+
+    .accordion-section-title::after {
+    content: "+";
+    float: right;
+    display: block;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+     .accordion-section-title::before {
+   content: "-";
+    float:right;
+    display:none;
+        color: #fff;
+    font-size: 66px;
+    font-weight: 300;
+    }
+
+.accordion-section-title.active::before {
+    display:block;
+}
+
+.accordion-section-title.active::after {
+    display:none;
+}
+
+.accordion-section-title .micronav-minus, .accordion-section-title .micronav-plus {
+    float: right;
+    font-size: 35px;
+    position: relative;
+}
+
+    .micro-footer ul li a{
+    text-align:left !important;
+    }
+
+.macro-nav ul li::after {
+color:#fff;
+padding: 15px 15px;
+}
+
+.cbr1000r-mob-logo{
+    background: url("../images/cbr1000r/logo.png") no-repeat;
+    background-position: 11px 14px;
+    background-size: 124px;
+}
+
+.new-360{
+    width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+}
+
+.new-360 img{
+    max-width: 100%;
+}
+
+#producttt img{
+    max-width: 100%;
+}
+
+.for-image{
+    margin-top: 0px;
+}
+
+.feature-sec{
+    max-width: 1000px;
+    margin: 0px auto;
+    display: block;
+}
+
+.micro-footer{
+    background: #000;
+}
+
+.micro-about-sec .micro-title h6{
+    color: #fff;
+}
+
+.for-image img{
+    margin-top: 150px;
+}
+
+.logo-for1000{
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    display: block;
+}
+
+.price {
+    background: url("../images/cbr1000r/rs.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.dealer-locator {
+    background: url("../images/cbr1000r/map.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 22px;
+}
+
+.e-brochure {
+    background: url("../images/cbr1000r/dn.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px){
+.cbr1000r{
+    background: none;
+    min-height: 100%;
+}
+
+.macro-nav ul li:nth-child(7){
+    display: none;
+}
+
+.macro-nav{
+    padding: 0px 0px;
+    display: block;
+     background: #000;
+}
+
+.micro-footer{
+    position: relative;
+    background: #211d1c;
+    padding: 0px 0px;
+    left: 0;
+}
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    display: none;
+}
+
+.macro-nav ul li a {
+    color: #000;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+.macro-nav ul li:after{
+    color: #000;
+}
+
+.micro-footer ul {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.micro-footer ul li a {
+    padding: 8px 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.micro-about-sec .txt-box{
+    border-radius: 0px;
+    padding: 15px 15px;
+    margin: 0px 0px 20px 0px;
+}
+
+
+.cbr1000r-about .macro-nav ul li a {
+    color: #fff;
+}
+
+
+.cbr1000r-about .macro-nav ul li::after {
+    color: #000;
+}
+
+.cbr1000r-about{
+    padding-bottom: 0px;
+}
+
+.txt-box h2 {
+    text-align: left;
+    font-size: 26px;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab, .handle-bar-weights, .stylish-meter-console, .d3, .viscous-air-filter, .superior-performance, .gear-shift, .mono-suspension, .alloy-wheels, .premium-front {
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 32px;
+    padding-bottom: 6px;
+}
+
+.inner {
+    padding: 0px 12px;
+}
+
+.inner p{
+    text-align: center;
+}
+
+.unicorn-feature-hover h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.livo-feature-txt{
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.unicorn-feature-hover {
+    float: none;
+    display: inline-block;
+}
+
+.unicorn-feature-hover img{
+    margin: 0px auto;
+    max-width: 192px;
+    float: none;
+    display: block;
+}
+.for-image{
+    display: none;
+}
+
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    position: relative;
+    height: auto;
+}
+
+.specifications-box{
+    display: none;
+}
+
+.gallery .controls{
+    width: 100%;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.cxx{
+    display: none;
+}
+
+
+.rotatebox .images {
+    min-height: 200px;
+    position: relative;
+}
+
+
+.rotatebox .images img{
+    max-width: 100%;
+    max-height: 210px;
+}
+.livo-feature-txt {
+    margin-top: 0;
+    max-width: 100%;
+}
+
+.fff{
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.carousel-inner>.item{
+    display: block;
+}
+
+.control-box {
+    display: none;
+}
+
+.aviator-bg .content{
+    display: block !important;
+    height: auto;
+    margin-bottom: 10px;
+}
+.aviator-bg .specifications-box h4{
+    display: none;
+}
+.aviator-bg .specifications-box ul h4{
+    display: block;
+}
+.micro-padding-bottom{
+    padding-bottom: 0px;
+}
+
+.accessories-popup-box h3 {
+    font-size: 18px;
+}
+
+ .accordion-section-title {
+        display: inline-block;
+    }
+
+    .accordion-section-content {
+        display: none;
+        background: #1b1b1b;
+    }
+
+    .macro-nav ul li {
+        display: block;
+        position: relative;
+        text-align: left;
+    }
+
+        .macro-nav ul li a {
+            color: #fff;
+            font-size: 14px;
+            padding: 10px 15px;
+        }
+
+    .micro-sec .macro-nav ul li::after {
+        content: "";
+    }
+    .micro-footer ul li {
+display:block;
+}
+.breadcrumb{
+    display: none;
+}
+.micro-about-sec .micro-title h6{
+    font-size: 16px;
+    color: #fff;
+}
+.cbr1000r-logo-bg{
+    background-size: contain;
+}
+
+.colors .nav-tabs>li span{
+    line-height: 17px;
+    height: 65px;
+    right: 0;
+    top: 64px;
+    height: 52px;
+}
+
+.image-bg {
+    padding: 0px 15px;
+    background: transparent;
+    margin: 0px auto;
+    display: block;
+    float: none;
+}
+
+.inner img{
+    max-width: 100%;
+}
+
+.cbr1000r-about .macro-nav {
+    padding: 0px;
+    background: #000;
+}
+
+.opened img{
+    float: none !important;
+    display: block;
+}
+
+.logo-for1000{
+    display: none;
+}
+
+.slider-wrapper{
+    display: none;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+.cbr1000r{
+    background: none;
+    min-height: 100%;
+}
+
+.macro-nav ul li:nth-child(7){
+    display: none;
+}
+
+.macro-nav{
+    background: #000;
+}
+.cbr1000r-about .macro-nav {
+    padding: 0px;
+    background: #000;
+}
+
+.micro-footer{
+    background: #211d1c;
+    padding: 0px 0px;
+    position: relative;
+}
+.angle-view, .price, .emi-calculator, .e-brochure, .dealer-locator{
+    display: none;
+}
+
+.macro-nav ul li a {
+    color: #000;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+.macro-nav ul li:after{
+    color: #000;
+}
+
+.micro-footer ul {
+    margin-bottom: 0px;
+}
+
+.micro-footer ul li a {
+    padding: 8px 8px;
+    text-align: center;
+    color: #fff;
+}
+
+.macro-nav ul li:after{
+    color: #000;
+}
+
+.micro-about-sec .txt-box{
+    margin: 0px 0px 20px 0px;
+}
+
+.cbr1000rabout .macro-nav ul li a {
+    color: #000;
+}
+
+
+.cbr1000r-about .macro-nav ul li::after {
+    color: #000;
+}
+
+.cbr1000r-about{
+    padding-bottom: 0px;
+}
+
+.micro-about-sec .micro-title h6{
+    color: #fff;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab, .handle-bar-weights, .stylish-meter-console, .d3, .viscous-air-filter, .superior-performance, .Racing-Muffler, .PGM-FI, .Comfortable-Siting, .Liquid-Cooled, .C-ABS{
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid transparent;
+}
+
+.unicorn-feature-hover h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.unicorn-feature-hover {
+    float: none;
+    display: inline-block;
+}
+
+.livo-feature-txt {
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.unicorn-feature-hover img{
+    margin: 0px auto;
+    max-width: 230px;
+    float: none;
+    display: block;
+}
+.for-image{
+    display: none;
+}
+
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    position: relative;
+    height: auto;
+}
+
+.specifications-box{
+    display: none;
+}
+
+.gallery .controls{
+    width: 100%;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.cxx{
+    display: none;
+}
+
+
+.rotatebox .images {
+    height: 320px;
+    position: relative;
+}
+
+.rotatebox .images img{
+    max-width: 100%;
+}
+.livo-feature-txt {
+    margin-top: 0;
+    max-width: 100%;
+}
+
+.fff{
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.carousel-inner>.item{
+    display: block;
+}
+
+.control-box {
+    display: none;
+}
+
+.aviator-bg .content{
+    display: block !important;
+    height: auto;
+    margin-bottom: 10px;
+}
+.aviator-bg .specifications-box h4{
+    display: none;
+}
+.aviator-bg .specifications-box ul h4{
+    display: block;
+}
+
+.micro-padding-bottom{
+    padding-bottom: 0px;
+}
+ .accordion-section-title {
+        display: inline-block;
+    }
+
+    .accordion-section-content {
+        display: none;
+        background: #1b1b1b;
+    }
+
+    .macro-nav ul li {
+        display: block;
+        position: relative;
+        text-align: left;
+    }
+
+        .macro-nav ul li a {
+            font-size: 14px;
+            color: #fff;
+            padding: 10px 15px;
+        }
+
+    .micro-sec .macro-nav ul li::after {
+        content: "";
+    }
+    .micro-footer ul li {
+display:block;
+}
+.breadcrumb{
+    display: none;
+}
+.micro-about-sec .micro-title h6{
+    font-size: 16px;
+}
+.cbr1000r-logo-bg{
+    background-size: contain;
+}
+
+.colors .nav-tabs>li span{
+    line-height: 17px;
+    height: 75px;
+    right: 0;
+    top: 64px;
+}
+
+.image-bg {
+    padding: 0px 15px;
+    background: transparent;
+    margin: 0px auto;
+    display: block;
+    float: none;
+}
+.logo-for1000{
+    display: none;
+}
+
+
+.slider-wrapper{
+    display: none;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+.macro-nav ul li a {
+    padding: 27px 0px;
+}
+
+.macro-nav ul li a img{
+    max-width: 230px;
+    margin-top: 7px;
+}
+
+.cbr1000r{
+    min-height: 450px;
+    background-size: 100% 100%;
+}
+
+.cbr1000r-about{
+    padding-bottom: 70px;
+}
+
+.unicorn-feature-thumb{
+    display: none;
+}
+
+.unicorn-feature{
+    border-color: transparent;
+}
+
+.body-color-grab, .handle-bar-weights, .stylish-meter-console, .d3, .viscous-air-filter, .superior-performance, .Racing-Muffler, .PGM-FI, .Comfortable-Siting, .Liquid-Cooled, .C-ABS{
+    position: relative;
+    display: block !important;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 15px;    
+}
+
+.unicorn-feature-hover h3{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.unicorn-feature-hover{
+    display: inline-block; 
+}
+
+.livo-feature-txt {
+    background: #000;
+    padding: 3px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: .8;
+    text-align: center;
+    display: block;
+}
+
+.livo-feature-txt p{
+    color: #fff;
+}
+
+.unicorn-feature-hover img {
+    margin: 0px auto;
+    max-width: 230px;
+    float: none;
+    width: 50%;
+    display: block;
+}
+
+.for-image{
+    display: none;
+}
+
+.specifications-box{
+    display: none;
+}
+
+.specifications-hover{
+    margin-bottom: 40px;
+}
+
+.body-dimensions, .engine, .transmission, .tyres-brakes, .frame-suspension, .electricals{
+    margin: 0px 0px 20px 0px !important;
+    position: relative;
+    height: auto;
+}
+
+.specifications-box ul.specifications li a{
+    font-size: 12px;
+}
+
+.accessories-images-hide{
+    display: none;
+}
+
+.accessories-popup{
+    position: relative;
+}
+
+.accessories-popup-left, .accessories-popup-right{
+    display: none;
+}
+
+.accessories-popup-box{
+    display: inline-block !important;
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+    width: 100%;
+}
+
+.accessories-popup-box img {
+    max-width: 260px;
+    margin: 0px 30px 0px 0px;
+    float: left;
+}
+
+.cxx{
+    display: none;
+}
+
+
+.aviator-bg .content{
+    display: block !important;
+    height: auto;
+    margin-bottom: 10px;
+}
+.aviator-bg .specifications-box h4{
+    display: none;
+}
+.aviator-bg .specifications-box ul h4{
+    display: block;
+}
+
+.cbr1000r-about .macro-nav{
+    padding: 15px 0px;
+}
+
+}
+
+
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.animated.hinge{-webkit-animation-duration:2s;animation-duration:2s
+}@-webkit-keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}.zoomIn{-webkit-animation-name:zoomIn;animation-name:zoomIn}
+@-webkit-keyframes zoomOut{0%{opacity:1}50%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}100%{opacity:0}}@keyframes zoomOut{0%{opacity:1}50%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}100%{opacity:0}}.zoomOut{-webkit-animation-name:zoomOut;animation-name:zoomOut}
+
+#accordion .panel-title i.glyphicon{
+    -moz-transition: -moz-transform 0.5s ease-in-out;
+    -o-transition: -o-transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+}
+
+.rotate-icon{
+    -webkit-transform: rotate(-225deg);
+    -moz-transform: rotate(-225deg);
+    transform: rotate(-225deg);
+}
+
+.panel{
+    border: 0px;
+    border-bottom: 1px solid transparent;
+}
+.panel-group .panel+.panel{
+    margin-top: 0px;
+}
+.panel-group .panel{
+    border-radius: 0px;
+}
+.panel-heading{
+    border-radius: 0px;
+    color: white;
+    padding: 5px 15px;
+}
+.panel-custom>.panel-heading{
+    background-color: #38cc70;
+}
+.panel-group .panel:last-child{
+    border-bottom: 5px solid transparent;
+}
+
+panel-collapse .collapse.in{
+    border-bottom:0;
+}
+
+
+
+
+.feature-sec-accord .panel-collapse{
+    display: none;
+}
+
+.feature-sec-accord .collapse.in{
+    display: block;
+}
+
+.feature-sec-accord .panel-group .panel-heading{
+    display: block;
+}
+
+
+
+.spec_wrap {
+    background: none repeat scroll 0 0 rgb(0, 0, 0);
+    position: relative;
+    text-align: center;
+    margin-left: 15px;
+    z-index: 100;
+}
+
+.spec_box .description.active {display:block}
+.spec_box .description {
+background: none repeat scroll 0 0 rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: block;
+    height: auto;
+    left: 0;
+    padding: 8px;
+    position: absolute;
+    top: 0;
+    width: 97%;
+}
+.spec_box {
+      border-radius: 4px;
+    float: left;
+    width: auto;
+}
+.spec_box.active {
+    display: block;
+}
+.spec_box h3 {
+   background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+    bottom: 0;
+    width: 100% !important;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+    opacity: 1;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+}
+
+.spec_box .grid {
+   background: none repeat scroll 0 0 rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    height: auto;
+    margin: 3px;
+    position: relative;
+    width: 141px;
+  
+}
+.grid .ovrlay {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    height: 143px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  display:none;
+    z-index: 1;
+}
+.overlays {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+    display: none;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.spec_box .imgbox {
+      background: none repeat scroll 0 0 rgb(255, 255, 255);
+    display: none;
+    margin: 0 auto;
+    width: 100%;
+}
+.spec_box .description .final-content li span:first-child {
+    display: inline-block;
+    float: left;
+    margin-right: 14px;
+    padding: 8px;
+    width: 39%;
+}
+.description .final-content {
+    list-style: outside none none;
+    margin-top: 0;
+}
+.description .final-content ul {
+    list-style: outside none none;
+    margin: 0;
+}
+.description .final-content li {
+    border-bottom: 1px solid #444;
+  border-left: 1px solid #444;
+  border-right: 1px solid #444;
+    float: left;
+    vertical-align: middle;
+  font-size:10px;
+    width: 100%;
+}
+.spec_box .description .final-content li span:last-child {
+    border-left: 1px solid #444;
+    float: left;
+    padding: 8px;
+    width: 48%;
+    word-wrap: break-word;
+}
+.description .final-content li:first-child {
+    border-top: 1px solid #444;
+}
+.controller {
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+.controller ul li {
+      display: inline-block;
+    padding: 0;
+    vertical-align: middle;
+}
+.controller ul {
+    margin: 0;
+}
+
+.controller ul li a {
+    background: none repeat scroll 0 0 rgb(0, 0, 0);
+    border-radius: 52%;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: "Comic Sans MS";
+    font-size: 21px;
+    height: 25px;
+    padding: 2px 3px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: -5px;
+    width: 25px;
+}
+.controller ul li a:hover {
+    background: none repeat scroll 0 0 rgb(204, 0, 1);
+}
+
+.spec_box .contain {
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    display: none;
+    height: auto;
+    left: 0;
+    padding: 3px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.spec_box.even .grid {
+   background: none repeat scroll 0 0 rgb(255, 255, 255);
+    float: left;
+    height: auto;
+    margin: 3px;
+    position: relative;
+    width: 141px;
+}
+.spec_box.even:last-child .grid {
+    height: 122px;
+    width: 84px;
+}
+
+.spec_box .grid img {
+    width: 100%;
+}
+
+.spec_box .imgbox img {
+    margin: 0 auto;
+}
+.spec_box .contain.active{ display:block}
+
+a.closespec,
+a.viewspec {
+    background: none repeat scroll 0 0 rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 17px;
+    padding: 6px;
+    text-align: center;
+  text-decoration:none;
+  clear:both;
+}
+a.closespec:hover,
+a.viewspec:hover {
+background: #CC0001;
+}
+a.closespec {
+    border: 1px solid rgb(0, 0, 0);
+    width: 97.3%;
+}
+.features-box{position:relative; left:-100%;}
+.specificationsm {
+    display: none;
+}
+@media only screen and (min-width: 240px) and (max-width: 1024px){
+
+.contain{
+  display: block !important;
+      position: relative !important;
+      left: 0px !important;
+      top: 0px !important; 
+          float: left;
+    margin-bottom: 15px;
+}
+
+.spec_box .grid{
+    display: none;
+}
+
+.spec_box .description{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.description .final-content ul{
+    padding: 0px;
+}
+.spec_box {
+    width: 100%;
+}
+  }

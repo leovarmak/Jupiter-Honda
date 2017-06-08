@@ -1,0 +1,303 @@
+
+.network-header{
+	width: 100%;
+}
+
+.fader {
+    position: relative;
+    width: 100%;
+    right: 0px;
+    top: 0;
+    min-height: 230px;
+    float: left;
+}
+
+.fader .slide {
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    right: 0px;
+    opacity: 0;
+    max-width: 100%;
+}
+
+a.Test-Yourself{
+    float: right;
+    margin-top: -85px;
+    position: relative;
+    z-index: 99;
+    /* background: #cc0001; */
+    color: #fff;
+    padding: 16px 30px;
+    font-size: 26px;
+    margin-right: -22px;
+    font-weight: 500;
+}
+
+a.Test-Yourself:hover{
+    color: #fff;
+}
+
+
+
+.cbs-h6 h6{
+    border-left: 4px solid #000;
+    text-indent: 10px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+ul.cbs-ul{
+    padding: 25px 35px;
+    margin: 0px;
+    /*background: #eeeeee;*/
+}
+
+ul.cbs-ul li{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.modal-content{
+    border: 2px solid #a6a5a3;
+}
+
+.modal-header {
+    padding: 15px 15px 0px 0px;
+    border-bottom: 1px solid transparent;
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+}
+
+.cbs-ul-nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cbs-ul-nav ul li{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.cbs-ul-nav .nav-pills>li>a{
+    display: inline-block;
+    border: 1px solid #a6a5a3;
+    border-radius: 100%;
+    width: 50px;
+    padding-top: 18px;
+    height: 50px;
+}
+
+.cbs-ul-nav .nav-pills>li>a span {
+    position: absolute;
+    bottom: -21px;
+    width: 150px;
+    text-align: center;
+    left: -47px;
+    color: #000;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background: #cc0001;
+    border: 1px solid #fff;
+    border-bottom: 0px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-pills>li.active>a span, .nav-pills>li.active>a:focus span, .nav-pills>li.active>a:hover span{
+    color: #cc0001
+}
+
+.pager{
+        margin-top: -55px;
+    display: inline-block;
+}
+
+.pager li > a, .pager li > span{
+    color: #fff;
+    background: #cc0001;
+    border: 0px;
+    padding: 7px 10px;
+    margin-top: 10px;
+    border-radius: 0;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+
+.pager .disabled > a, .pager .disabled > a:focus, .pager .disabled > a:hover, .pager .disabled > span{
+    color: #fff;
+    background: #cc0001;
+    border: 0px;
+    padding: 7px 10px;
+    margin-top: 10px;
+    border-radius: 0;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.pager li > a:focus, .pager li > a:hover{
+    color: #fff;
+    background: #cc0001;
+    border: 0px;
+    padding: 7px 10px;
+    margin-top: 10px;
+    border-radius: 0;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.tab-content{
+    border: 1px solid #e0e0e0;
+    background: #f6f6f6;
+    padding: 25px 15px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+.tab-content h5{
+    color: #333333;
+    margin-top: 0px;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.tab-content ul li{
+	line-height: 22px;
+}
+
+
+.tab-content label input{
+	margin-top: -1px;
+}
+
+.lebel-box{
+	padding: 0px;
+}
+
+.title-box{
+	padding-right: 0px;
+}
+
+.testyourself-butt{
+    margin-top: 15px;
+}
+
+.tab-content p{
+    line-height: 22px;
+    color: #000; 
+}
+
+.quis-butt{
+    color: #fff;
+    background: #cc0001;
+    border: 0px;
+    padding: 7px 10px;
+    margin-top: 10px;
+}
+
+.quis-butt2{
+    display:inline;
+    float:left;
+}
+
+.quesNxtPre {
+    position: absolute;
+    left: calc(50% - 45px);
+    bottom: -93px;
+}
+
+.cbs-form-butt button {
+    background: #000;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.close {
+    float: right;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+.form-group label{
+    margin-top: 10px;
+}
+
+.last-tab-algin{
+    text-align: center;
+    max-width: 170px;
+}
+
+.locator-sec .last-tab-algin img{
+    float: none;
+    display: inline-block;
+    margin-right: 0px;
+}
+
+.last-tab-div{
+    float: right;
+    width: 170px;
+}
+
+.cbs-video iframe {
+    width:100%;
+}
+
+/*@media (min-width: 992px){
+.modal-lg {
+    width: 1170px;
+}
+}*/
+
+
+@media (max-width: 767px){
+a.Test-Yourself {
+    color: #fff;
+    float: right;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 62px;
+    margin-top: -80px;
+    padding: 10px 15px;
+    position: relative;
+    z-index: 99;
+}
+.cbs-h6 h6{
+	font-size: 16px;
+}
+
+.fader {
+    min-height: 130px;
+}
+
+.lebel-box{
+	padding: 0px 15px;
+}
+
+.title-box{
+	padding-right: 15px;
+}
+
+.last-tab-div{
+    float: none;
+    display:block;
+    margin: 0px auto;
+    width: 170px;
+}
+
+}

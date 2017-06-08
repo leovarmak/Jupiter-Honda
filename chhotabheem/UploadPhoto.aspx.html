@@ -1,0 +1,230 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>
+	Honda Safe Riding with CHHOTA BHEEM
+</title><link href="css/crop.css" rel="stylesheet" type="text/css" />
+    
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.Jcrop.js"></script>
+    <link href="css/jquery.Jcrop.min.css" rel="stylesheet" type="text/css" /><link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/JavaScript">
+<!--
+        function MM_swapImgRestore() { //v3.0
+            var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+        }
+
+        function MM_preloadImages() { //v3.0
+            var d = document; if (d.images) {
+                if (!d.MM_p) d.MM_p = new Array();
+                var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+                    if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+            }
+        }
+
+        function MM_findObj(n, d) { //v4.01
+            var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+                d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+            }
+            if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+            for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+            if (!x && d.getElementById) x = d.getElementById(n); return x;
+        }
+
+        function MM_swapImage() { //v3.0
+            var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2); i += 3)
+                if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+        }
+//-->
+    </script>
+    <script type="text/javascript">
+
+        jQuery(document).ready(function () {
+            jQuery('#imgCrop').Jcrop({
+                onSelect: storeCoords,
+                minSize: [330, 260],
+                maxSize: [330, 260]
+                //                onChange: storeCoords
+            });
+        });
+        function storeCoords(c) {
+            jQuery('#X').val(c.x);
+            jQuery('#Y').val(c.y);
+            jQuery('#W').val(c.w);
+            jQuery('#H').val(c.h);
+        };
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $("[id*=imgShare]").bind("click", function () {
+                if (this.alt == "login") {
+                    window.open("UploadPhoto.aspx?login=1", "LoginPopup", "width=700,height=500,resizable=1");
+                    return false;
+                }
+            });
+        });
+    </script>
+    <script language="JavaScript">
+
+        function refreshParent() {
+            window.opener.location.href = window.opener.location.href;
+            if (window.opener.progressWindow) {
+                window.opener.progressWindow.close()
+            }
+            window.close();
+        }
+
+        function findSize(sender, arguments) {
+            var fileInput = document.getElementById('Upload')
+            var path = fileInput.value;
+            if (path != null && path != '') {
+                var size = fileInput.files[0].size;
+                if (size > 5242880) {
+                    arguments.IsValid = false;
+                }
+                else {
+                    arguments.IsValid = true;
+                }
+            }
+        }    
+    </script>
+</head>
+<body onload="MM_preloadImages('images/home-h.png','images/abt-h.png','images/atrtac-h.png','images/schdule-h.png','images/photo-h.png','images/down-h.png','images/register-h.png')">
+    <form name="form2" method="post" action="./UploadPhoto.aspx" id="form2" enctype="multipart/form-data">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="P753lcNnFkOq4BSieN8uEN7c7fz/o/h0u4UMFzkSEdP5RK+gl50pVEsQ2HzfrHCZG6deuKC1t1to2/r0UAUOV/VxVsdMs3IUr20CSfM/Sm81CLn2XipSmikvcn+Z1s/gc+Kg4MV01TfMu/ChNNwM6eMnp7zkN25JlbeWJ3RabAcb54Bmm9PIsSDyN+kWpxNOHhHIzvmgWLh9In2VVEuOoA==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="80D069F3" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Kc0kBAdgnUreoGBMex3PqjVOxJ2jAazUofYUpqJHeR7BriUWbI2F8Lg5qphvOHQy7G3AuKRvfh/wK+mnipugjXm5g+qxyOebOMVxCdRFNJe2K0Zcj7EwtoBqJ8qvCgaDoraS7yezFnGJdSaC7Hfa/tm9EAqojP37PBZGgPlterDPIri8ZYOMdzY89oF/GAIfDl62BRP+0iwWjwJFsOwy4dimOG+8WOHJ/Ue3QMoqD04=" />
+    
+    <div id="container">
+        <div id="header">
+            <img src="images/honda-header.jpg" width="994" height="81" /></div>
+        <div id="nav">
+            <table width="100%" height="46" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="30">
+                        &nbsp;
+                    </td>
+                    <td width="80" align="center">
+                        <a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','images/home-h.png',1)">
+                            <img src="images/home-m.png" name="Image2" width="56" height="24" border="0" id="Image2" /></a>
+                    </td>
+                    <td width="160" align="center">
+                        <a href="about-the-event.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','images/abt-h.png',1)">
+                            <img src="images/abt-m.png" name="Image3" width="132" height="24" border="0" id="Image3" /></a>
+                    </td>
+                    <td width="129" align="center">
+                        <a href="attractions.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images/atrtac-h.png',1)">
+                            <img src="images/atrtac-m.png" name="Image4" width="98" height="24" border="0" id="Image4" /></a>
+                    </td>
+                    <td width="112" align="center">
+                        <a href="schedule.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','images/schdule-h.png',1)">
+                            <img src="images/schdule-m.png" name="Image5" width="88" height="24" border="0" id="Image5" /></a>
+                    </td>
+                    <td width="139" align="center">
+                        <a href="photo-gallery-2016.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','images/photo-h.png',1)">
+                            <img src="images/photo-m.png" name="Image6" width="115" height="24" border="0" id="Image6" /></a>
+                    </td>
+                    <td width="119" align="center">
+                        <a href="download.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','images/down-h.png',1)">
+                            <img src="images/down-m.png" name="Image7" width="94" height="24" border="0" id="Image7" /></a>
+                    </td>
+                    <td width="106" align="center">
+                        <a href="register.aspx.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image8','','images/register-h.png',1)">
+                            <img src="images/register-m.png" name="Image8" width="82" height="24" border="0"
+                                id="Image8" /></a>
+                    </td>
+                    <td width="27">
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="fshare-main">
+            <div id="fshare-main-box">
+                <h2>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td align="center">
+                                <strong>Upload photo:</strong>
+                            </td>
+                        </tr>
+                        <tr style="line-height: 20px;">
+                            <td align="center">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <strong>Kid's Name:</strong>
+                                <input name="txtKidName" type="text" id="txtKidName" /><br />
+                                <br />
+                                &nbsp;
+                                <input type="file" name="Upload" id="Upload" ValidationGroup="grp" />
+                                
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="10" align="center">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <input type="hidden" name="X" id="X" value="0" />
+                                <input type="hidden" name="Y" id="Y" value="0" />
+                                <input type="hidden" name="W" id="W" value="0" />
+                                <input type="hidden" name="H" id="H" value="0" />
+                                <input type="image" name="imgUpload" id="imgUpload" src="images/upload.png" alt="login" onclick="javascript:WebForm_DoPostBackWithOptions(new&#32;WebForm_PostBackOptions(&quot;imgUpload&quot;,&#32;&quot;&quot;,&#32;true,&#32;&quot;grp&quot;,&#32;&quot;&quot;,&#32;false,&#32;false))" border="0" />
+                                
+                                
+                                <br />
+                                <br />
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </h2>
+            </div>
+            <div id="pnlCropped">
+	
+                <div id="fshare-photoframe-main">
+                    <div id="fshare-photoframe">
+                        <div id="fshare-photo">
+                            <img id="imgCropped" src="images/photo.jpg" alt="login" height="260" width="330" border="0" />
+                        </div>
+                    </div>
+                </div>
+            
+</div>
+        </div>
+        <div id="footer">
+            <span class="what-footer">
+                <img src="images/whats-next.png" /></span>
+             
+                    
+        </div>
+        <div class="term-area">
+            <img src="images/pogo.png" width="34" height="8" />&nbsp; (c) 2016 Cartoon Network.
+            A Time Warner Company. All Rights Reserved.&nbsp;&nbsp;<img src="images/bheem.png"
+                width="33" height="15" />
+            (c) 2016 of Green Gold Animation Pvt. Ltd. (c) 2016 Honda. All rights reserved.
+            <a href="terms-conditions.html"><strong>Terms and Conditions</strong></a></div>
+        <div class="designed-by" align="center">
+            <div class="footer-social-fb">
+                <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhonda2wheelers.in&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21&amp;appId=1502141656668789"
+                    scrolling="no" frameborder="0" style="border: none; overflow: hidden; height: 21px;"
+                    allowtransparency="true"></iframe>
+            </div>
+            <div class="footer-social-twister">
+                <a href="https://twitter.com/honda2wheelerin" target="_blank">
+                    <img src="images/twister-icon.png" width="31" height="30" border="0" /></a></div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

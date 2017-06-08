@@ -1,0 +1,390 @@
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+#cboxWrapper {
+    max-width: none;
+}
+
+#cboxOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+#cboxMiddleLeft, #cboxBottomLeft {
+    clear: left;
+}
+
+#cboxContent {
+    position: relative;
+}
+
+#cboxLoadedContent {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#cboxTitle {
+    margin: 0;
+}
+
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow, #cboxDownload {
+    cursor: pointer;
+}
+
+.cboxPhoto {
+    float: left;
+    margin: auto;
+    border: 0;
+    display: block;
+    max-width: none;
+    -ms-interpolation-mode: bicubic;
+}
+
+.cboxIframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#colorbox, #cboxContent, #cboxLoadedContent {
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay {
+    background: #000;
+    opacity: 0.9;
+    filter: alpha(opacity = 90);
+}
+
+#colorbox {
+    outline: 0;
+}
+
+#cboxTopLeft {
+    width: 14px;
+    height: 14px;
+    background: url("../images/controls.png") no-repeat 0 0;
+}
+
+#cboxTopCenter {
+    height: 14px;
+    background: url("../images/border.png") repeat-x top left;
+}
+
+#cboxTopRight {
+    width: 14px;
+    height: 14px;
+    background: url("../images/controls.png") no-repeat -36px 0;
+}
+
+#cboxBottomLeft {
+    width: 14px;
+    height: 43px;
+    background: url("../images/controls.png") no-repeat 0 -32px;
+}
+
+#cboxBottomCenter {
+    height: 43px;
+    background: url("../images/border.png") repeat-x bottom left;
+}
+
+#cboxBottomRight {
+    width: 14px;
+    height: 43px;
+    background: url("../images/controls.png") no-repeat -36px -32px;
+}
+
+#cboxMiddleLeft {
+    width: 14px;
+    background: url("../images/controls.png") repeat-y -175px 0;
+}
+
+#cboxMiddleRight {
+    width: 14px;
+    background: url("../images/controls.png") repeat-y -211px 0;
+}
+
+#cboxContent {
+    background: #fff;
+    overflow: visible;
+    margin-top: 23px;
+}
+
+.cboxIframe {
+    background: #fff;
+}
+
+#cboxError {
+    padding: 50px;
+    border: 1px solid #ccc;
+}
+
+#cboxLoadedContent {
+    margin-bottom: 5px;
+}
+
+#cboxLoadingOverlay {
+    background: url("../images/loading_background.png") no-repeat center center;
+}
+
+#cboxLoadingGraphic {
+    background: url("../images/loading.gif") no-repeat center center;
+}
+
+#cboxTitle {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    color: #7C7C7C;
+}
+
+#cboxCurrent {
+    position: absolute;
+    bottom: -25px;
+    left: 58px;
+    font-weight: bold;
+    color: #7C7C7C;
+}
+
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    position: absolute;
+    top: -23px;
+    background: url("../images/controls.png") no-repeat 0px 0px;
+    width: 23px;
+    height: 23px;
+    text-indent: -9999px;
+}
+
+#cboxDownload {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    position: absolute;
+    top: -23px;
+    background: url("../images/downloads_icon.png") no-repeat 0px 0px;
+    width: 28px;
+    height: 28px;
+    text-indent: -9999px;
+}
+
+    /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+    #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active, #cboxDownload:active {
+        outline: 0;
+    }
+
+#cboxPrevious {
+    left: 0px;
+    background-position: 0 0px;
+    top: 50%;
+}
+
+    #cboxPrevious:hover {
+        background-position: -25px -25px;
+    }
+
+#cboxNext {
+    right: 0;
+    background-position: -25px 0px;
+    top: 50%;
+}
+
+    #cboxNext:hover {
+        background-position: -25px -25px;
+    }
+
+#cboxClose {
+    right: 0;
+    background-position: -49px -25px;
+}
+
+    #cboxClose:hover {
+        background-position: -49px 0px;
+    }
+
+#cboxDownload {
+    height: 46px;
+    right: 8px;
+    top: calc(100% - 53px);
+    width: 46px;
+}
+
+
+.cboxSlideshow_on #cboxSlideshow {
+    background-position: -125px 0px;
+    right: 27px;
+}
+
+    .cboxSlideshow_on #cboxSlideshow:hover {
+        background-position: -150px 0px;
+    }
+
+.cboxSlideshow_off #cboxSlideshow {
+    background-position: -150px -25px;
+    right: 27px;
+}
+
+    .cboxSlideshow_off #cboxSlideshow:hover {
+        background-position: -125px 0px;
+    }
+
+
+.video-gallery a, .video-gallery p {
+    opacity: 1;
+}
+
+.video-gallery {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+    .video-gallery img {
+        margin: 0px !important;
+    }
+
+.image-gallery-box {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+    .image-gallery-box img {
+        width: 100%;
+        min-height: 200px;
+    }
+
+.hover-video {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+}
+
+.video-gallery:hover .hover-video {
+    display: block;
+}
+
+.hover-video {
+    width: 100%;
+    text-align: center;
+    padding-top: 45px;
+}
+
+    .hover-video img {
+        float: none !important;
+        margin: 0px !important;
+    }
+
+.small img {
+    float: none !important;
+    margin: 0px !important;
+    width: 50px !important;
+}
+
+.hover-video.small {
+    padding-top: 52px;
+}
+
+.hover-video p {
+    color: #fff;
+    text-align: center !important;
+}
+
+
+#colorbox {
+    max-width: 1050px !important;
+    height: 100% !important;
+    margin: 0% 0px;
+    width: 100% !important;
+}
+
+.cboxPhoto {
+    float: left;
+    margin: auto;
+    border: 2px solid #fff;
+    display: block;
+    max-width: 100%;
+    -ms-interpolation-mode: bicubic;
+}
+
+
+#cboxTitle, #cboxTopLeft, #cboxTopCenter, #cboxTopRight, #cboxCurrent, #cboxBottomLeft, #cboxBottomRight, #cboxBottomCenter {
+    display: none !important;
+}
+
+.image-gallery p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 767px) {
+    .video-gallery {
+        margin-bottom: 5px;
+        max-width: 265px;
+        margin: 0px auto;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .hover-video img {
+        width: 50px;
+    }
+}
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .gallery-for-tab {
+        width: 50%;
+        float: left;
+    }.hover-video.small {
+    padding-top: 24px;
+}
+}
+
+
+
+

@@ -1,0 +1,281 @@
+/* CSS Document */
+body {margin:0; padding:0; background:url("../images/index.jpg") repeat-x;}
+
+#container {width:994px; height:auto; margin:0 auto; padding:0;}
+#header {width:994px; height:81px; margin:0; padding:0;}
+#nav {width:902px; height:46px; margin:0 auto; padding:0; background:url("../images/menu-bg.png") no-repeat;}
+
+#banner {width:994px; height:449px; display:block; margin:0 0 15px; padding:0;}
+#attraction-left {width:284px; height:239px; margin:8px 0 0 0; padding:0; float:left; background:url("../images/attraction.png") no-repeat;}
+
+#video {width:355px; height:248px; margin:8px 0 0 30px; padding:0; float:left; background:url("../images/video.png") no-repeat;}
+#gallery {width:309px; height:248px; margin:8px 0 0 14px; padding:0; float:left; background:url("../images/gallery.jpg") no-repeat;}
+#gallery-inner {width:230px; height:151px; margin:48px 0 0 48px; padding:0; float:left;}
+.sub-gal1 {width:109px; height:70px; margin:0 10px 10px 0; padding:0; float:left;}
+.sub-gal2 {width:109px; height:70px; margin:0 0 10px 0; padding:0; float:left;}
+.sub-gal3 {width:109px; height:70px; margin:0 10px 0 0; padding:0; float:left;}
+.sub-gal4 {width:109px; height:70px; margin:0; padding:0; float:left;}
+
+.gal-text {font:normal 12px Arial, Helvetica, sans-serif; color:#000; float:right; margin:5px 36px 0 0}
+.gal-text a {color:#000; text-decoration:none;}
+.gal-text a:hover {color:#f00; text-decoration:none;}
+
+#footer {width:994px; height:24px; margin:15px 0 0 0; padding:10px 0 0 15px; float:left; background:url("../images/footer-menu.png") no-repeat; font:normal 12px Arial, Helvetica, sans-serif; color:#fff;}
+.what-footer {width:94px; height:18px; margin:0 0 0 0; padding:0 10px 0 3px; float:left;}
+.what-footertext {width:800px; height:18px; margin:0 0 0 0; padding:0 10px 0 3px; float:left;}
+.term-area {width:994px; height:24px; margin:10px auto 1px; padding:0;font:normal 11px Arial, Helvetica, sans-serif; color:#000; float:left; text-align:center;}
+.term-area a {font:normal 11px Arial, Helvetica, sans-serif; color:#ba0103; text-decoration:none}
+.term-area a:hover {text-decoration: underline}
+.designed-by {width:994px; height:auto; margin:0px auto; padding-bottom:6px; float:left; text-align:center;}
+.designed-by h2 {padding:0; margin-left:15px; font:normal 11px Arial, Helvetica, sans-serif; color:#000; float:left;}
+.designed-by h2 a { text-decoration:none;font:normal 11px Arial, Helvetica, sans-serif; color:#000;}
+.designed-by h2 a:hover { text-decoration: underline}
+.footer-social-fb { margin-top:4px; margin-left:300px; width:80px; padding:0;float:left; border:0}
+.footer-social-twister { margin-left:5px; width:31px; padding:0;float:left; border:0}
+
+/*************************************** About the Event *******************************************************************************/
+#about-main {width:994px; height:449px; display:block; margin:0; padding:0; background:url("../images/about_main.png") no-repeat}
+#about-main h2 {font:normal 12px Arial, Helvetica, sans-serif; color:#fff; float:left; margin:80px 0 0 282px; line-height:19px; text-align:center}
+
+/*************************************** Download *******************************************************************************/
+#download-main {width:994px; height:449px; display:block; margin:0; padding:0; background:url("../images/download_main.png") no-repeat}
+#download-main-box {width:506px; height:406px; float:left; margin:24px 0 0 36px; padding:0; background:url("../images/download-box.png") no-repeat}
+#download-main-box h2 {width:131px; height:auto; float:left; margin:90px 0 0 39px; padding:0;}
+#download-main-box h2 span {text-align:center; float:left; width:131px; margin-top:15px}
+#download-main-box h2 span a {font:normal 15px Arial, Helvetica, sans-serif; color:#000; text-decoration:none;}
+#download-main-box h2 span a:hover {color:#f00; text-decoration:none;}
+#download-main-box h3 {width:131px; height:auto; float:left; margin:90px 0 0 18px; padding:0;}
+#download-main-box h3 span {text-align:center; float:left; width:131px; margin-top:15px}
+#download-main-box h3 span a {font:normal 15px Arial, Helvetica, sans-serif; color:#000; text-decoration:none;}
+#download-main-box h3 span a:hover {color:#f00; text-decoration:none;}
+#download-main-box h4 {width:131px; height:auto; float:left; margin:90px 0 0 18px; padding:0;}
+#download-main-box h4 span {text-align:center; float:left; width:131px; margin-top:15px}
+#download-main-box h4 span a {font:normal 15px Arial, Helvetica, sans-serif; color:#000; text-decoration:none;}
+#download-main-box h4 span a:hover {color:#f00; text-decoration:none;}
+
+/*************************************** Download wallpaper *******************************************************************************/
+#download-wallpaper-main {width:994px; height:449px; display:block; margin:0; padding:0; background:url("../images/download_main.png") no-repeat}
+#download-wallpaper-main-box {width:506px; height:406px; float:left; margin:24px 0 0 36px; padding:0; background:url("../images/downloadwall-box.png") no-repeat}
+#download-wallpaper-main-box h2 {width:506px; height:auto; float:left; margin:20px 0px 0px 0px; padding:0; font:normal 12px Arial, Helvetica, sans-serif; color:#000;}
+#download-wallpaper-main-box h2 a {font:normal 12px Arial, Helvetica, sans-serif; color:#f00; text-decoration:none; line-height:20px}
+#download-wallpaper-main-box h2 a:hover {color:#f00; text-decoration:underline;}
+#download-wallpaper-main-box h3 {width:463px; height:auto; float:left; margin:20px 43px 0px 0px; padding:0; text-align:right}
+#download-wallpaper-main-box a {font:normal 12px Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; line-height:20px;}
+#download-wallpaper-main-box a:hover {color:#fff; text-decoration:underline;}
+
+/*************************************** Download Screen saver *******************************************************************************/
+#download-Screensaver-main {width:994px; height:449px; display:block; margin:0; padding:0; background:url("../images/download_main.png") no-repeat}
+#download-screensaver-box {width:506px; height:406px; float:left; margin:24px 0 0 36px; padding:0; background:url("../images/downloadScreensaver-box.png") no-repeat}
+#download-screensaver-box h2 {width:506px; height:auto; float:left; margin:20px 0px 0px 0px; padding:0;}
+#download-screensaver-box h2 a {font:normal 12px Arial, Helvetica, sans-serif; color:#f00; text-decoration:none; line-height:20px}
+#download-screensaver-box h2 a:hover {color:#f00; text-decoration:underline;}
+#download-screensaver-box h3 {width:463px; height:auto; float:left; margin:20px 43px 0px 0px; padding:0; text-align:right}
+#download-screensaver-box a {font:normal 12px Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; line-height:20px;}
+#download-screensaver-box a:hover {color:#fff; text-decoration:underline;}
+
+/*************************************** Attractions *******************************************************************************/
+#attractions-main {width:994px; height:449px; display:block; margin:0; padding:0; background:url("../images/attractions_main.png") no-repeat}
+#attractions-main h1 { width:106px; height:auto; float:left; margin:31px 0 0 563px; padding:0;}
+#attractions-main h2 { width:644px; font:normal 14px Arial, Helvetica, sans-serif; color:#000; float:left; margin:5px 0 0 350px; line-height:30px;}
+#attractions-main h3 { height:auto; float:left; margin:107px 0px 0px 363px; padding:0}
+.attractions-text a {font:normal 13px Arial, Helvetica, sans-serif; color:#fff; text-decoration:none;float:left;border:none;}
+.attractions-text a:hover {text-decoration: none; color:#000}
+
+div.attr a.attrItem{ color: #C8AA77; cursor: default; display: block; padding: 0px 20px 0px 0.5em; text-decoration: none; white-space: nowrap;  cursor: default; font-size:16px; background-color:#340112; border-bottom:1px #671030 solid; font-family:"Times New Roman", Times, serif;} 
+	
+div.attr a.attrItemLast{ color: #ffffff; cursor: default; display: block; padding: 0px 20px 0px 0.5em; text-decoration: none; white-space: nowrap; cursor: default; font-size:14px; background-color:#7f5c88;} 
+div.attr a.attrItem:hover, div.attr a.attrItemLast:hover, div.attr a.attrItemHighlight {color: #C8AA77; cursor: pointer; background-color:#53051f;} 
+
+div.attr{left: 0px; padding:0px 0 0px 0; position: absolute; top: 0px; z-index: 101; font-size:10px; visibility: hidden; margin-left:-30px;} 
+div.attr.last {margin-left:-100px;}	
+
+#attractions-box1{margin-left:0; padding-top:0; float:left;}
+#attractions-box2{margin-left:-160px;padding-top:0; float:left;}
+#attractions-box3{margin-left:-346px; padding-top:0; float:left;}
+
+/*************************************** Register *******************************************************************************/
+#register-main {width:994px; height:449px; display:block; margin:0; padding:0; background:url("../images/register_main.png") no-repeat}
+#register-main-box {width:506px; height:406px; float:left; margin:24px 0 0 231px; padding:0; background:url("../images/register-box.png") no-repeat}
+#register-main-box-left {width:160px; height:auto; float:left; margin:38px 20px 0 56px; padding:0;}
+#register-main-box-left h2 {font:normal 12px Arial, Helvetica, sans-serif; color:#000; width:160px; height:auto; float:left; margin:0; padding:0;}
+#register-main-box-left h3 {font:normal 12px Arial, Helvetica, sans-serif; color:#ba0103; width:160px; height:auto; float:left; margin:0; padding:0;}
+#register-main-box-left h4 {font:normal 12px Arial, Helvetica, sans-serif; color:#f00000; width:160px; height:auto; float:left; margin:0; padding:0;}
+.register-texbox1 {width:150px; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#999; text-decoration:none; border:1px solid #ccc; background-color:#FFFFFF; padding:1px; margin-bottom:3px;}
+.register-texbox2 {width:154px; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#999; text-decoration:none; border:1px solid #ccc; background-color:#FFFFFF; padding:1px; margin-bottom:3px;}
+
+#register-main-box-right {width:250px; height:auto; float:left; margin:38px 0 0 0; padding:0;}
+#register-main-box-right h2 {font:normal 12px Arial, Helvetica, sans-serif; color:#000; width:250px; height:auto; float:left; margin:0; padding:0;}
+#register-main-box-right h3 {font:normal 12px Arial, Helvetica, sans-serif; color:#ba0103; width:250px; height:auto; float:left; margin:0; padding:0;}
+#register-main-box-right h4 {font:normal 11px Arial, Helvetica, sans-serif; color:#000; width:250px; height:auto; float:left; margin:0; padding:0;}
+.register-btn {float:left; margin-top:8px; padding:0;}
+.register-addmore {float:right; margin-right:20px; padding:0;}
+
+#register-main-box-right-hide {width:250px; height:auto; float:left; margin:0; padding:0;}
+
+/*************************************** terms and conditions *******************************************************************************/
+#terms-main {width:994px; height:449px; display:block; margin:0; padding:0; background:url("../images/terms_main.png") no-repeat}
+#terms-main-box {width:506px; height:406px; float:left; margin:24px 0 0 36px; padding:0; background:url("../images/terms-box.png") no-repeat}
+#terms-main-box h2 {font:normal 11px Arial, Helvetica, sans-serif; color:#000; width:430px; height:auto; line-height:19px; float:left; margin:32px 0 0 30px; padding:0;}
+
+
+/*************************************** photo gallery *******************************************************************************/
+#photo-gallery-main {width:860px; height:449px; display:block; margin:0; padding:40px 0px 0px 134px; background:url("../images/gallery_main.png") no-repeat}
+.photo-gallery-hed {position:absolute; left:5px; top:-14px; padding:0; z-index:999999;}
+
+.button {
+  -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+  background-color: #eeeeee;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbfbfb), color-stop(100%, #e1e1e1));
+  background: -webkit-linear-gradient(top, #fbfbfb, #e1e1e1);
+  background: -moz-linear-gradient(top, #fbfbfb, #e1e1e1);
+  background: -o-linear-gradient(top, #fbfbfb, #e1e1e1);
+  background: linear-gradient(top, #fbfbfb, #e1e1e1);
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  border: 1px solid #d4d4d4;
+  height: 22px;
+  line-height: 22px;
+  padding: 0px 10px;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
+  text-shadow: 0 1px 1px white;
+  margin: 0;
+  text-decoration: none;
+  text-align: center; }
+  /* line 42, ../scss/partials/_buttons.scss */
+  .button:hover {
+    background-color: #eeeeee;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dcdcdc));
+    background: -webkit-linear-gradient(top, #ffffff, #dcdcdc);
+    background: -moz-linear-gradient(top, #ffffff, #dcdcdc);
+    background: -o-linear-gradient(top, #ffffff, #dcdcdc);
+    background: linear-gradient(top, #ffffff, #dcdcdc); }
+  /* line 46, ../scss/partials/_buttons.scss */
+/*  .button:active {
+    -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+    -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 1px 0px white;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+    background: #eeeeee;
+    color: #bbbbbb; }*/
+  /* line 52, ../scss/partials/_buttons.scss */
+  .button:focus {
+    outline: none; }
+
+
+
+/* line 192, ../scss/partials/_buttons.scss */
+.button-pill {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px; }
+  
+/* line 96, ../scss/partials/_buttons.scss */
+.button-flat {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition-property: background;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  transition-property: background;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  background: #6c6c6c;
+  border: none;
+  color: #b5b5b5;
+  text-shadow: none; }
+  /* line 105, ../scss/partials/_buttons.scss */
+  .button-flat:hover {
+    background: #6c6c6c;
+	cursor: default }
+
+
+
+/* line 321, ../scss/partials/_buttons.scss */
+.button-flat-highlight {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition-property: background;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  transition-property: background;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  background: #fa9915;
+  color: #cc0e0e;
+  text-shadow: none;
+  border: none; }
+  /* line 330, ../scss/partials/_buttons.scss */
+  .button-flat-highlight:hover {
+    background: #fbd300; }
+  /* line 333, ../scss/partials/_buttons.scss */
+  .button-flat-highlight:active {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+    background: #a9915;
+    color: #cc0e0e; }
+  /* line 338, ../scss/partials/_buttons.scss */
+  .button-flat-highlight.disabled {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none; }
+
+/*************************************** Schedule *******************************************************************************/
+#Schedule-main {width:994px; height:449px; display:block; margin:0; padding:0; background:url("../images/Schedule_main.png") no-repeat}
+#Schedule-main-box {width:524px; height:406px; float:left; margin:24px 0 0 36px; padding:0; background:url("../images/Schedule-box.png") no-repeat}
+#Schedule-main-box h2 {width:506px; height:auto; float:left; margin:27px 0 0 47px; padding:0;}
+
+/*************************************** facebook share *******************************************************************************/
+#fshare-main {width:994px; height:449px; display:block; margin:0; padding:0; background:url("../images/fshare_main.png") no-repeat}
+#fshare-main-box {width:224px; height:238px; float:left; margin:100px 0 0 18px; padding:0; background:url("../images/fshare-box.png") no-repeat}
+#fshare-main-box h2 {width:224px; float:left; text-align:center; margin-top:50px; padding:0; font:normal 14px Arial, Helvetica, sans-serif; color:#000;}
+.fshare-texbox1 {width:90px; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#999; text-decoration:none; border:1px solid #ccc; background-color:#FFFFFF; padding:4px; margin-left:25px;}
+#fshare-photoframe-main {width:522px; height:394px; float:left; margin:27px 0 0 10px; padding:0;}
+#fshare-photoframe {width:522px; height:394px; float:left; margin:0; padding:67px 0px 0px 80px; background: url("../images/photo-frame.png") no-repeat}
+#fshare-photo {width:330px; height:260px; float:left; margin:0; padding:3px; background:#FFF}
+.sharephoto{position:fixed;top: 300px;left: 10px;z-index: 1;border:none }
+.reg-tc a {font:normal 11px Arial, Helvetica, sans-serif; color:#ba0103; text-decoration:none}
+.reg-tc a:hover {text-decoration: underline}
+
+.reg-pass a {font:normal 11px Arial, Helvetica, sans-serif; color:#660103; text-decoration:none;font-size:14px;vertical-align:bottom}
+.reg-pass a:hover {text-decoration: underline}
+
+.register-slot{margin-left:-15px;font-size:9.40px;width:113%;text-align:left;float:left;padding:0px;vertical-align:top}
+
+
+#register-view {width:994px; height:449px; display:block; margin:0; padding:0;}
+
+.register-label{width:150px; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:normal; color:#999; text-decoration:none;padding:1px; margin-bottom:3px;}
+.register-details {width:250px; height:auto; float:left; margin:10px 50px 0 56px; padding:0;}
+.register-details h2 {font:normal 12px Arial, Helvetica, sans-serif; color:#000; width:250px; height:auto; float:left; margin:0; padding:0;}
+.register-details h3 {font:normal 12px Arial, Helvetica, sans-serif; color:#ba0103; width:250px; height:auto; float:left; margin:0; padding:0;}
+.register-details h4 {font:normal 11px Arial, Helvetica, sans-serif; color:#000; width:250px; height:auto; float:left; margin:0; padding:0;}
+
+.grid-area {font:normal 11px Arial, Helvetica, sans-serif;width:990px; height:auto; margin:5px; padding:0; float:left;}
+.grid-area tr:nth-child(even) {background: #eef7fa;}
+.grid-area tr:nth-child(odd) {background: #fff;}
+.grid-area td,th {height:30px;}
+.grid-area th {background: #d5d7d8;}
+
+.reminder-mail {width:506px; height:406px; float:left; margin:24px 0 0 231px; padding:0; background:url("../images/register-box.png") no-repeat}
+
+
